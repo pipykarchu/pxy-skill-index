@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:42.5832924Z",
+    "package":  {
+                    "name":  "security-ownership-map",
+                    "version":  "0.0.0-sha.168bb70a4ec9",
+                    "profile":  "atomic",
+                    "treeSha256":  "168bb70a4ec95e32075a50be1ad3fe077984de01baf0c7cf86637fc2ae516fd7"
+                },
+    "platforms":  [
+                      "codex"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+
+                 ],
+    "zipSha256":  "1b40f054f09a6b2a32b80e2efa834b9676a30ab90ca794db78c23b4226dbf341"
+}

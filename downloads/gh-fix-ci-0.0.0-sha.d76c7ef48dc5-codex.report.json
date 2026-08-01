@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:32.7783570Z",
+    "package":  {
+                    "name":  "gh-fix-ci",
+                    "version":  "0.0.0-sha.d76c7ef48dc5",
+                    "profile":  "atomic",
+                    "treeSha256":  "d76c7ef48dc552e2678f6cb97405942a7274847d605bf9d9fce37df40cbaa239"
+                },
+    "platforms":  [
+                      "codex"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+
+                 ],
+    "zipSha256":  "0844ebe159a802bb3902e3acc2e735f00013b935389264529fd946f0b68b2bd7"
+}

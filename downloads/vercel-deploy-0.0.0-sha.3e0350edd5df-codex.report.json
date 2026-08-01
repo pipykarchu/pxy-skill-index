@@ -1,0 +1,23 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:47.0931115Z",
+    "package":  {
+                    "name":  "vercel-deploy",
+                    "version":  "0.0.0-sha.3e0350edd5df",
+                    "profile":  "atomic",
+                    "treeSha256":  "3e0350edd5df31b84d2aebb5841629c2b9d066976d77363fde6af0fa93505747"
+                },
+    "platforms":  [
+                      "codex"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+                     {
+                         "ruleId":  "RISK_RECURSIVE_DELETE",
+                         "relativePath":  "skills/07-研发交付与质量/vercel-deploy/scripts/deploy.sh",
+                         "severity":  "warning",
+                         "message":  "High-risk command guidance requires manual review."
+                     }
+                 ],
+    "zipSha256":  "9aa2e4e75a60e6b852ddc03a02fa85ea5fe77cd81283909cafa7df91be7734b4"
+}

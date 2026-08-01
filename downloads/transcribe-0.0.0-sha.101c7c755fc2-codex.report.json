@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:46.3281566Z",
+    "package":  {
+                    "name":  "transcribe",
+                    "version":  "0.0.0-sha.101c7c755fc2",
+                    "profile":  "atomic",
+                    "treeSha256":  "101c7c755fc2c60f1a88b491a9928bf475c93efcb7db4e38ee2b0e94d5b64634"
+                },
+    "platforms":  [
+                      "codex"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+
+                 ],
+    "zipSha256":  "61b6042c36a86897d6f219225fbac5f51fc164c8e8dc8f3202ead6b6e61cffc5"
+}

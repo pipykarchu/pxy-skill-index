@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:31.7865435Z",
+    "package":  {
+                    "name":  "gh-address-comments",
+                    "version":  "0.0.0-sha.468067208115",
+                    "profile":  "atomic",
+                    "treeSha256":  "4680672081156c7eca8fe8ad400e04087ffa1925dfb1ba5ab727beac5ea373d7"
+                },
+    "platforms":  [
+                      "codex"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+
+                 ],
+    "zipSha256":  "071aad161d67e8451c5c0164248dae99461869286106d11a374e78a20adab229"
+}

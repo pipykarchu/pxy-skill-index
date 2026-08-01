@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:41.3609154Z",
+    "package":  {
+                    "name":  "pdf",
+                    "version":  "0.0.0-sha.f71b46c71eb7",
+                    "profile":  "atomic",
+                    "treeSha256":  "f71b46c71eb7e53e51b55828e5e0cebba0f3d71f6134e12c6c9b73740d0b1342"
+                },
+    "platforms":  [
+                      "codex"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+
+                 ],
+    "zipSha256":  "8e4afffa9e7110c15c3f25f8d1af84aca5b44430afee5ac5d09bd32ea4e012a5"
+}

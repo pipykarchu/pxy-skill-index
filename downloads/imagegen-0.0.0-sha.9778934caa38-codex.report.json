@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:36.6834767Z",
+    "package":  {
+                    "name":  "imagegen",
+                    "version":  "0.0.0-sha.9778934caa38",
+                    "profile":  "atomic",
+                    "treeSha256":  "9778934caa38a8e7542c58bd27eff02180db25ab5f528c8b04e1af67a430d176"
+                },
+    "platforms":  [
+                      "codex"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+
+                 ],
+    "zipSha256":  "8bed1947030dcbafbb33703e0f6dbf8e882c2352e6c14ccf9524bb9146a8a803"
+}

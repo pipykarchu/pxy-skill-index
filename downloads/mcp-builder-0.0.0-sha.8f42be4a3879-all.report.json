@@ -1,0 +1,25 @@
+{
+    "schemaVersion":  "1.0",
+    "createdAt":  "2026-08-01T12:58:38.8227035Z",
+    "package":  {
+                    "name":  "mcp-builder",
+                    "version":  "0.0.0-sha.8f42be4a3879",
+                    "profile":  "atomic",
+                    "treeSha256":  "8f42be4a387993e4a9b97faa0a213063d9790e107492ce609b02352605d19caa"
+                },
+    "platforms":  [
+                      "codex",
+                      "claude",
+                      "hermes"
+                  ],
+    "policy":  "external",
+    "warnings":  [
+                     {
+                         "ruleId":  "RISK_RECURSIVE_DELETE",
+                         "relativePath":  "skills/03-原型设计与视觉/mcp-builder/reference/node_mcp_server.md",
+                         "severity":  "warning",
+                         "message":  "High-risk command guidance requires manual review."
+                     }
+                 ],
+    "zipSha256":  "a7db855d5f085587d4b5bee099c979723dba5192e0d510f4f9cec4515edf8891"
+}
