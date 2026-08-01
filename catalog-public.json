@@ -1,17 +1,21 @@
 {
-    "generatedAt":  "2026-08-02T01:55:51.6970923+08:00",
+    "generatedAt":  "2026-08-02T02:14:28.7974554+08:00",
     "total":  237,
     "downloadable":  13,
     "workflows":  8,
-    "downloadBundle":  {
-                           "file":  "downloads/pxy-skills-workflows.pxy",
-                           "downloadName":  "PXY-技能与工作流.zip",
-                           "skillCount":  13,
-                           "workflowCount":  8,
-                           "encryptedBytes":  293256,
-                           "sourceBundleSha256":  "dc7524bb4e8f6f8f52aedeedca261022cd0e16f5d67e77f8dd667eb3eb6c8a84",
-                           "plainSha256":  "3ce534e62ea7a1322c191787d2fb9717bdde13e84bd2381f019c4bbf0e408a47",
-                           "encryptedSha256":  "4c736eb280d0c52bace5de0d1f32643d81b992278015f53849b98188f885424d"
+    "downloadCenter":  {
+                           "version":  2,
+                           "external":  {
+                                            "label":  "外部分享 · 免密",
+                                            "skillCount":  13,
+                                            "workflowCount":  3
+                                        },
+                           "internal":  {
+                                            "label":  "内部分享 · 密码保护",
+                                            "skillCount":  13,
+                                            "workflowCount":  8
+                                        },
+                           "manifestFile":  "downloads/manifest.json"
                        },
     "skills":  [
                    {
@@ -37,7 +41,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "prd-writer-agent",
@@ -62,7 +69,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "product-delivery-workflow",
@@ -87,7 +97,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "product-planning-workflow",
@@ -112,7 +125,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "arxiv",
@@ -137,7 +153,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "blogwatcher",
@@ -162,7 +181,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "claude-web-search-tu-zi",
@@ -187,7 +209,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "control-chrome",
@@ -212,7 +237,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "control-in-app-browser",
@@ -237,7 +265,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "kb-retriever",
@@ -262,7 +293,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "notion",
@@ -287,7 +321,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "notion-knowledge-capture",
@@ -312,7 +349,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "公开包仍需清理后发布"
+                       "publicBlockReason":  "公开包仍需清理后发布",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "polymarket",
@@ -337,7 +377,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "research-paper-writing",
@@ -362,7 +405,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "collaborative-product-platform-design",
@@ -387,7 +433,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "dashboard-builder",
@@ -412,7 +461,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "dashboard-expert",
@@ -437,7 +489,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "figma",
@@ -462,7 +517,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "figma-implement-design",
@@ -487,7 +545,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "figma-use",
@@ -512,7 +573,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "follow-builders",
@@ -537,7 +601,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "mcp-builder",
@@ -562,7 +629,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/mcp-builder.zip",
+                                                "downloadName":  "mcp-builder.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/mcp-builder.pxy",
+                                                "downloadName":  "mcp-builder.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "mozin-product-engineering-requirements-v2",
@@ -587,7 +667,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "visualize",
@@ -612,7 +695,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "web-design-engineer",
@@ -637,7 +723,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "daily-report-mozin",
@@ -662,7 +751,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "documents",
@@ -687,7 +779,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可禁止公开分发"
+                       "publicBlockReason":  "许可禁止公开分发",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "excel-live-control",
@@ -712,7 +807,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "html2pdf-a4-cn",
@@ -737,7 +835,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "minimalist-product-documentation",
@@ -762,7 +863,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "nano-pdf",
@@ -787,7 +891,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "notion-research-documentation",
@@ -812,7 +919,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "公开包仍需清理后发布"
+                       "publicBlockReason":  "公开包仍需清理后发布",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "ocr-and-documents",
@@ -837,7 +947,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "pdf",
@@ -862,7 +975,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/pdf.zip",
+                                                "downloadName":  "pdf.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/pdf.pxy",
+                                                "downloadName":  "pdf.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "powerpoint",
@@ -887,7 +1013,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可禁止公开分发"
+                       "publicBlockReason":  "许可禁止公开分发",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "Presentations",
@@ -912,7 +1041,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "read-pdf",
@@ -937,7 +1069,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "Spreadsheets",
@@ -962,7 +1097,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "bg-tasks-vue",
@@ -987,7 +1125,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-application-management",
@@ -1012,7 +1153,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-batch-operations",
@@ -1037,7 +1181,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-bitable-docs",
@@ -1062,7 +1209,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-cli-integration",
@@ -1087,7 +1237,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-modao-ai-workflow",
@@ -1112,7 +1265,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-modao-product-workflow",
@@ -1137,7 +1293,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-modao-workflow",
@@ -1162,7 +1321,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "feishu-selective-upload",
@@ -1187,7 +1349,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "himalaya",
@@ -1212,7 +1377,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-approval",
@@ -1237,7 +1405,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-apps",
@@ -1262,7 +1433,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-attendance",
@@ -1287,7 +1461,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-base",
@@ -1312,7 +1489,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-calendar",
@@ -1337,7 +1517,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-cli",
@@ -1362,7 +1545,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-cli Bulk Operations via Python",
@@ -1387,7 +1573,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-contact",
@@ -1412,7 +1601,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-doc",
@@ -1437,7 +1629,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-drive",
@@ -1462,7 +1657,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-drive-bulk-upload",
@@ -1487,7 +1685,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-event",
@@ -1512,7 +1713,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-im",
@@ -1537,7 +1741,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-mail",
@@ -1562,7 +1769,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-markdown",
@@ -1587,7 +1797,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-minutes",
@@ -1612,7 +1825,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-note",
@@ -1637,7 +1853,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-okr",
@@ -1662,7 +1881,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-openapi-explorer",
@@ -1687,7 +1909,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-shared",
@@ -1712,7 +1937,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-sheets",
@@ -1737,7 +1965,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-skill-maker",
@@ -1762,7 +1993,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-slides",
@@ -1787,7 +2021,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-task",
@@ -1812,7 +2049,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-vc",
@@ -1837,7 +2077,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-vc-agent",
@@ -1862,7 +2105,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-whiteboard",
@@ -1887,7 +2133,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-wiki",
@@ -1912,7 +2161,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-workflow-meeting-summary",
@@ -1937,7 +2189,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "lark-workflow-standup-report",
@@ -1962,7 +2217,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "llm-wiki",
@@ -1987,7 +2245,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "subagent-driven-development",
@@ -2012,7 +2273,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "teams-meeting-pipeline",
@@ -2037,7 +2301,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "test-driven-development",
@@ -2062,7 +2329,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "windows-powershell-lark-cli-integration",
@@ -2087,7 +2357,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "codebase-inspection",
@@ -2112,7 +2385,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "create-plan",
@@ -2137,7 +2413,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/create-plan.zip",
+                                                "downloadName":  "create-plan.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/create-plan.pxy",
+                                                "downloadName":  "create-plan.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "dispatching-parallel-agents",
@@ -2162,7 +2451,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "executing-plans",
@@ -2187,7 +2479,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "git-auth-noninteractive",
@@ -2212,7 +2507,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "git-corporate-proxy",
@@ -2237,7 +2535,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gitea-repo-organization",
@@ -2262,7 +2563,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "github-auth",
@@ -2287,7 +2591,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "github-code-review",
@@ -2312,7 +2619,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "github-issues",
@@ -2337,7 +2647,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "github-pr-workflow",
@@ -2362,7 +2675,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "github-repo-management",
@@ -2387,7 +2703,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "git-repo-organization",
@@ -2412,7 +2731,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "mozin-product-delivery",
@@ -2437,7 +2759,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "mozin-product-delivery-pxy",
@@ -2462,7 +2787,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "plan",
@@ -2487,7 +2815,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "pm-workflow-router",
@@ -2512,7 +2843,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "product-workflow-automation",
@@ -2537,7 +2871,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "project-flow-narrator",
@@ -2562,7 +2899,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "project-handoff-core",
@@ -2587,7 +2927,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "push-hermes-skill-to-github",
@@ -2612,7 +2955,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "receiving-code-review",
@@ -2637,7 +2983,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "requesting-code-review",
@@ -2662,7 +3011,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "review-agent",
@@ -2687,7 +3039,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "skill-review-process",
@@ -2712,7 +3067,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "using-git-worktrees",
@@ -2737,7 +3095,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "writing-plans",
@@ -2762,7 +3123,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "android-codebase-analysis",
@@ -2787,7 +3151,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "chinese-windows-fixes",
@@ -2812,7 +3179,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "claude-code",
@@ -2837,7 +3207,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "codex",
@@ -2862,7 +3235,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "distribute-working-system-as-skill",
@@ -2887,7 +3263,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "express-sqljs-webapp",
@@ -2912,7 +3291,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "finishing-a-development-branch",
@@ -2937,7 +3319,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "frontend-modal-drawer-patterns",
@@ -2962,7 +3347,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gh-address-comments",
@@ -2987,7 +3375,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/gh-address-comments.zip",
+                                                "downloadName":  "gh-address-comments.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/gh-address-comments.pxy",
+                                                "downloadName":  "gh-address-comments.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "gh-fix-ci",
@@ -3012,7 +3413,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/gh-fix-ci.zip",
+                                                "downloadName":  "gh-fix-ci.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/gh-fix-ci.pxy",
+                                                "downloadName":  "gh-fix-ci.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "global-error-banner",
@@ -3037,7 +3451,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "hermes-agent-skill-authoring",
@@ -3062,7 +3479,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "html-javascript-debugging",
@@ -3087,7 +3507,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "impeccable",
@@ -3112,7 +3535,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "keep-codex-fast",
@@ -3137,7 +3563,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "公开包仍需清理后发布"
+                       "publicBlockReason":  "公开包仍需清理后发布",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "modao-mcp",
@@ -3162,7 +3591,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "node-inspect-debugger",
@@ -3187,7 +3619,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "node-monorepo-deployment",
@@ -3212,7 +3647,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "openai-docs",
@@ -3237,7 +3675,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "公开包仍需清理后发布"
+                       "publicBlockReason":  "公开包仍需清理后发布",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "opencode",
@@ -3262,7 +3703,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "plugin-creator",
@@ -3287,7 +3731,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "product-codebase-analysis",
@@ -3312,7 +3759,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "python-debugpy",
@@ -3337,7 +3787,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "security-ownership-map",
@@ -3362,7 +3815,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/security-ownership-map.zip",
+                                                "downloadName":  "security-ownership-map.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/security-ownership-map.pxy",
+                                                "downloadName":  "security-ownership-map.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "simplify-code",
@@ -3387,7 +3853,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "single-file-webapp-maintenance",
@@ -3412,7 +3881,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "single-file-webapp-syntax-debugging",
@@ -3437,7 +3909,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "skill-authoring-and-distribution",
@@ -3462,7 +3937,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "skill-creator",
@@ -3487,7 +3965,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "公开包仍需清理后发布"
+                       "publicBlockReason":  "公开包仍需清理后发布",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "skill-installer",
@@ -3512,7 +3993,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/skill-installer.zip",
+                                                "downloadName":  "skill-installer.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/skill-installer.pxy",
+                                                "downloadName":  "skill-installer.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "spike",
@@ -3537,7 +4031,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "sse-streaming-vue",
@@ -3562,7 +4059,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "stale-cascade-vue",
@@ -3587,7 +4087,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "systematic-debugging",
@@ -3612,7 +4115,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "template-creator",
@@ -3637,7 +4143,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "using-superpowers",
@@ -3662,7 +4171,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "vercel-deploy",
@@ -3687,7 +4199,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/vercel-deploy.zip",
+                                                "downloadName":  "vercel-deploy.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/vercel-deploy.pxy",
+                                                "downloadName":  "vercel-deploy.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "verification-before-completion",
@@ -3712,7 +4237,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "version-sync-vite",
@@ -3737,7 +4265,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "windows-app-deployment",
@@ -3762,7 +4293,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "windows-powershell-terminal-safety",
@@ -3787,7 +4321,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "windows-software-uninstall",
@@ -3812,7 +4349,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "windows-vue-express-startup",
@@ -3837,7 +4377,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "writing-skills",
@@ -3862,7 +4405,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "anime-js",
@@ -3887,7 +4433,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "architecture-diagram",
@@ -3912,7 +4461,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "ascii-art",
@@ -3937,7 +4489,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "ascii-video",
@@ -3962,7 +4517,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "audiocraft-audio-generation",
@@ -3987,7 +4545,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "baoyu-infographic",
@@ -4012,7 +4573,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "changjingmeishu",
@@ -4037,7 +4601,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "claude-design",
@@ -4062,7 +4629,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "comfyui",
@@ -4087,7 +4657,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "design-md",
@@ -4112,7 +4685,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "dingzhuangzao",
@@ -4137,7 +4713,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "excalidraw",
@@ -4162,7 +4741,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gif-search",
@@ -4187,7 +4769,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gpt-image-2",
@@ -4212,7 +4797,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-core",
@@ -4237,7 +4825,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-frameworks",
@@ -4262,7 +4853,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-performance",
@@ -4287,7 +4881,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-plugins",
@@ -4312,7 +4909,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-react",
@@ -4337,7 +4937,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-scrolltrigger",
@@ -4362,7 +4965,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-timeline",
@@ -4387,7 +4993,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "gsap-utils",
@@ -4412,7 +5021,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "hatch-pet",
@@ -4437,7 +5049,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/hatch-pet.zip",
+                                                "downloadName":  "hatch-pet.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/hatch-pet.pxy",
+                                                "downloadName":  "hatch-pet.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "heartmula",
@@ -4462,7 +5087,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "humanizer",
@@ -4487,7 +5115,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/humanizer.zip",
+                                                "downloadName":  "humanizer.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/humanizer.pxy",
+                                                "downloadName":  "humanizer.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "imagegen",
@@ -4512,7 +5153,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/imagegen.zip",
+                                                "downloadName":  "imagegen.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/imagegen.pxy",
+                                                "downloadName":  "imagegen.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "manim-video",
@@ -4537,7 +5191,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "manju-image-organizer",
@@ -4562,7 +5219,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "manju-production-workflow",
@@ -4587,7 +5247,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "manju-workflow-dashboard",
@@ -4612,7 +5275,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "p5js",
@@ -4637,7 +5303,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "popular-web-designs",
@@ -4662,7 +5331,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "pretext",
@@ -4687,7 +5359,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "read-image",
@@ -4712,7 +5387,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "renjingheyi",
@@ -4737,7 +5415,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "screenplay-director",
@@ -4762,7 +5443,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "script-to-storyboard",
@@ -4787,7 +5471,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "sketch",
@@ -4812,7 +5499,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "songsee",
@@ -4837,7 +5527,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "songwriting-and-ai-music",
@@ -4862,7 +5555,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "speech",
@@ -4887,7 +5583,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/speech.zip",
+                                                "downloadName":  "speech.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/speech.pxy",
+                                                "downloadName":  "speech.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "storyboard-image-prompts",
@@ -4912,7 +5621,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "tasteskill",
@@ -4937,7 +5649,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "threejs-single-file-demo",
@@ -4962,7 +5677,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "touchdesigner-mcp",
@@ -4987,7 +5705,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "transcribe",
@@ -5012,7 +5733,20 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  true,
-                       "publicBlockReason":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/transcribe.zip",
+                                                "downloadName":  "transcribe.zip",
+                                                "kind":  "skill",
+                                                "protected":  false
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/transcribe.pxy",
+                                                "downloadName":  "transcribe.zip",
+                                                "kind":  "skill",
+                                                "protected":  true
+                                            }
                    },
                    {
                        "name":  "web-video-presentation",
@@ -5037,7 +5771,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "xurl",
@@ -5062,7 +5799,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "youtube-content",
@@ -5087,7 +5827,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "airtable",
@@ -5112,7 +5855,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "apple-notes",
@@ -5137,7 +5883,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "apple-reminders",
@@ -5162,7 +5911,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "computer-use",
@@ -5187,7 +5939,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "dogfood",
@@ -5212,7 +5967,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "evaluating-llms-harness",
@@ -5237,7 +5995,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "findmy",
@@ -5262,7 +6023,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "find-skills",
@@ -5287,7 +6051,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "google-workspace",
@@ -5312,7 +6079,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "hermes-agent",
@@ -5337,7 +6107,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "hermes-skill-distribution",
@@ -5362,7 +6135,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "hermes-skill-migration",
@@ -5387,7 +6163,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "hermes-skills-pm-audit",
@@ -5412,7 +6191,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "huggingface-hub",
@@ -5437,7 +6219,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "imessage",
@@ -5462,7 +6247,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "jupyter-live-kernel",
@@ -5487,7 +6275,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "llama-cpp",
@@ -5512,7 +6303,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "llm-json-recovery",
@@ -5537,7 +6331,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "local-skill-inventory",
@@ -5562,7 +6359,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "maps",
@@ -5587,7 +6387,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "mixpanel-auth",
@@ -5612,7 +6415,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "mixpanel-headless-setup",
@@ -5637,7 +6443,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "mixpanelyst",
@@ -5662,7 +6471,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "mmx-cli",
@@ -5687,7 +6499,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "obsidian",
@@ -5712,7 +6527,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "openhue",
@@ -5737,7 +6555,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "paste-url-fallback",
@@ -5762,7 +6583,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "petdex",
@@ -5787,7 +6611,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "product-system-delivery",
@@ -5812,7 +6639,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "segment-anything-model",
@@ -5837,7 +6667,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "serving-llms-vllm",
@@ -5862,7 +6695,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "skill-management-workbench",
@@ -5887,7 +6723,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "weights-and-biases",
@@ -5912,7 +6751,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "yuanbao",
@@ -5937,7 +6779,10 @@
                                          "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
-                       "publicBlockReason":  "许可待确认，仅索引"
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    }
                ],
     "workflowDefinitions":  [
@@ -5980,7 +6825,16 @@
                                                        "将确认后的方案交给 product-planning-workflow 形成产品规划。",
                                                        "由 prd-writer-agent 输出可评审 PRD，并根据反馈迭代。"
                                                    ],
-                                    "prompt":  "帮我把这个产品想法梳理清楚，完成产品规划并输出可评审的 PRD。"
+                                    "prompt":  "帮我把这个产品想法梳理清楚，完成产品规划并输出可评审的 PRD。",
+                                    "publicDownloadable":  false,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  null,
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/product-definition.pxy",
+                                                             "downloadName":  "product-definition.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 },
                                 {
                                     "id":  "mozin-delivery",
@@ -6030,7 +6884,16 @@
                                                        "使用 product-delivery-workflow 组织开发、评审、验收和回写。",
                                                        "仅在 Hermes 且 lark-cli、modao-mcp 可用时启用 PXY 条件技能。"
                                                    ],
-                                    "prompt":  "按 Mozin 工程化交付链检查这个项目，给出依赖缺口、实施步骤、验收证据和回写计划。"
+                                    "prompt":  "按 Mozin 工程化交付链检查这个项目，给出依赖缺口、实施步骤、验收证据和回写计划。",
+                                    "publicDownloadable":  false,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  null,
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/mozin-delivery.pxy",
+                                                             "downloadName":  "mozin-delivery.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 },
                                 {
                                     "id":  "plan-execution",
@@ -6071,7 +6934,16 @@
                                                        "先形成可评审计划，明确文件、命令、风险和成功标志。",
                                                        "确认计划后逐任务执行，并在每个检查点回报测试结果。"
                                                    ],
-                                    "prompt":  "把这个任务拆成可执行计划，确认后按步骤完成并在每个检查点汇报结果。"
+                                    "prompt":  "把这个任务拆成可执行计划，确认后按步骤完成并在每个检查点汇报结果。",
+                                    "publicDownloadable":  false,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  null,
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/plan-execution.pxy",
+                                                             "downloadName":  "plan-execution.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 },
                                 {
                                     "id":  "engineering-quality",
@@ -6119,7 +6991,16 @@
                                                        "先系统定位根因，再写能复现问题的失败测试。",
                                                        "完成最小修复并运行回归、代码审查和收尾检查。"
                                                    ],
-                                    "prompt":  "请按研发质量门定位这个问题，先复现和写失败测试，再修复、回归并给出审查结论。"
+                                    "prompt":  "请按研发质量门定位这个问题，先复现和写失败测试，再修复、回归并给出审查结论。",
+                                    "publicDownloadable":  false,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  null,
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/engineering-quality.pxy",
+                                                             "downloadName":  "engineering-quality.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 },
                                 {
                                     "id":  "figma-delivery",
@@ -6158,7 +7039,21 @@
                                                        "先读取设计上下文、变量、截图和资源，确认可访问性。",
                                                        "按设计实现代码并进行视觉比对，修正明显偏差。"
                                                    ],
-                                    "prompt":  "读取这个 Figma 设计，说明关键布局和组件，然后按当前项目技术栈实现并做视觉验收。"
+                                    "prompt":  "读取这个 Figma 设计，说明关键布局和组件，然后按当前项目技术栈实现并做视觉验收。",
+                                    "publicDownloadable":  true,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  {
+                                                             "file":  "downloads/workflows/figma-delivery.json",
+                                                             "downloadName":  "figma-delivery.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  false
+                                                         },
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/figma-delivery.pxy",
+                                                             "downloadName":  "figma-delivery.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 },
                                 {
                                     "id":  "document-processing",
@@ -6207,7 +7102,21 @@
                                                        "按文件类型选择 Word、PDF、表格或演示技能处理内容。",
                                                        "渲染并检查版式、数据和可读性，再交付最终文件。"
                                                    ],
-                                    "prompt":  "处理这组办公文档，保留原始信息，按目标格式整理并完成内容和版式验收。"
+                                    "prompt":  "处理这组办公文档，保留原始信息，按目标格式整理并完成内容和版式验收。",
+                                    "publicDownloadable":  true,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  {
+                                                             "file":  "downloads/workflows/document-processing.json",
+                                                             "downloadName":  "document-processing.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  false
+                                                         },
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/document-processing.pxy",
+                                                             "downloadName":  "document-processing.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 },
                                 {
                                     "id":  "manju-production",
@@ -6258,7 +7167,16 @@
                                                        "依次完成剧本导演、分镜、绘图提示词、角色定妆和场景锁定。",
                                                        "融合人物与场景资产，整理生成图片并更新生产看板。"
                                                    ],
-                                    "prompt":  "从这个故事开始搭建 0 到 1 漫剧生产流程，依次完成剧本、分镜、资产锁定、出图整理和看板。"
+                                    "prompt":  "从这个故事开始搭建 0 到 1 漫剧生产流程，依次完成剧本、分镜、资产锁定、出图整理和看板。",
+                                    "publicDownloadable":  false,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  null,
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/manju-production.pxy",
+                                                             "downloadName":  "manju-production.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 },
                                 {
                                     "id":  "lark-collaboration",
@@ -6301,7 +7219,21 @@
                                                        "先运行会议纪要或日程待办工作流形成结构化摘要。",
                                                        "需要时再调用文档、任务、日历和消息原子技能完成协作动作。"
                                                    ],
-                                    "prompt":  "整理我的飞书会议、日程和待办，生成结构化摘要，并列出需要继续处理的文档、任务和消息。"
+                                    "prompt":  "整理我的飞书会议、日程和待办，生成结构化摘要，并列出需要继续处理的文档、任务和消息。",
+                                    "publicDownloadable":  true,
+                                    "internalDownloadable":  true,
+                                    "externalDownload":  {
+                                                             "file":  "downloads/workflows/lark-collaboration.json",
+                                                             "downloadName":  "lark-collaboration.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  false
+                                                         },
+                                    "internalDownload":  {
+                                                             "file":  "downloads/internal/workflows/lark-collaboration.pxy",
+                                                             "downloadName":  "lark-collaboration.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  true
+                                                         }
                                 }
                             ]
 }

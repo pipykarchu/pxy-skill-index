@@ -1,0 +1,202 @@
+{
+    "version":  2,
+    "generatedAt":  "2026-08-02T02:14:27.8759023+08:00",
+    "external":  {
+                     "label":  "外部分享 · 免密",
+                     "skillCount":  13,
+                     "workflowCount":  3
+                 },
+    "internal":  {
+                     "label":  "内部分享 · 密码保护",
+                     "skillCount":  13,
+                     "workflowCount":  8
+                 },
+    "sourceBundleSha256":  "dc7524bb4e8f6f8f52aedeedca261022cd0e16f5d67e77f8dd667eb3eb6c8a84",
+    "files":  [
+                  {
+                      "file":  "downloads/internal/skills/create-plan.pxy",
+                      "bytes":  8856,
+                      "sha256":  "cf52fad7a94452a0df6ce9d9e4585b7352636854269e2a3eaa9fcfe5dc1be025"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/gh-address-comments.pxy",
+                      "bytes":  14232,
+                      "sha256":  "dc8e9c1ce205b0ea49e722de38b834013232648b128d883b8fdf882c59ecb676"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/gh-fix-ci.pxy",
+                      "bytes":  16728,
+                      "sha256":  "256a8d6eb3f295790c15b1fac0f97648dc9bc71bc4fcc227de493f88bd7114a7"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/hatch-pet.pxy",
+                      "bytes":  50936,
+                      "sha256":  "0e9e21b27d13a90ea233c9b6af6581c99c8ff6e17d0a1f25955430268b5dc576"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/humanizer.pxy",
+                      "bytes":  16056,
+                      "sha256":  "92e1b3c174a9e5ab6d0bbb25e78235074f06d64892c3cb684bf2531c7964143f"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/imagegen.pxy",
+                      "bytes":  51960,
+                      "sha256":  "79112a79a9b0fc4e1d30aef7fce9f447fb185d9eeaf8d6fb5917f039106ce75b"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/mcp-builder.pxy",
+                      "bytes":  55448,
+                      "sha256":  "71a30516dce811172117b1493551193cb80dbdbe9b88e9507c511e455eb0f56d"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/pdf.pxy",
+                      "bytes":  10568,
+                      "sha256":  "429efbc4ff770315248fecdc1ee03211eca46d57a3d951c7dca8acc819c24571"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/security-ownership-map.pxy",
+                      "bytes":  31160,
+                      "sha256":  "a402eee67456953ed7c72b76de5ffc9d4e0bed22938473c2aa50729615e9f551"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/skill-installer.pxy",
+                      "bytes":  17208,
+                      "sha256":  "0502d44397ab6baaed2edfe58f4f57705a0b3e214a4f14ed357ac759781972e0"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/speech.pxy",
+                      "bytes":  27288,
+                      "sha256":  "2a7a1d5e5ccdd51dde03338693c3b7ebb4dca213b8375f37063ba5b849b758b7"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/transcribe.pxy",
+                      "bytes":  15080,
+                      "sha256":  "3987d8324c4f8273c5902dab21ef3c6ff0bac74d54a0665a5d4f0291640713c0"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/vercel-deploy.pxy",
+                      "bytes":  10872,
+                      "sha256":  "fd7f23e554c6e78802b20ad0e0cca42312a3104eb1ce203a53894cfbdaf0dd61"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/document-processing.pxy",
+                      "bytes":  1880,
+                      "sha256":  "13f07027a137b09ec5a19cdb991e872a016c61a87084bf8d23b2428bfe4c628e"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/engineering-quality.pxy",
+                      "bytes":  2008,
+                      "sha256":  "b1440e1d89246dd0373e4fb21e80ed09963e14dac4661fbac8579b1e0256abaf"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/figma-delivery.pxy",
+                      "bytes":  1576,
+                      "sha256":  "45f441c045adf82e575b9bcdf7c9bd85e0061d68c26fee55098377473b9ba00d"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/lark-collaboration.pxy",
+                      "bytes":  1816,
+                      "sha256":  "4de8689e6cc572ccbd72bb7997045783528e2b0ccb8695949d6a31b34606365e"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/manju-production.pxy",
+                      "bytes":  2120,
+                      "sha256":  "53f3ff0d18f2c3fe540e95241b16083e65f986b44a8be9b830acc9b154abebb9"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/mozin-delivery.pxy",
+                      "bytes":  2328,
+                      "sha256":  "b7d16e0609e96929e3e430358f6721be911d79175e8c2339fe9ceab5e38a2e3f"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/plan-execution.pxy",
+                      "bytes":  1576,
+                      "sha256":  "e309b488afeea55b3f291d01bed000fef50613000737206e41f2a91ac1c185f9"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/product-definition.pxy",
+                      "bytes":  1720,
+                      "sha256":  "4f708f78bcd7690ffc127b3badb7461ae73b8776a8e60a1a45a773e3d40e417e"
+                  },
+                  {
+                      "file":  "downloads/skills/create-plan.zip",
+                      "bytes":  8768,
+                      "sha256":  "4ad7d748055aeaa70be8fd8a56b8a37d697a19f3dd3127ec9254d682b73cf37b"
+                  },
+                  {
+                      "file":  "downloads/skills/gh-address-comments.zip",
+                      "bytes":  14152,
+                      "sha256":  "071aad161d67e8451c5c0164248dae99461869286106d11a374e78a20adab229"
+                  },
+                  {
+                      "file":  "downloads/skills/gh-fix-ci.zip",
+                      "bytes":  16642,
+                      "sha256":  "0844ebe159a802bb3902e3acc2e735f00013b935389264529fd946f0b68b2bd7"
+                  },
+                  {
+                      "file":  "downloads/skills/hatch-pet.zip",
+                      "bytes":  50858,
+                      "sha256":  "c32f2aba05e8db07f8d6ff5cc5c32be314adc1ff4e1a0c29cab5d39594a1cad1"
+                  },
+                  {
+                      "file":  "downloads/skills/humanizer.zip",
+                      "bytes":  15979,
+                      "sha256":  "42acd0865070089e8269303b52375951b85e0c98de440b71939f355b2c6089a0"
+                  },
+                  {
+                      "file":  "downloads/skills/imagegen.zip",
+                      "bytes":  51884,
+                      "sha256":  "8bed1947030dcbafbb33703e0f6dbf8e882c2352e6c14ccf9524bb9146a8a803"
+                  },
+                  {
+                      "file":  "downloads/skills/mcp-builder.zip",
+                      "bytes":  55369,
+                      "sha256":  "a7db855d5f085587d4b5bee099c979723dba5192e0d510f4f9cec4515edf8891"
+                  },
+                  {
+                      "file":  "downloads/skills/pdf.zip",
+                      "bytes":  10490,
+                      "sha256":  "8e4afffa9e7110c15c3f25f8d1af84aca5b44430afee5ac5d09bd32ea4e012a5"
+                  },
+                  {
+                      "file":  "downloads/skills/security-ownership-map.zip",
+                      "bytes":  31083,
+                      "sha256":  "1b40f054f09a6b2a32b80e2efa834b9676a30ab90ca794db78c23b4226dbf341"
+                  },
+                  {
+                      "file":  "downloads/skills/skill-installer.zip",
+                      "bytes":  17135,
+                      "sha256":  "1c369f37294c9b739cd00170e39f1078ffe73d2be3f61a11d7726c27ddce400a"
+                  },
+                  {
+                      "file":  "downloads/skills/speech.zip",
+                      "bytes":  27210,
+                      "sha256":  "1d292c4cbf1c1440b1a543f15051d180140b2f0b866563632d2c9da8128fccf5"
+                  },
+                  {
+                      "file":  "downloads/skills/transcribe.zip",
+                      "bytes":  15006,
+                      "sha256":  "61b6042c36a86897d6f219225fbac5f51fc164c8e8dc8f3202ead6b6e61cffc5"
+                  },
+                  {
+                      "file":  "downloads/skills/vercel-deploy.zip",
+                      "bytes":  10787,
+                      "sha256":  "9aa2e4e75a60e6b852ddc03a02fa85ea5fe77cd81283909cafa7df91be7734b4"
+                  },
+                  {
+                      "file":  "downloads/workflows/document-processing.json",
+                      "bytes":  1796,
+                      "sha256":  "ec7c628b67fd82b2b4c09fe9913cec883cce373c95f1915bc9afb0c05ebfe33c"
+                  },
+                  {
+                      "file":  "downloads/workflows/figma-delivery.json",
+                      "bytes":  1492,
+                      "sha256":  "f3c41cecc4baa7ed82d8e67885a44dae09eabc4c96d31f85506c770699cd8d96"
+                  },
+                  {
+                      "file":  "downloads/workflows/lark-collaboration.json",
+                      "bytes":  1733,
+                      "sha256":  "c23072765da927404cd4af6aa2f75d7899e9be88d5bf7242ff1a0a595668c954"
+                  }
+              ]
+}

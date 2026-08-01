@@ -1,0 +1,39 @@
+{
+    "id":  "figma-delivery",
+    "title":  "Figma 交付链",
+    "entrySkill":  "figma-use",
+    "members":  [
+                    "figma-use",
+                    "figma",
+                    "figma-implement-design"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "figma-use",
+                     "figma",
+                     "figma-implement-design"
+                 ],
+    "pmScenarios":  [
+                        "设计获取",
+                        "设计审阅",
+                        "设计转代码"
+                    ],
+    "scenarioGroups":  [
+                           "原型与设计"
+                       ],
+    "platformRules":  {
+                          "codex":  "host-dependent",
+                          "claude":  "host-dependent",
+                          "hermes":  "unsupported"
+                      },
+    "packageMode":  "platform-resolved",
+    "sharePolicy":  "route-only-when-restricted",
+    "usageSteps":  [
+                       "提供 Figma 链接或节点，并说明目标页面、技术栈和验收尺寸。",
+                       "先读取设计上下文、变量、截图和资源，确认可访问性。",
+                       "按设计实现代码并进行视觉比对，修正明显偏差。"
+                   ],
+    "prompt":  "读取这个 Figma 设计，说明关键布局和组件，然后按当前项目技术栈实现并做视觉验收。"
+}

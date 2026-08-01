@@ -1,0 +1,49 @@
+{
+    "id":  "document-processing",
+    "title":  "文档处理链",
+    "entrySkill":  "pm-workflow-router",
+    "members":  [
+                    "documents",
+                    "pdf",
+                    "read-pdf",
+                    "nano-pdf",
+                    "ocr-and-documents",
+                    "spreadsheets",
+                    "presentations"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "documents",
+                     "pdf",
+                     "read-pdf",
+                     "nano-pdf",
+                     "ocr-and-documents",
+                     "spreadsheets",
+                     "presentations"
+                 ],
+    "pmScenarios":  [
+                        "Word",
+                        "PDF",
+                        "表格",
+                        "汇报"
+                    ],
+    "scenarioGroups":  [
+                           "文档与汇报",
+                           "项目推进"
+                       ],
+    "platformRules":  {
+                          "codex":  "host-resolved",
+                          "claude":  "local-resolved",
+                          "hermes":  "local-resolved"
+                      },
+    "packageMode":  "platform-resolved",
+    "sharePolicy":  "route-only-when-restricted",
+    "usageSteps":  [
+                       "提供原始文档、目标格式、受众和必须保留的结构。",
+                       "按文件类型选择 Word、PDF、表格或演示技能处理内容。",
+                       "渲染并检查版式、数据和可读性，再交付最终文件。"
+                   ],
+    "prompt":  "处理这组办公文档，保留原始信息，按目标格式整理并完成内容和版式验收。"
+}

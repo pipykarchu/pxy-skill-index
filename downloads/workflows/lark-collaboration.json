@@ -1,0 +1,43 @@
+{
+    "id":  "lark-collaboration",
+    "title":  "飞书协同链",
+    "entrySkill":  "pm-workflow-router",
+    "members":  [
+                    "lark-workflow-meeting-summary",
+                    "lark-workflow-standup-report",
+                    "lark-doc",
+                    "lark-task",
+                    "lark-calendar",
+                    "lark-im"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "lark-workflow-meeting-summary",
+                     "lark-workflow-standup-report"
+                 ],
+    "pmScenarios":  [
+                        "会议纪要",
+                        "日程待办",
+                        "文档协作",
+                        "消息"
+                    ],
+    "scenarioGroups":  [
+                           "办公与飞书",
+                           "项目推进"
+                       ],
+    "platformRules":  {
+                          "codex":  "connector-resolved",
+                          "claude":  "connector-resolved",
+                          "hermes":  "cli-resolved"
+                      },
+    "packageMode":  "platform-resolved",
+    "sharePolicy":  "route-only-when-restricted",
+    "usageSteps":  [
+                       "说明协作目标、时间范围、参与人和需要处理的飞书对象。",
+                       "先运行会议纪要或日程待办工作流形成结构化摘要。",
+                       "需要时再调用文档、任务、日历和消息原子技能完成协作动作。"
+                   ],
+    "prompt":  "整理我的飞书会议、日程和待办，生成结构化摘要，并列出需要继续处理的文档、任务和消息。"
+}
