@@ -1,0 +1,42 @@
+{
+    "id":  "plan-execution",
+    "title":  "计划执行链",
+    "entrySkill":  "pm-workflow-router",
+    "members":  [
+                    "create-plan",
+                    "plan",
+                    "writing-plans",
+                    "executing-plans"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "create-plan",
+                     "plan",
+                     "writing-plans",
+                     "executing-plans"
+                 ],
+    "pmScenarios":  [
+                        "任务拆解",
+                        "实施计划",
+                        "执行"
+                    ],
+    "scenarioGroups":  [
+                           "项目推进"
+                       ],
+    "platformRules":  {
+                          "codex":  "supported",
+                          "claude":  "supported",
+                          "hermes":  "supported"
+                      },
+    "packageMode":  "workflow",
+    "sharePolicy":  "review-required",
+    "usageSteps":  [
+                       "给出任务目标、边界、截止条件和现有项目上下文。",
+                       "先形成可评审计划，明确文件、命令、风险和成功标志。",
+                       "确认计划后逐任务执行，并在每个检查点回报测试结果。"
+                   ],
+    "prompt":  "把这个任务拆成可执行计划，确认后按步骤完成并在每个检查点汇报结果。",
+    "businessScope":  "external"
+}

@@ -1,0 +1,52 @@
+{
+    "id":  "manju-production",
+    "title":  "漫剧生产链",
+    "entrySkill":  "manju-production-workflow",
+    "members":  [
+                    "screenplay-director",
+                    "script-to-storyboard",
+                    "storyboard-image-prompts",
+                    "dingzhuangzao",
+                    "changjingmeishu",
+                    "renjingheyi",
+                    "manju-image-organizer",
+                    "manju-production-workflow",
+                    "manju-workflow-dashboard"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "screenplay-director",
+                     "script-to-storyboard",
+                     "storyboard-image-prompts",
+                     "dingzhuangzao",
+                     "changjingmeishu",
+                     "renjingheyi",
+                     "manju-image-organizer",
+                     "manju-workflow-dashboard"
+                 ],
+    "pmScenarios":  [
+                        "剧本",
+                        "分镜",
+                        "资产生产",
+                        "归档"
+                    ],
+    "scenarioGroups":  [
+                           "内容与媒体"
+                       ],
+    "platformRules":  {
+                          "codex":  "supported",
+                          "claude":  "supported",
+                          "hermes":  "supported"
+                      },
+    "packageMode":  "workflow",
+    "sharePolicy":  "review-required",
+    "usageSteps":  [
+                       "输入故事、剧本或创意，确认集数、时长、受众和视觉方向。",
+                       "依次完成剧本导演、分镜、绘图提示词、角色定妆和场景锁定。",
+                       "融合人物与场景资产，整理生成图片并更新生产看板。"
+                   ],
+    "prompt":  "从这个故事开始搭建 0 到 1 漫剧生产流程，依次完成剧本、分镜、资产锁定、出图整理和看板。",
+    "businessScope":  "external"
+}

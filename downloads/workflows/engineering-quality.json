@@ -1,0 +1,49 @@
+{
+    "id":  "engineering-quality",
+    "title":  "研发质量门",
+    "entrySkill":  "pm-workflow-router",
+    "members":  [
+                    "systematic-debugging",
+                    "test-driven-development",
+                    "verification-before-completion",
+                    "requesting-code-review",
+                    "receiving-code-review",
+                    "finishing-a-development-branch"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "systematic-debugging",
+                     "test-driven-development",
+                     "verification-before-completion",
+                     "requesting-code-review",
+                     "receiving-code-review",
+                     "finishing-a-development-branch"
+                 ],
+    "pmScenarios":  [
+                        "问题定位",
+                        "测试",
+                        "验收",
+                        "代码审查"
+                    ],
+    "scenarioGroups":  [
+                           "办公与飞书",
+                           "项目推进",
+                           "研发与验收"
+                       ],
+    "platformRules":  {
+                          "codex":  "supported",
+                          "claude":  "supported",
+                          "hermes":  "supported"
+                      },
+    "packageMode":  "workflow",
+    "sharePolicy":  "review-required",
+    "usageSteps":  [
+                       "提供故障现象、复现方式、期望行为和相关日志。",
+                       "先系统定位根因，再写能复现问题的失败测试。",
+                       "完成最小修复并运行回归、代码审查和收尾检查。"
+                   ],
+    "prompt":  "请按研发质量门定位这个问题，先复现和写失败测试，再修复、回归并给出审查结论。",
+    "businessScope":  "external"
+}
