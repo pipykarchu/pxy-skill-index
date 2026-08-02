@@ -2,7 +2,7 @@
 
 产品经理技能目录、推荐工作流与加密下载站。
 
-- 页面入口：`index.html`
+- 页面入口：[`index.html`](https://pipykarchu.github.io/pxy-skill-index/)
 - 公开目录：`catalog-public.json`
 - 完整索引：237 个技能、8 个工作流
 - 加密下载：`downloads/pxy-skills-workflows.pxy`
