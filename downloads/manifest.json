@@ -1,6 +1,6 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-02T14:02:45.1247678+08:00",
+    "generatedAt":  "2026-08-02T15:38:08.3363615+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
                      "skillCount":  14,
@@ -15,8 +15,8 @@
     "files":  [
                   {
                       "file":  "downloads/internal/workflows/mozin-delivery.pxy",
-                      "bytes":  2360,
-                      "sha256":  "a0182f4eac99802d87ea8a36111adbe06278f51d5796312b235a76b97c6d5ece"
+                      "bytes":  2648,
+                      "sha256":  "4cde65fad83edeeeab909a85f0e73b5e1a438a3a8214a31d580961aa456a4653"
                   },
                   {
                       "file":  "downloads/skills/create-plan.zip",
@@ -90,38 +90,38 @@
                   },
                   {
                       "file":  "downloads/workflows/document-processing.json",
-                      "bytes":  1830,
-                      "sha256":  "8f53a6932879cd99693ad1e2e84af0f9578f28c7a72ce691f5bb9269ce2378e4"
+                      "bytes":  2106,
+                      "sha256":  "25019358f48802de6b5fc389d9b90ef80665f4a5d72de9de58abc967c0c18702"
                   },
                   {
                       "file":  "downloads/workflows/engineering-quality.json",
-                      "bytes":  1960,
-                      "sha256":  "96c4f1f4a269a957de1719ca0c36474126e9143d6e26c89b84db2c341584f884"
+                      "bytes":  2225,
+                      "sha256":  "4fc3efeffc8bf4835a21debd3b9a4e3bf37bee454b8c7d334342997d5322f9c2"
                   },
                   {
                       "file":  "downloads/workflows/figma-delivery.json",
-                      "bytes":  1526,
-                      "sha256":  "a950acc97aec9dd372e79db05616eaa8c3e83fa2c8e3681daeefb898ae721c18"
+                      "bytes":  1792,
+                      "sha256":  "a8c8175e4a7d2a6b577e9a093d5a5d3b13927b36b2fa5885b593ee90dedbd6e2"
                   },
                   {
                       "file":  "downloads/workflows/lark-collaboration.json",
-                      "bytes":  1767,
-                      "sha256":  "c6193c10d11e8b2e3119163d4d5016178dc18851c45506b8dc5eebec4b0cb9b3"
+                      "bytes":  2068,
+                      "sha256":  "4bdc0087a5454561e6dbd5746943997d87745fec66d20b4629f009253e65f720"
                   },
                   {
                       "file":  "downloads/workflows/manju-production.json",
-                      "bytes":  2072,
-                      "sha256":  "01fc2a45c238bd934bdb4ebca8dfb9a4f9adf8cf6967d6d0c4da2dcb127327cf"
+                      "bytes":  2352,
+                      "sha256":  "ba424555e69928b90118f5d71df2c6ee59bac48f3aa092eb2603bb94d43d3c5a"
                   },
                   {
                       "file":  "downloads/workflows/plan-execution.json",
-                      "bytes":  1534,
-                      "sha256":  "32f377ad1b8526c73c08ea545c88f0e5377fcad34d84e8b684e675c555ea0b6d"
+                      "bytes":  1781,
+                      "sha256":  "8e3d9d08cd6aa56ea826008d0f1e2bd78e9cc4b2ac6a973719b5aaedca3709a7"
                   },
                   {
                       "file":  "downloads/workflows/product-definition.json",
-                      "bytes":  1668,
-                      "sha256":  "9c2048dfe5c317d1ae86bda60eae4da1257f2f21b685e5bdf5b3314ae8873b62"
+                      "bytes":  1905,
+                      "sha256":  "ed8b9641f19b32054e37cd09ce64d00f82be0e95f849f5dde6ebe3302c1a5e99"
                   }
               ]
 }

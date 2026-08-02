@@ -38,5 +38,7 @@
                        "由 prd-writer-agent 输出可评审 PRD，并根据反馈迭代。"
                    ],
     "prompt":  "帮我把这个产品想法梳理清楚，完成产品规划并输出可评审的 PRD。",
+    "summary":  "把一个还比较模糊的产品想法，逐步变成范围清楚、能拿去评审的 PRD。",
+    "outcome":  "得到目标用户、核心问题、功能范围、成功标准、关键取舍和一份可评审 PRD。",
     "businessScope":  "external"
 }
