@@ -1,6 +1,6 @@
 {
-    "generatedAt":  "2026-08-02T22:08:14.3657778+08:00",
-    "total":  290,
+    "generatedAt":  "2026-08-02T23:39:15.4384549+08:00",
+    "total":  292,
     "downloadable":  14,
     "workflows":  10,
     "downloadCenter":  {
@@ -3986,15 +3986,15 @@
                    {
                        "name":  "gstack-autoplan",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-autoplan，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-autoplan，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-autoplan，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4011,9 +4011,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4025,15 +4025,15 @@
                    {
                        "name":  "gstack-benchmark",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-benchmark，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-benchmark，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-benchmark，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4050,9 +4050,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4064,15 +4064,15 @@
                    {
                        "name":  "gstack-benchmark-models",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-benchmark-models，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-benchmark-models，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-benchmark-models，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4089,9 +4089,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4103,15 +4103,15 @@
                    {
                        "name":  "gstack-browse",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-browse，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-browse，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-browse，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4128,9 +4128,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4142,15 +4142,15 @@
                    {
                        "name":  "gstack-canary",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-canary，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-canary，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-canary，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4167,9 +4167,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4181,15 +4181,15 @@
                    {
                        "name":  "gstack-careful",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-careful，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-careful，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-careful，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4206,9 +4206,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4220,15 +4220,15 @@
                    {
                        "name":  "gstack-claude",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-claude，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-claude，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-claude，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4245,9 +4245,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4259,7 +4259,7 @@
                    {
                        "name":  "gstack-context-restore",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
@@ -4288,9 +4288,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4302,7 +4302,7 @@
                    {
                        "name":  "gstack-context-save",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
@@ -4331,9 +4331,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4345,15 +4345,15 @@
                    {
                        "name":  "gstack-cso",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-cso，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-cso，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-cso，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4370,9 +4370,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4384,15 +4384,15 @@
                    {
                        "name":  "gstack-design-consultation",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-design-consultation，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-design-consultation，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-design-consultation，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4409,9 +4409,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4423,15 +4423,15 @@
                    {
                        "name":  "gstack-design-html",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-design-html，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-design-html，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-design-html，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4448,9 +4448,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4462,15 +4462,15 @@
                    {
                        "name":  "gstack-design-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-design-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-design-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-design-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4487,9 +4487,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4501,15 +4501,15 @@
                    {
                        "name":  "gstack-design-shotgun",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-design-shotgun，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-design-shotgun，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-design-shotgun，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4526,9 +4526,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4540,15 +4540,15 @@
                    {
                        "name":  "gstack-devex-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-devex-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-devex-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-devex-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4565,9 +4565,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4579,15 +4579,15 @@
                    {
                        "name":  "gstack-diagram",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-diagram，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-diagram，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-diagram，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4604,9 +4604,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4618,15 +4618,15 @@
                    {
                        "name":  "gstack-document-generate",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-document-generate，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-document-generate，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-document-generate，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4643,9 +4643,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4657,15 +4657,15 @@
                    {
                        "name":  "gstack-document-release",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-document-release，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-document-release，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-document-release，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4682,9 +4682,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4696,15 +4696,15 @@
                    {
                        "name":  "gstack-freeze",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-freeze，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-freeze，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-freeze，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4721,9 +4721,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4735,15 +4735,15 @@
                    {
                        "name":  "gstack-guard",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-guard，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-guard，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-guard，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4760,9 +4760,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4774,15 +4774,15 @@
                    {
                        "name":  "gstack-health",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-health，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-health，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-health，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4799,9 +4799,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4813,15 +4813,15 @@
                    {
                        "name":  "gstack-investigate",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-investigate，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-investigate，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-investigate，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4838,9 +4838,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4852,15 +4852,15 @@
                    {
                        "name":  "gstack-ios-clean",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-ios-clean，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-ios-clean，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-ios-clean，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4877,9 +4877,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4891,15 +4891,15 @@
                    {
                        "name":  "gstack-ios-design-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-ios-design-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-ios-design-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-ios-design-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4916,9 +4916,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4930,15 +4930,15 @@
                    {
                        "name":  "gstack-ios-fix",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-ios-fix，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-ios-fix，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-ios-fix，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4955,9 +4955,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -4969,15 +4969,15 @@
                    {
                        "name":  "gstack-ios-qa",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-ios-qa，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-ios-qa，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-ios-qa，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -4994,9 +4994,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5008,15 +5008,15 @@
                    {
                        "name":  "gstack-ios-sync",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-ios-sync，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-ios-sync，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-ios-sync，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5033,9 +5033,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5047,15 +5047,15 @@
                    {
                        "name":  "gstack-land-and-deploy",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-land-and-deploy，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-land-and-deploy，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-land-and-deploy，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5072,9 +5072,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5086,15 +5086,15 @@
                    {
                        "name":  "gstack-landing-report",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-landing-report，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-landing-report，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-landing-report，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5111,9 +5111,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5125,15 +5125,15 @@
                    {
                        "name":  "gstack-learn",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-learn，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-learn，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-learn，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5150,9 +5150,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5164,15 +5164,15 @@
                    {
                        "name":  "gstack-make-pdf",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-make-pdf，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-make-pdf，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-make-pdf，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5189,9 +5189,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5203,15 +5203,15 @@
                    {
                        "name":  "gstack-office-hours",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-office-hours，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-office-hours，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-office-hours，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5228,9 +5228,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5242,15 +5242,15 @@
                    {
                        "name":  "gstack-open-gstack-browser",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-open-gstack-browser，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-open-gstack-browser，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-open-gstack-browser，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5267,9 +5267,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5281,15 +5281,15 @@
                    {
                        "name":  "gstack-pair-agent",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-pair-agent，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-pair-agent，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-pair-agent，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5306,9 +5306,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5320,15 +5320,15 @@
                    {
                        "name":  "gstack-plan-ceo-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-plan-ceo-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-plan-ceo-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-plan-ceo-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5345,9 +5345,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5359,15 +5359,15 @@
                    {
                        "name":  "gstack-plan-design-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-plan-design-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-plan-design-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-plan-design-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5384,9 +5384,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5398,15 +5398,15 @@
                    {
                        "name":  "gstack-plan-devex-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-plan-devex-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-plan-devex-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-plan-devex-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5423,9 +5423,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5437,15 +5437,15 @@
                    {
                        "name":  "gstack-plan-eng-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-plan-eng-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-plan-eng-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-plan-eng-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5462,9 +5462,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5476,15 +5476,15 @@
                    {
                        "name":  "gstack-plan-tune",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-plan-tune，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-plan-tune，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-plan-tune，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5501,9 +5501,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5515,15 +5515,15 @@
                    {
                        "name":  "gstack-qa",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-qa，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-qa，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-qa，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5540,9 +5540,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5554,15 +5554,15 @@
                    {
                        "name":  "gstack-qa-only",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-qa-only，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-qa-only，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-qa-only，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5579,9 +5579,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5593,15 +5593,15 @@
                    {
                        "name":  "gstack-retro",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-retro，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-retro，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-retro，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5618,9 +5618,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5632,15 +5632,15 @@
                    {
                        "name":  "gstack-review",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-review，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-review，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-review，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5657,9 +5657,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5671,15 +5671,15 @@
                    {
                        "name":  "gstack-scrape",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-scrape，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-scrape，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-scrape，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5696,9 +5696,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5710,15 +5710,15 @@
                    {
                        "name":  "gstack-setup-browser-cookies",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-setup-browser-cookies，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-setup-browser-cookies，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-setup-browser-cookies，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5735,9 +5735,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5749,15 +5749,15 @@
                    {
                        "name":  "gstack-setup-deploy",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-setup-deploy，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-setup-deploy，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-setup-deploy，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5774,9 +5774,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5788,15 +5788,15 @@
                    {
                        "name":  "gstack-setup-gbrain",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-setup-gbrain，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-setup-gbrain，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-setup-gbrain，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5813,9 +5813,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5827,15 +5827,15 @@
                    {
                        "name":  "gstack-ship",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-ship，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-ship，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-ship，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5852,9 +5852,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5866,15 +5866,15 @@
                    {
                        "name":  "gstack-skillify",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-skillify，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-skillify，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-skillify，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5891,9 +5891,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5905,15 +5905,15 @@
                    {
                        "name":  "gstack-spec",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-spec，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-spec，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-spec，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5930,9 +5930,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5944,15 +5944,15 @@
                    {
                        "name":  "gstack-sync-gbrain",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-sync-gbrain，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-sync-gbrain，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-sync-gbrain，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -5969,9 +5969,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -5983,15 +5983,15 @@
                    {
                        "name":  "gstack-unfreeze",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-unfreeze，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-unfreeze，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-unfreeze，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -6008,9 +6008,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -6022,15 +6022,15 @@
                    {
                        "name":  "gstack-upgrade",
                        "category":  "06-项目推进与工程化交付",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "项目推进",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "请使用 gstack-upgrade，并说明目标、输入和期望输出。",
-                       "usage":  "请使用 gstack-upgrade，并说明目标、输入和期望输出。",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 gstack-upgrade，给出执行计划并推进到可验收。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -6047,9 +6047,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
                                      },
                        "publicDownloadable":  false,
                        "businessScope":  "external",
@@ -6549,6 +6549,45 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
+                   },
+                   {
+                       "name":  "software-dev-event-router",
+                       "category":  "06-项目推进与工程化交付",
+                       "pmScenario":  "项目推进",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "Route software-development events to the most appropriate installed skill and compose safe lifecycle workflows. Use for ambiguous or multi-stage requests involving product scope, architecture, UI implementation, debugging, QA, review, release, production incidents, documentation, or when deciding which skill should lead and which skills should assist.",
+                       "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 software-dev-event-router，给出执行计划并推进到可验收。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/06-项目推进与工程化交付/software-dev-event-router",
+                       "skillFile":  "skills/06-项目推进与工程化交付/software-dev-event-router/SKILL.md",
+                       "sha256":  "e08a1b3238d2c457d6a75691890cbebe14615d8a58240b102bc3e17768ec0bbb",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
+                                     },
+                       "publicDownloadable":  false,
+                       "businessScope":  "external",
+                       "publicBlockReason":  "许可待确认，仅索引",
                        "internalDownloadable":  false,
                        "externalDownload":  null,
                        "internalDownload":  null
@@ -10691,6 +10730,45 @@
                        "internalDownload":  null
                    },
                    {
+                       "name":  "gstack",
+                       "category":  "09-Agent与自动化",
+                       "pmScenario":  "Agent 与自动化",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "",
+                       "descriptionZh":  "创建技能、自动化流程或调用 Agent",
+                       "usage":  "创建技能、自动化流程或调用 Agent；对 AI 说：请使用 gstack，把这套重复工作自动化。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/09-Agent与自动化/gstack",
+                       "skillFile":  "skills/09-Agent与自动化/gstack/SKILL.md",
+                       "sha256":  "6d8c95fa8dccec8f999893053ef8edb78c3c89b5ab40d421fc666392107af361",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
+                                     },
+                       "publicDownloadable":  false,
+                       "businessScope":  "external",
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
+                   },
+                   {
                        "name":  "hermes-agent",
                        "category":  "09-Agent与自动化",
                        "pmScenario":  "Agent 与自动化",
@@ -11567,7 +11645,7 @@
                        "upstream":  null,
                        "path":  "skills/09-Agent与自动化/skill-management-workbench",
                        "skillFile":  "skills/09-Agent与自动化/skill-management-workbench/SKILL.md",
-                       "sha256":  "254d5e57086d72eaa504c405b8c01f56bedb051350a5dad257e11143a89e7dab",
+                       "sha256":  "6bc3d99ac7c1db4b1459c472357252656474cfdcea2c4dcba747c4161667bd9c",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
