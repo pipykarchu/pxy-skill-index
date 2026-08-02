@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-02T20:23:24.4788200+08:00",
+    "generatedAt":  "2026-08-02T21:22:51.1147631+08:00",
     "total":  290,
     "downloadable":  14,
     "workflows":  8,
@@ -26,13 +26,40 @@
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
-                       "pxyRank":  2,
+                       "pxyRank":  3,
                        "description":  "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-                       "descriptionZh":  "梳理需求、定义范围或生成产品方案",
-                       "usage":  "梳理需求、定义范围或生成产品方案；对 AI 说：请使用 brainstorming，帮我把这个想法整理成可评审方案。",
-                       "explanation":  null,
+                       "descriptionZh":  "先把产品想法问清楚，确认真正的问题、范围和方案，再决定要不要动手。",
+                       "usage":  "这是我的产品想法、目标用户和当前限制，请先用 brainstorming 帮我澄清真正的问题、范围和可选方案，确认后再进入 PRD。",
+                       "explanation":  {
+                                           "when":  "准备做新功能、改交互、搭原型，或需求还只有一句模糊想法时使用。",
+                                           "capability":  "通过逐步提问澄清目标用户、业务目标、限制和取舍，比较可选方案，形成经过确认的设计方向。",
+                                           "limits":  "它负责把事情想清楚，不负责长期维护正式 PRD、组织跨部门协作或完成研发交接。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "brainstorming",
+                                               "trigger":  "想法还模糊，动手前需要先想清楚",
+                                               "output":  "经过确认的问题、范围、方案与设计方向",
+                                               "difference":  "最前置，先做判断，不长期维护正式 PRD 文件"
+                                           },
+                                           {
+                                               "name":  "prd-writer-agent",
+                                               "trigger":  "需要可评审、可迭代的正式 PRD",
+                                               "output":  "项目 PRD.md、PRD.html 和版本记录",
+                                               "difference":  "把确认后的需求写成正式文件，并持续维护"
+                                           },
+                                           {
+                                               "name":  "product-planning-workflow",
+                                               "trigger":  "多人参与，需要先确定协作方式和工作区",
+                                               "output":  "决策问卷、平台选择、资料结构和协作启动",
+                                               "difference":  "管跨部门如何开始协作，不专门写 PRD 内容"
+                                           },
+                                           {
+                                               "name":  "product-delivery-workflow",
+                                               "trigger":  "已有方向，要推进评审、定稿和研发交接",
+                                               "output":  "评审后的 PRD、版本归档和研发交接包",
+                                               "difference":  "管 PRD 从草稿走到可开发，不负责最早期发散"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/01-产品规划与需求/brainstorming",
@@ -64,14 +91,41 @@
                        "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  false,
-                       "pxyRecommended":  false,
-                       "pxyRank":  null,
+                       "pxyRecommended":  true,
+                       "pxyRank":  2,
                        "description":  "",
-                       "descriptionZh":  "梳理需求、定义范围或生成产品方案",
-                       "usage":  "梳理需求、定义范围或生成产品方案；对 AI 说：请使用 prd-writer-agent，帮我把这个想法整理成可评审方案。",
-                       "explanation":  null,
+                       "descriptionZh":  "把产品想法访谈成一份能评审、能开发、还能继续改版本的正式 PRD。",
+                       "usage":  "这是我的产品想法、目标用户和当前限制，请用 prd-writer-agent 先访谈补齐信息，再生成并持续维护可评审的 PRD.md 和 PRD.html。",
+                       "explanation":  {
+                                           "when":  "需要新写、补全、评审或迭代 PRD，并希望留下 Markdown 和可浏览网页时使用。",
+                                           "capability":  "先做需求访谈和概念对齐，再逐步维护项目命名的 PRD.md；定稿后生成同名 PRD.html，并记录版本、成本、ROI、风险和待确认项。",
+                                           "limits":  "它负责 PRD 内容本身，不替代跨部门协作平台搭建、团队评审流程或研发交付管理。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "prd-writer-agent",
+                                               "trigger":  "需要正式 PRD 文件并持续迭代",
+                                               "output":  "项目 PRD.md、PRD.html、状态与版本记录",
+                                               "difference":  "四个技能里唯一专门长期维护正式 PRD 文件的技能"
+                                           },
+                                           {
+                                               "name":  "brainstorming",
+                                               "trigger":  "还没想清楚做什么和为什么",
+                                               "output":  "确认后的问题、范围与设计方向",
+                                               "difference":  "只负责前期澄清，不输出和维护完整正式 PRD"
+                                           },
+                                           {
+                                               "name":  "product-planning-workflow",
+                                               "trigger":  "需要组织参与人、平台和资料空间",
+                                               "output":  "协作启动方案",
+                                               "difference":  "重点是怎么组织大家开始，不是 PRD 写作"
+                                           },
+                                           {
+                                               "name":  "product-delivery-workflow",
+                                               "trigger":  "PRD 要经过评审并交给研发",
+                                               "output":  "定稿、版本归档与研发交接",
+                                               "difference":  "重点是从草稿推进到交付，不是逐项访谈写作"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/01-产品规划与需求/prd-writer-agent",
@@ -106,11 +160,38 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "梳理需求、定义范围或生成产品方案",
-                       "usage":  "梳理需求、定义范围或生成产品方案；对 AI 说：请使用 product-delivery-workflow，帮我把这个想法整理成可评审方案。",
-                       "explanation":  null,
+                       "descriptionZh":  "把已有产品方向推进成经过评审、正式定稿、可追版本并能交给研发的交付结果。",
+                       "usage":  "我已有产品方向或 PRD 草稿，请用 product-delivery-workflow 组织评审、合并反馈、定稿归档，并形成研发可以接手的交付包。",
+                       "explanation":  {
+                                           "when":  "已经有产品方向或 PRD 草稿，需要拉团队讨论、收口、版本管理和研发交接时使用。",
+                                           "capability":  "串起 PRD 草稿、相关方评论、反馈合并、明确签字确认、版本归档、任务关联和研发交接。",
+                                           "limits":  "它不替代早期需求发散，也不负责像 prd-writer-agent 那样逐步访谈并长期维护 PRD 正文。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "product-delivery-workflow",
+                                               "trigger":  "已有方向或草稿，需要走完评审到研发交接",
+                                               "output":  "定稿 PRD、版本归档、任务关联和交接包",
+                                               "difference":  "重点是把 PRD 真正送到研发手里"
+                                           },
+                                           {
+                                               "name":  "prd-writer-agent",
+                                               "trigger":  "需要访谈并写出正式 PRD",
+                                               "output":  "持续维护的 PRD.md 与 PRD.html",
+                                               "difference":  "重点是写什么，交付工作流重点是怎么评审和交接"
+                                           },
+                                           {
+                                               "name":  "product-planning-workflow",
+                                               "trigger":  "项目刚启动，需要搭协作方式",
+                                               "output":  "问卷、平台和工作区",
+                                               "difference":  "负责前半程启动，不负责最终研发交接"
+                                           },
+                                           {
+                                               "name":  "brainstorming",
+                                               "trigger":  "需求方向还没确认",
+                                               "output":  "确认的问题、范围和方案",
+                                               "difference":  "负责最早期想清楚，不管交付流程"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/01-产品规划与需求/product-delivery-workflow",
@@ -145,11 +226,38 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "End-to-end product planning: stakeholder alignment questionnaire, collaboration platform selection, workspace organization, phase-gated PRD launch.",
-                       "descriptionZh":  "梳理需求、定义范围或生成产品方案",
-                       "usage":  "梳理需求、定义范围或生成产品方案；对 AI 说：请使用 product-planning-workflow，帮我把这个想法整理成可评审方案。",
-                       "explanation":  null,
+                       "descriptionZh":  "先把参与人、决策问题、协作平台和资料目录定下来，让产品项目有序启动。",
+                       "usage":  "请用 product-planning-workflow 帮我对齐参与人和关键决策，选择协作平台，整理项目资料结构，并启动 PRD 协作。",
+                       "explanation":  {
+                                           "when":  "项目涉及多人或跨部门，大家还没统一决策方式、协作平台和资料放哪里时使用。",
+                                           "capability":  "用决策问卷对齐关键问题，选择飞书、GitHub 等协作平台，整理版本资料和工作区，再发起第一轮 PRD 协作。",
+                                           "limits":  "它负责搭好协作框架，不替代详细需求访谈、正式 PRD 写作和最终研发交接。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "product-planning-workflow",
+                                               "trigger":  "多人项目刚开始，需要先统一协作方式",
+                                               "output":  "决策问卷、平台选择、资料结构和启动动作",
+                                               "difference":  "重点是搭协作舞台"
+                                           },
+                                           {
+                                               "name":  "prd-writer-agent",
+                                               "trigger":  "需要写和维护正式 PRD",
+                                               "output":  "PRD.md 与 PRD.html",
+                                               "difference":  "重点是 PRD 内容质量和版本迭代"
+                                           },
+                                           {
+                                               "name":  "product-delivery-workflow",
+                                               "trigger":  "方向已定，要把 PRD 推到研发",
+                                               "output":  "评审、定稿、归档和交接",
+                                               "difference":  "重点是后半程交付推进"
+                                           },
+                                           {
+                                               "name":  "brainstorming",
+                                               "trigger":  "想法本身还不清楚",
+                                               "output":  "问题、范围和方案",
+                                               "difference":  "重点是需求判断，不组织协作平台"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/01-产品规划与需求/product-planning-workflow",
@@ -338,7 +446,7 @@
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
-                       "pxyRank":  7,
+                       "pxyRank":  10,
                        "description":  "Control the in-app Browser for opening, navigating, inspecting visible or interactive page state, clicking, typing, screenshots, and local web testing. It can have existing signed-in sessions. For semantic operations on linked resources, prefer a purpose-built connector, API, or CLI when available.",
                        "descriptionZh":  "做竞品调研、资料检索或知识沉淀",
                        "usage":  "做竞品调研、资料检索或知识沉淀；对 AI 说：请使用 control-in-app-browser，调研这个主题并给出来源和结论。",
@@ -1020,14 +1128,35 @@
                        "pmCommon":  false,
                        "operationsCommon":  true,
                        "globalCommon":  false,
-                       "pxyRecommended":  false,
-                       "pxyRank":  null,
+                       "pxyRecommended":  true,
+                       "pxyRank":  4,
                        "description":  "",
-                       "descriptionZh":  "生成或处理文档、表格、汇报材料",
-                       "usage":  "生成或处理文档、表格、汇报材料；对 AI 说：请使用 daily-report-mozin，把这些材料整理成可交付文件。",
-                       "explanation":  null,
+                       "descriptionZh":  "皮玺玉常用的日报、周报、月报助手：自动收集真实工作记录，整理、存档并可发到飞书。",
+                       "usage":  "请用 daily-report-mozin 生成我的日报、周报或月报，自动汇总飞书、Git、本地文件、浏览器和会话记录；先让我确认内容，再存档并发送飞书。",
+                       "explanation":  {
+                                           "when":  "你说“日报”“周报”“月报”“今日进展”或“汇报”时使用；既可自动采集，也可根据口述补充。",
+                                           "capability":  "按时间范围汇总飞书日程、文档、消息、任务、会议纪要、Git、本地文件、浏览器和 Hermes 会话，去重核实后生成汇报，存入本地汇报目录并发送飞书。",
+                                           "limits":  "它生成个人工作汇报；不等同于只列日程待办，也不等同于只汇总会议纪要。自动采集受各数据源权限和可用性影响。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "daily-report-mozin",
+                                               "trigger":  "要写个人日报、周报、月报或工作汇报",
+                                               "output":  "真实工作成果汇报、本地存档和飞书消息",
+                                               "difference":  "覆盖多数据源和个人产出，是正式工作汇报首选"
+                                           },
+                                           {
+                                               "name":  "lark-workflow-standup-report",
+                                               "trigger":  "只想看今天、明天或本周有什么安排",
+                                               "output":  "日程和未完成待办摘要",
+                                               "difference":  "是行程待办提醒，不是成果汇报"
+                                           },
+                                           {
+                                               "name":  "lark-workflow-meeting-summary",
+                                               "trigger":  "只想整理一段时间的会议内容",
+                                               "output":  "会议纪要汇总或会议周报",
+                                               "difference":  "只聚焦会议，不覆盖 Git、本地文件和个人全部产出"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/04-文档数据与汇报/daily-report-mozin",
@@ -1059,8 +1188,8 @@
                        "pmCommon":  true,
                        "operationsCommon":  true,
                        "globalCommon":  true,
-                       "pxyRecommended":  true,
-                       "pxyRank":  8,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
                        "description":  "Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to generate page PNGs (and optional PDF) for visual QA, then iterate until layout is flawless before delivering the final document.",
                        "descriptionZh":  "生成或处理文档、表格、汇报材料",
                        "usage":  "生成或处理文档、表格、汇报材料；对 AI 说：请使用 documents，把这些材料整理成可交付文件。",
@@ -1494,8 +1623,8 @@
                        "pmCommon":  true,
                        "operationsCommon":  true,
                        "globalCommon":  true,
-                       "pxyRecommended":  true,
-                       "pxyRank":  9,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
                        "description":  "Create, edit, analyze, and verify standalone spreadsheet files or Google Sheets-ready workbooks, including .xlsx, .xls, .csv, and .tsv. Do not use for live controlling Microsoft Excel app or a live Excel session.",
                        "descriptionZh":  "生成或处理文档、表格、汇报材料",
                        "usage":  "生成或处理文档、表格、汇报材料；对 AI 说：请使用 Spreadsheets，把这些材料整理成可交付文件。",
@@ -1845,14 +1974,29 @@
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
-                       "pxyRecommended":  true,
-                       "pxyRank":  10,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
                        "description":  "",
-                       "descriptionZh":  "处理飞书办公、会议、任务和协作信息",
-                       "usage":  "处理飞书办公、会议、任务和协作信息；对 AI 说：请使用 feishu-selective-upload，完成这项飞书操作。",
-                       "explanation":  null,
+                       "descriptionZh":  "按 A-G 交付规格层级上传到飞书，也适合把少量已知文件单独更新到指定文件夹。",
+                       "usage":  "请用 feishu-selective-upload 按 A-G 交付规格上传这批资料；Markdown 转云文档，其他文件保留原格式，最后逐层验证。",
+                       "explanation":  {
+                                           "when":  "上传 Mozin 一类固定分层的产品交付包，或已知道目标 folder token、只更新几个文件时使用。",
+                                           "capability":  "创建 A-G 层级，原格式上传非 Markdown 文件，把 Markdown 转为云文档；支持首次清理重传和指定文件覆盖同步，并强制检查飞书端是否真的出现。",
+                                           "limits":  "它对固定交付规格和 token 依赖更强；普通目录整体迁移优先用 lark-drive-bulk-upload。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "feishu-selective-upload",
+                                               "trigger":  "固定 A-G 交付包或少量文件定点同步",
+                                               "output":  "按交付规格组织的飞书资料",
+                                               "difference":  "擅长固定层级、清理重传和单文件更新"
+                                           },
+                                           {
+                                               "name":  "lark-drive-bulk-upload",
+                                               "trigger":  "任意本地目录和大量文件整体迁移",
+                                               "output":  "保留原目录层级的飞书云空间",
+                                               "difference":  "更通用，适合目录搬家、去重、恢复和批量验收"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/feishu-selective-upload",
@@ -2313,14 +2457,29 @@
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "globalCommon":  false,
-                       "pxyRecommended":  false,
-                       "pxyRank":  null,
+                       "pxyRecommended":  true,
+                       "pxyRank":  5,
                        "description":  "批量上传文件到飞书云空间或 Wiki，包括 Markdown → Docs 转换、嵌套文件夹路由、文件类型分发、错误处理和验证。适用于产品交付包、文档迁移、档案导入等大规模文件操作。",
-                       "descriptionZh":  "批量上传文件到飞书云空间或 Wiki，包括 Markdown → Docs 转换、嵌套文件夹路由、文件类型分发、错误处理和验证。适用于产品交付包、文档迁移、档案导入等大规模文件操作。",
-                       "usage":  "处理飞书办公、会议、任务和协作信息；对 AI 说：请使用 lark-drive-bulk-upload，完成这项飞书操作。",
-                       "explanation":  null,
+                       "descriptionZh":  "把本地一整批文件搬到飞书云空间：保留文件夹层级，Markdown 自动变成云文档。",
+                       "usage":  "请用 lark-drive-bulk-upload 把这个本地目录批量同步到飞书云空间，保留层级，把 Markdown 转为云文档，并在上传后核对总数和失败项。",
+                       "explanation":  {
+                                           "when":  "要迁移一个本地目录、交付包或十个以上文件到飞书 Drive/Wiki，并希望去重和验收时使用。",
+                                           "capability":  "扫描源目录，创建嵌套文件夹，按类型上传；Markdown 转飞书云文档，其他文件保留原格式，并在完成后核对数量、层级和失败项。",
+                                           "limits":  "它是通用批量迁移，不专门套用 A-G 交付规格包规则；为避免限流默认顺序上传，不做实时双向同步。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "lark-drive-bulk-upload",
+                                               "trigger":  "任意本地目录或大量文件要迁移到飞书",
+                                               "output":  "保留层级的飞书目录、云文档和验收报告",
+                                               "difference":  "通用批量迁移首选，强调路由、去重、恢复和验证"
+                                           },
+                                           {
+                                               "name":  "feishu-selective-upload",
+                                               "trigger":  "A-G 分层交付包或少量已知文件要覆盖同步",
+                                               "output":  "按交付规格层级组织的飞书资料",
+                                               "difference":  "更贴合既定交付包结构和单文件更新"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/lark-drive-bulk-upload",
@@ -3018,11 +3177,26 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。",
-                       "descriptionZh":  "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。",
-                       "usage":  "处理飞书办公、会议、任务和协作信息；对 AI 说：请使用 lark-workflow-meeting-summary，完成这项飞书操作。",
-                       "explanation":  null,
+                       "descriptionZh":  "把一段时间内的飞书会议纪要集中整理成会议回顾或会议周报。",
+                       "usage":  "请用 lark-workflow-meeting-summary 汇总本周会议纪要，提炼每场会议的结论、决策、负责人和待办，并生成会议周报。",
+                       "explanation":  {
+                                           "when":  "要整理今天、本周或指定时间段的会议纪要、决策和行动项时使用。",
+                                           "capability":  "查找指定时间范围的会议记录，读取纪要和逐字稿信息，按会议整理主题、结论、决定和后续行动，可选生成飞书文档。",
+                                           "limits":  "它只覆盖会议内容，不代表个人完整日报或周报，也不采集 Git、本地文件等工作成果。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "lark-workflow-meeting-summary",
+                                               "trigger":  "要回顾会议内容和行动项",
+                                               "output":  "会议纪要汇总或会议周报",
+                                               "difference":  "只回答会议里讨论和决定了什么"
+                                           },
+                                           {
+                                               "name":  "daily-report-mozin",
+                                               "trigger":  "要汇报个人整体工作成果",
+                                               "output":  "日报、周报、月报",
+                                               "difference":  "汇总多数据源，不只看会议"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/lark-workflow-meeting-summary",
@@ -3057,11 +3231,26 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。",
-                       "descriptionZh":  "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。",
-                       "usage":  "处理飞书办公、会议、任务和协作信息；对 AI 说：请使用 lark-workflow-standup-report，完成这项飞书操作。",
-                       "explanation":  null,
+                       "descriptionZh":  "快速列出今天、明天或本周的日程和未完成待办，帮你知道接下来做什么。",
+                       "usage":  "请用 lark-workflow-standup-report 汇总我今天的日程和未完成待办，并按时间和优先级告诉我先做什么。",
+                       "explanation":  {
+                                           "when":  "要查今日安排、明日计划、本周日程或站会前快速看待办时使用。",
+                                           "capability":  "读取飞书日历和个人任务，过滤已完成事项，按时间整理日程、待办和简短提醒。",
+                                           "limits":  "它不总结已经完成的工作，不生成正式日报、周报、月报，也不读取 Git 和本地文件成果。"
+                                       },
                        "comparisons":  [
-
+                                           {
+                                               "name":  "lark-workflow-standup-report",
+                                               "trigger":  "查接下来的日程和待办",
+                                               "output":  "安排与未完成任务摘要",
+                                               "difference":  "回答“接下来做什么”"
+                                           },
+                                           {
+                                               "name":  "daily-report-mozin",
+                                               "trigger":  "总结已经做了什么并汇报",
+                                               "output":  "日报、周报、月报",
+                                               "difference":  "回答“这段时间做成了什么”"
+                                           }
                                        ],
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/lark-workflow-standup-report",
@@ -3328,7 +3517,7 @@
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
-                       "pxyRank":  3,
+                       "pxyRank":  6,
                        "description":  "Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.",
                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 create-plan，给出执行计划并推进到可验收。",
@@ -3412,7 +3601,7 @@
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
-                       "pxyRank":  4,
+                       "pxyRank":  7,
                        "description":  "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 executing-plans，给出执行计划并推进到可验收。",
@@ -6528,7 +6717,7 @@
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
-                       "pxyRank":  6,
+                       "pxyRank":  9,
                        "description":  "Delegate coding to Claude Code CLI (features, PRs).",
                        "descriptionZh":  "辅助开发、排错、测试和上线",
                        "usage":  "辅助开发、排错、测试和上线；对 AI 说：请使用 claude-code，先定位问题，再完成修复与验证。",
@@ -6567,7 +6756,7 @@
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
-                       "pxyRank":  5,
+                       "pxyRank":  8,
                        "description":  "Delegate coding to OpenAI Codex CLI (features, PRs).",
                        "descriptionZh":  "辅助开发、排错、测试和上线",
                        "usage":  "辅助开发、排错、测试和上线；对 AI 说：请使用 codex，先定位问题，再完成修复与验证。",
