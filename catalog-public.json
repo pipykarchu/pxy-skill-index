@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-02T05:55:27.1422465+08:00",
+    "generatedAt":  "2026-08-02T14:02:45.6237756+08:00",
     "total":  290,
     "downloadable":  14,
     "workflows":  8,
@@ -723,7 +723,8 @@
                                                 "file":  "downloads/skills/mcp-builder.zip",
                                                 "downloadName":  "mcp-builder.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "a7db855d5f085587d4b5bee099c979723dba5192e0d510f4f9cec4515edf8891"
                                             },
                        "internalDownload":  null
                    },
@@ -1112,7 +1113,8 @@
                                                 "file":  "downloads/skills/pdf.zip",
                                                 "downloadName":  "pdf.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "8e4afffa9e7110c15c3f25f8d1af84aca5b44430afee5ac5d09bd32ea4e012a5"
                                             },
                        "internalDownload":  null
                    },
@@ -2749,7 +2751,8 @@
                                                 "file":  "downloads/skills/create-plan.zip",
                                                 "downloadName":  "create-plan.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "4ad7d748055aeaa70be8fd8a56b8a37d697a19f3dd3127ec9254d682b73cf37b"
                                             },
                        "internalDownload":  null
                    },
@@ -5026,7 +5029,8 @@
                                                 "file":  "downloads/skills/project-handoff-core.zip",
                                                 "downloadName":  "project-handoff-core.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "3c3c18e8da878cb3f3778426ba9900e2d915515f0a5a88a0cf939c132483ffed"
                                             },
                        "internalDownload":  null
                    },
@@ -5543,7 +5547,8 @@
                                                 "file":  "downloads/skills/gh-address-comments.zip",
                                                 "downloadName":  "gh-address-comments.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "071aad161d67e8451c5c0164248dae99461869286106d11a374e78a20adab229"
                                             },
                        "internalDownload":  null
                    },
@@ -5580,7 +5585,8 @@
                                                 "file":  "downloads/skills/gh-fix-ci.zip",
                                                 "downloadName":  "gh-fix-ci.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "0844ebe159a802bb3902e3acc2e735f00013b935389264529fd946f0b68b2bd7"
                                             },
                        "internalDownload":  null
                    },
@@ -6033,7 +6039,8 @@
                                                 "file":  "downloads/skills/security-ownership-map.zip",
                                                 "downloadName":  "security-ownership-map.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "1b40f054f09a6b2a32b80e2efa834b9676a30ab90ca794db78c23b4226dbf341"
                                             },
                        "internalDownload":  null
                    },
@@ -6230,7 +6237,8 @@
                                                 "file":  "downloads/skills/skill-installer.zip",
                                                 "downloadName":  "skill-installer.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "1c369f37294c9b739cd00170e39f1078ffe73d2be3f61a11d7726c27ddce400a"
                                             },
                        "internalDownload":  null
                    },
@@ -6459,7 +6467,8 @@
                                                 "file":  "downloads/skills/vercel-deploy.zip",
                                                 "downloadName":  "vercel-deploy.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "9aa2e4e75a60e6b852ddc03a02fa85ea5fe77cd81283909cafa7df91be7734b4"
                                             },
                        "internalDownload":  null
                    },
@@ -7424,7 +7433,8 @@
                                                 "file":  "downloads/skills/hatch-pet.zip",
                                                 "downloadName":  "hatch-pet.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "c32f2aba05e8db07f8d6ff5cc5c32be314adc1ff4e1a0c29cab5d39594a1cad1"
                                             },
                        "internalDownload":  null
                    },
@@ -7493,7 +7503,8 @@
                                                 "file":  "downloads/skills/humanizer.zip",
                                                 "downloadName":  "humanizer.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "42acd0865070089e8269303b52375951b85e0c98de440b71939f355b2c6089a0"
                                             },
                        "internalDownload":  null
                    },
@@ -7530,7 +7541,8 @@
                                                 "file":  "downloads/skills/imagegen.zip",
                                                 "downloadName":  "imagegen.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "8bed1947030dcbafbb33703e0f6dbf8e882c2352e6c14ccf9524bb9146a8a803"
                                             },
                        "internalDownload":  null
                    },
@@ -8015,7 +8027,8 @@
                                                 "file":  "downloads/skills/speech.zip",
                                                 "downloadName":  "speech.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "1d292c4cbf1c1440b1a543f15051d180140b2f0b866563632d2c9da8128fccf5"
                                             },
                        "internalDownload":  null
                    },
@@ -8180,7 +8193,8 @@
                                                 "file":  "downloads/skills/transcribe.zip",
                                                 "downloadName":  "transcribe.zip",
                                                 "kind":  "skill",
-                                                "protected":  false
+                                                "protected":  false,
+                                                "sha256":  "61b6042c36a86897d6f219225fbac5f51fc164c8e8dc8f3202ead6b6e61cffc5"
                                             },
                        "internalDownload":  null
                    },
@@ -9417,7 +9431,8 @@
                                                              "file":  "downloads/workflows/product-definition.json",
                                                              "downloadName":  "product-definition.json",
                                                              "kind":  "workflow",
-                                                             "protected":  false
+                                                             "protected":  false,
+                                                             "sha256":  "9c2048dfe5c317d1ae86bda60eae4da1257f2f21b685e5bdf5b3314ae8873b62"
                                                          },
                                     "internalDownload":  null
                                 },
@@ -9478,7 +9493,8 @@
                                                              "file":  "downloads/internal/workflows/mozin-delivery.pxy",
                                                              "downloadName":  "mozin-delivery.json",
                                                              "kind":  "workflow",
-                                                             "protected":  true
+                                                             "protected":  true,
+                                                             "sha256":  "81f4ebe7874aa928109bc70d25b6c87ab86eb7467c5b70f32c5d5f38b072b910"
                                                          }
                                 },
                                 {
@@ -9528,7 +9544,8 @@
                                                              "file":  "downloads/workflows/plan-execution.json",
                                                              "downloadName":  "plan-execution.json",
                                                              "kind":  "workflow",
-                                                             "protected":  false
+                                                             "protected":  false,
+                                                             "sha256":  "32f377ad1b8526c73c08ea545c88f0e5377fcad34d84e8b684e675c555ea0b6d"
                                                          },
                                     "internalDownload":  null
                                 },
@@ -9586,7 +9603,8 @@
                                                              "file":  "downloads/workflows/engineering-quality.json",
                                                              "downloadName":  "engineering-quality.json",
                                                              "kind":  "workflow",
-                                                             "protected":  false
+                                                             "protected":  false,
+                                                             "sha256":  "96c4f1f4a269a957de1719ca0c36474126e9143d6e26c89b84db2c341584f884"
                                                          },
                                     "internalDownload":  null
                                 },
@@ -9635,7 +9653,8 @@
                                                              "file":  "downloads/workflows/figma-delivery.json",
                                                              "downloadName":  "figma-delivery.json",
                                                              "kind":  "workflow",
-                                                             "protected":  false
+                                                             "protected":  false,
+                                                             "sha256":  "a950acc97aec9dd372e79db05616eaa8c3e83fa2c8e3681daeefb898ae721c18"
                                                          },
                                     "internalDownload":  null
                                 },
@@ -9694,7 +9713,8 @@
                                                              "file":  "downloads/workflows/document-processing.json",
                                                              "downloadName":  "document-processing.json",
                                                              "kind":  "workflow",
-                                                             "protected":  false
+                                                             "protected":  false,
+                                                             "sha256":  "8f53a6932879cd99693ad1e2e84af0f9578f28c7a72ce691f5bb9269ce2378e4"
                                                          },
                                     "internalDownload":  null
                                 },
@@ -9755,7 +9775,8 @@
                                                              "file":  "downloads/workflows/manju-production.json",
                                                              "downloadName":  "manju-production.json",
                                                              "kind":  "workflow",
-                                                             "protected":  false
+                                                             "protected":  false,
+                                                             "sha256":  "01fc2a45c238bd934bdb4ebca8dfb9a4f9adf8cf6967d6d0c4da2dcb127327cf"
                                                          },
                                     "internalDownload":  null
                                 },
@@ -9808,7 +9829,8 @@
                                                              "file":  "downloads/workflows/lark-collaboration.json",
                                                              "downloadName":  "lark-collaboration.json",
                                                              "kind":  "workflow",
-                                                             "protected":  false
+                                                             "protected":  false,
+                                                             "sha256":  "c6193c10d11e8b2e3119163d4d5016178dc18851c45506b8dc5eebec4b0cb9b3"
                                                          },
                                     "internalDownload":  null
                                 }
