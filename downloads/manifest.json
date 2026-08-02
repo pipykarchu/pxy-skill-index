@@ -1,9 +1,9 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-02T23:41:39.0484815+08:00",
+    "generatedAt":  "2026-08-03T04:26:08.8465015+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
-                     "skillCount":  14,
+                     "skillCount":  13,
                      "workflowCount":  9
                  },
     "internal":  {
@@ -14,9 +14,99 @@
     "sourceBundleSha256":  "dc7524bb4e8f6f8f52aedeedca261022cd0e16f5d67e77f8dd667eb3eb6c8a84",
     "files":  [
                   {
+                      "file":  "downloads/families/feishu-office-complete.zip",
+                      "bytes":  826,
+                      "sha256":  "6548675790b53771ce902e50a2861930d3759e50b2e97d8876af017619b342ed"
+                  },
+                  {
+                      "file":  "downloads/families/feishu-office-entry.json",
+                      "bytes":  54141,
+                      "sha256":  "3587be7b905aaf2a3053436d6b77002bd9038afa50a46f838f30e1b0d2f2ac97"
+                  },
+                  {
+                      "file":  "downloads/families/feishu-office-recommended.zip",
+                      "bytes":  547,
+                      "sha256":  "45d09d65a10c16356c0916976d5f133315fdc8371bc9dfb1ec47d0784061fd0e"
+                  },
+                  {
+                      "file":  "downloads/families/figma-workbench-complete.zip",
+                      "bytes":  449,
+                      "sha256":  "3fc37ea6c6b59d8319a5de94c976857a7ab09eda6801e9f6e99f9aa0ff12e234"
+                  },
+                  {
+                      "file":  "downloads/families/figma-workbench-entry.json",
+                      "bytes":  5903,
+                      "sha256":  "9d4af0942056121f9a65203a28fbfaefd7368fa135a7aeccac71c8007ee6dd85"
+                  },
+                  {
+                      "file":  "downloads/families/figma-workbench-recommended.zip",
+                      "bytes":  453,
+                      "sha256":  "d6f570d78b981613f62c6e93847eb479d5b21eefe78845b17d543351a4549318"
+                  },
+                  {
+                      "file":  "downloads/families/github-project-complete.zip",
+                      "bytes":  549,
+                      "sha256":  "968b82bc007566652a2b507eedbd8c827f9589a6088cfdfbf00ab3cecea953ca"
+                  },
+                  {
+                      "file":  "downloads/families/github-project-entry.json",
+                      "bytes":  11662,
+                      "sha256":  "8c1090e74bd9187c58573e581f4b4c02bd6225f1f4d9ab5451c9b2451019b4c4"
+                  },
+                  {
+                      "file":  "downloads/families/github-project-recommended.zip",
+                      "bytes":  483,
+                      "sha256":  "d4d89c22e7789017560095bc99edaf68ae63c8de3eff65765e42f7a9b613bd25"
+                  },
+                  {
+                      "file":  "downloads/families/gstack-suite-complete.zip",
+                      "bytes":  810,
+                      "sha256":  "54a87891d81c835bcd200db037459ce2e4d8927233cd135de6111b18c8b44128"
+                  },
+                  {
+                      "file":  "downloads/families/gstack-suite-entry.json",
+                      "bytes":  57474,
+                      "sha256":  "55ebfacca6bf83b8a4192c9e05807a50aa4ebc3556f7de4bc5d025071818ae4c"
+                  },
+                  {
+                      "file":  "downloads/families/gstack-suite-recommended.zip",
+                      "bytes":  416,
+                      "sha256":  "08f1588d3068ae2f1beb647dd1bbeac9bc169f27888a758815e94f465184f486"
+                  },
+                  {
+                      "file":  "downloads/families/office-documents-complete.zip",
+                      "bytes":  10163,
+                      "sha256":  "2001f82293596fbbb429853bee476f91262eb0029291959310aa37f1f8126b2e"
+                  },
+                  {
+                      "file":  "downloads/families/office-documents-entry.json",
+                      "bytes":  11698,
+                      "sha256":  "eaa84ced1e9e5cfeccb40b22228d184bf827ca4856ecb1b3b24c3528a83e3fd4"
+                  },
+                  {
+                      "file":  "downloads/families/office-documents-recommended.zip",
+                      "bytes":  10158,
+                      "sha256":  "6df109efcd0c8164f8e431321ec9fc5fcc1033636cd8dcf01ddc2be1dc96f994"
+                  },
+                  {
+                      "file":  "downloads/families/product-prd-complete.zip",
+                      "bytes":  535,
+                      "sha256":  "91fd998cd9fc287f7305b8f44fd934f27ca641fead555de17f6b34f254860bed"
+                  },
+                  {
+                      "file":  "downloads/families/product-prd-entry.json",
+                      "bytes":  9584,
+                      "sha256":  "59d51da770a510d38ba3de6cc887927fb342f08e73f1a29aa036bf9d441418b3"
+                  },
+                  {
+                      "file":  "downloads/families/product-prd-recommended.zip",
+                      "bytes":  540,
+                      "sha256":  "3613e08b2a7d9804a9284866ddf9485bb5fd0ee36c0d3ebabd89fcd8f9547169"
+                  },
+                  {
                       "file":  "downloads/internal/workflows/mozin-delivery.pxy",
                       "bytes":  2696,
-                      "sha256":  "248ae940b62ea53205bcf0ea640a42775943fad47c47d2dd3d894c16b608b980"
+                      "sha256":  "dadf2cdb235acade3f34897b086ac66f5cb29275cd268c39b051f53f46081d95"
                   },
                   {
                       "file":  "downloads/skills/create-plan.zip",
@@ -57,11 +147,6 @@
                       "file":  "downloads/skills/pdf.zip",
                       "bytes":  10490,
                       "sha256":  "8e4afffa9e7110c15c3f25f8d1af84aca5b44430afee5ac5d09bd32ea4e012a5"
-                  },
-                  {
-                      "file":  "downloads/skills/project-handoff-core.zip",
-                      "bytes":  9951,
-                      "sha256":  "3c3c18e8da878cb3f3778426ba9900e2d915515f0a5a88a0cf939c132483ffed"
                   },
                   {
                       "file":  "downloads/skills/security-ownership-map.zip",

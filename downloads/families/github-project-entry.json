@@ -1,0 +1,221 @@
+{
+    "id":  "github-project",
+    "title":  "GitHub 项目助手",
+    "entrySkill":  "github-repo-management",
+    "aliases":  [
+                    "GitHub助手",
+                    "仓库管理",
+                    "Issue管理",
+                    "PR流程",
+                    "代码审查",
+                    "Git认证",
+                    "代理排障"
+                ],
+    "members":  [
+                    {
+                        "name":  "github-repo-management",
+                        "role":  "统一处理仓库创建、设置和日常管理",
+                        "visibility":  "entry",
+                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 github-repo-management，给出执行计划并推进到可验收。",
+                        "lifecycle":  "active",
+                        "supersededBy":  null,
+                        "packageable":  true,
+                        "packageBlockers":  [
+
+                                            ],
+                        "platforms":  {
+                                          "codex":  "unreviewed",
+                                          "claude":  "unreviewed",
+                                          "hermes":  "installed"
+                                      },
+                        "upstream":  null
+                    },
+                    {
+                        "name":  "github-issues",
+                        "role":  "创建、查询和维护 Issue",
+                        "visibility":  "module",
+                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 github-issues，给出执行计划并推进到可验收。",
+                        "lifecycle":  "active",
+                        "supersededBy":  null,
+                        "packageable":  true,
+                        "packageBlockers":  [
+
+                                            ],
+                        "platforms":  {
+                                          "codex":  "unreviewed",
+                                          "claude":  "unreviewed",
+                                          "hermes":  "installed"
+                                      },
+                        "upstream":  null
+                    },
+                    {
+                        "name":  "github-pr-workflow",
+                        "role":  "创建、更新和交付 Pull Request",
+                        "visibility":  "module",
+                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 github-pr-workflow，给出执行计划并推进到可验收。",
+                        "lifecycle":  "active",
+                        "supersededBy":  null,
+                        "packageable":  true,
+                        "packageBlockers":  [
+
+                                            ],
+                        "platforms":  {
+                                          "codex":  "unreviewed",
+                                          "claude":  "unreviewed",
+                                          "hermes":  "installed"
+                                      },
+                        "upstream":  null
+                    },
+                    {
+                        "name":  "github-code-review",
+                        "role":  "审查代码和变更风险",
+                        "visibility":  "module",
+                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 github-code-review，给出执行计划并推进到可验收。",
+                        "lifecycle":  "active",
+                        "supersededBy":  null,
+                        "packageable":  true,
+                        "packageBlockers":  [
+
+                                            ],
+                        "platforms":  {
+                                          "codex":  "unreviewed",
+                                          "claude":  "unreviewed",
+                                          "hermes":  "installed"
+                                      },
+                        "upstream":  null
+                    },
+                    {
+                        "name":  "github-auth",
+                        "role":  "诊断和配置 GitHub 身份认证",
+                        "visibility":  "advanced",
+                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 github-auth，给出执行计划并推进到可验收。",
+                        "lifecycle":  "active",
+                        "supersededBy":  null,
+                        "packageable":  true,
+                        "packageBlockers":  [
+
+                                            ],
+                        "platforms":  {
+                                          "codex":  "unreviewed",
+                                          "claude":  "unreviewed",
+                                          "hermes":  "installed"
+                                      },
+                        "upstream":  null
+                    },
+                    {
+                        "name":  "git-auth-noninteractive",
+                        "role":  "处理自动化环境中的非交互认证",
+                        "visibility":  "advanced",
+                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 git-auth-noninteractive，给出执行计划并推进到可验收。",
+                        "lifecycle":  "active",
+                        "supersededBy":  null,
+                        "packageable":  true,
+                        "packageBlockers":  [
+
+                                            ],
+                        "platforms":  {
+                                          "codex":  "unreviewed",
+                                          "claude":  "unreviewed",
+                                          "hermes":  "installed"
+                                      },
+                        "upstream":  null
+                    },
+                    {
+                        "name":  "git-corporate-proxy",
+                        "role":  "诊断公司网络和 Git 代理问题",
+                        "visibility":  "advanced",
+                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
+                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 git-corporate-proxy，给出执行计划并推进到可验收。",
+                        "lifecycle":  "active",
+                        "supersededBy":  null,
+                        "packageable":  true,
+                        "packageBlockers":  [
+
+                                            ],
+                        "platforms":  {
+                                          "codex":  "unreviewed",
+                                          "claude":  "unreviewed",
+                                          "hermes":  "installed"
+                                      },
+                        "upstream":  null
+                    }
+                ],
+    "routingRules":  [
+                         {
+                             "when":  "需要仓库设置和日常管理",
+                             "use":  [
+                                         "github-repo-management"
+                                     ]
+                         },
+                         {
+                             "when":  "需要处理 Issue",
+                             "use":  [
+                                         "github-issues"
+                                     ]
+                         },
+                         {
+                             "when":  "需要处理 PR 或代码审查",
+                             "use":  [
+                                         "github-pr-workflow",
+                                         "github-code-review"
+                                     ]
+                         },
+                         {
+                             "when":  "认证失败或自动化无法登录",
+                             "use":  [
+                                         "github-auth",
+                                         "git-auth-noninteractive"
+                                     ]
+                         },
+                         {
+                             "when":  "公司网络或代理导致 Git 失败",
+                             "use":  [
+                                         "git-corporate-proxy"
+                                     ]
+                         }
+                     ],
+    "platformRules":  {
+                          "codex":  "unsupported",
+                          "claude":  "unsupported",
+                          "hermes":  "supported"
+                      },
+    "packagePolicy":  {
+                          "modes":  [
+                                        "entry-only",
+                                        "recommended",
+                                        "complete"
+                                    ],
+                          "recommendedByPlatform":  {
+                                                        "codex":  [
+                                                                      "github-repo-management",
+                                                                      "github-issues",
+                                                                      "github-pr-workflow",
+                                                                      "github-code-review",
+                                                                      "github-auth"
+                                                                  ],
+                                                        "claude":  [
+                                                                       "github-repo-management",
+                                                                       "github-issues",
+                                                                       "github-pr-workflow",
+                                                                       "github-code-review",
+                                                                       "github-auth"
+                                                                   ],
+                                                        "hermes":  [
+                                                                       "github-repo-management",
+                                                                       "github-issues",
+                                                                       "github-pr-workflow",
+                                                                       "github-auth"
+                                                                   ]
+                                                    }
+                      },
+    "upgradePolicy":  {
+                          "unit":  "member",
+                          "action":  "review-task-only"
+                      }
+}
