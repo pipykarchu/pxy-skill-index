@@ -234,6 +234,9 @@
 
     .status-dot { display: inline-block; width: 8px; height: 8px; margin-right: 6px; border-radius: 50%; background: var(--gold); }
     .service-strip.online .status-dot { background: var(--success); }
+    .git-market-strip { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 12px 14px; border: 1px solid rgba(83, 47, 138, 0.18); border-radius: 14px; background: rgba(255, 255, 255, 0.78); color: var(--muted); font-size: 0.82rem; }
+    .git-market-strip strong { color: var(--purple-deep); }
+    .git-market-strip[hidden] { display: none; }
 
     .workflows { padding: 14px; border-bottom: 1px solid var(--line); }
     .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin-bottom: 10px; }
@@ -549,6 +552,7 @@
         <button class="nav-button" type="button" data-view="operations"><span>运营常用</span><span class="nav-count" id="operationsNavCount">0</span></button>
         <button class="nav-button" type="button" data-view="global"><span>全局基础通用</span><span class="nav-count" id="globalNavCount">0</span></button>
         <button class="nav-button" type="button" data-view="all"><span>全部技能</span><span class="nav-count" id="allNavCount">0</span></button>
+        <button class="nav-button" type="button" data-view="git-market"><span>Git 市场安装</span><span class="nav-count" id="gitMarketNavCount">0</span></button>
       </section>
       <section class="nav-section">
         <p class="nav-label">工作场景</p>
@@ -606,7 +610,13 @@
         <span>外部分享直接下载；内部分享输入密码后按项下载</span>
       </div>
 
-      <section class="workflows">
+      <section class="git-market-strip" id="gitMarketStrip" hidden>
+        <span><strong>Git 市场安装</strong>：这里列出已登记 GitHub / GitLab 出处的技能。公开网页不能读取你电脑里的版本。</span>
+        <button class="action-button" id="checkAllUpstreamsButton" type="button">一键检查更新</button>
+        <span>检查更新请打开本地工作台</span>
+      </section>
+
+      <section class="workflows" id="workflowsSection">
         <div class="section-heading">
           <div><h2>推荐工作流</h2><p>融合入口和调用顺序，底层原子技能仍可单独选择。</p></div>
           <p id="workflowVisibleCount">0 个工作流</p>
@@ -683,7 +693,7 @@
     const DOWNLOAD_DIRECTORY_DB = 'pxy-skill-download-settings-v1';
     const skillIndex = new Map(model.skills.map((skill, index) => [skill.name, index]));
     const platformNames = { codex: 'Codex', claude: 'Claude', hermes: 'Hermes' };
-    const viewLabels = { pxy: 'PXY 推荐', pm: '产品经理常用', operations: '运营常用', global: '全局基础通用', all: '全部技能' };
+    const viewLabels = { pxy: 'PXY 推荐', pm: '产品经理常用', operations: '运营常用', global: '全局基础通用', all: '全部技能', 'git-market': 'Git 市场安装' };
     const workflowDrawerMedia = window.matchMedia('(max-width: 800px)');
     let toastTimer = null;
     let workflowTrigger = null;
@@ -795,6 +805,7 @@
         if (state.view === 'pm' && !skill.pmCommon) return false;
         if (state.view === 'operations' && !skill.operationsCommon) return false;
         if (state.view === 'global' && !skill.globalCommon) return false;
+        if (state.view === 'git-market' && !skill.upstream) return false;
         if (state.scenario !== '全部场景' && skill.pmScenario !== state.scenario) return false;
         if (state.platform !== 'all' && skill.platforms[state.platform] === 'unreviewed') return false;
         if (state.packageStatus === 'external' && !skill.externalDownload) return false;
@@ -808,6 +819,7 @@
     }
 
     function visibleWorkflows() {
+      if (state.view === 'git-market') return [];
       const q = state.query.trim().toLowerCase();
       return model.workflows.filter((workflow) => {
         if (state.scenario !== '全部场景' && !workflow.scenarioGroups.includes(state.scenario)) return false;
@@ -942,6 +954,7 @@
       const pxySkills = activeSkills.filter((skill) => skill.pxyRecommended);
       const operationsSkills = activeSkills.filter((skill) => skill.operationsCommon);
       const globalSkills = activeSkills.filter((skill) => skill.globalCommon);
+      const gitMarketSkills = activeSkills.filter((skill) => skill.upstream);
       document.getElementById('totalStat').textContent = model.stats.skills;
       document.getElementById('pmStat').textContent = pmSkills.length;
       document.getElementById('workflowStat').textContent = model.stats.workflows;
@@ -951,6 +964,7 @@
       document.getElementById('operationsNavCount').textContent = operationsSkills.length;
       document.getElementById('globalNavCount').textContent = globalSkills.length;
       document.getElementById('allNavCount').textContent = activeSkills.length;
+      document.getElementById('gitMarketNavCount').textContent = gitMarketSkills.length;
     }
 
     function renderScenarios() {
@@ -1010,6 +1024,9 @@
     }
 
     function render() {
+      const gitMarketView = state.view === 'git-market';
+      document.getElementById('gitMarketStrip').hidden = !gitMarketView;
+      document.getElementById('workflowsSection').hidden = gitMarketView;
       renderWorkflows();
       renderSkills();
       document.querySelectorAll('[data-view]').forEach((button) => button.classList.toggle('active', button.dataset.view === state.view));
@@ -1490,6 +1507,7 @@
     document.getElementById('packageFilter').addEventListener('change', (event) => { state.packageStatus = event.target.value; render(); });
     document.getElementById('sourceFilter').addEventListener('change', (event) => { state.source = event.target.value; state.view = 'all'; render(); });
     document.getElementById('unlockInternalButton').addEventListener('click', unlockInternalDownloads);
+    document.getElementById('checkAllUpstreamsButton').addEventListener('click', () => showToast('公开网页不能读取你电脑里的技能版本，请打开本地工作台后再一键检查更新。'));
     document.getElementById('downloadSelectedButton').addEventListener('click', downloadSelectedItems);
     document.getElementById('chooseDownloadFolderButton').addEventListener('click', chooseDownloadFolder);
     document.getElementById('useDefaultDownloadButton').addEventListener('click', useDefaultDownloadLocation);
