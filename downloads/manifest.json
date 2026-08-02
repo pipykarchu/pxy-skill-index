@@ -1,10 +1,10 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-02T21:22:50.7190685+08:00",
+    "generatedAt":  "2026-08-02T22:08:13.9250864+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
                      "skillCount":  14,
-                     "workflowCount":  7
+                     "workflowCount":  9
                  },
     "internal":  {
                      "label":  "内部分享 · 密码保护",
@@ -16,7 +16,7 @@
                   {
                       "file":  "downloads/internal/workflows/mozin-delivery.pxy",
                       "bytes":  2696,
-                      "sha256":  "706d290cd5797efd1d84fe7b84758a61c6e18e866bdfc52c59556f9c1939a760"
+                      "sha256":  "228ed1a23d8f5d68b2aaeefda77f599d2a24a53e25641e26899e3981f7371389"
                   },
                   {
                       "file":  "downloads/skills/create-plan.zip",
@@ -119,9 +119,19 @@
                       "sha256":  "ab16cfd5c316f76367ac522051b67c8cd3f3a9f6c6dbd6b827d2896a79547850"
                   },
                   {
+                      "file":  "downloads/workflows/prd-collaboration-management.json",
+                      "bytes":  2737,
+                      "sha256":  "d0df171568971db212d5f2bffd917e29629c2de1e00adfb97c208a0ceb8abcce"
+                  },
+                  {
                       "file":  "downloads/workflows/product-definition.json",
                       "bytes":  2002,
                       "sha256":  "fafdeadc5fc601675023d860ce5ce20bae8780ed240c515bb721b93430ad44ef"
+                  },
+                  {
+                      "file":  "downloads/workflows/skill-index-management.json",
+                      "bytes":  3121,
+                      "sha256":  "b57e0172473fd5b053ae6fdf63492d7cd4299958eb8f99e38bd0948ec65b9f45"
                   }
               ]
 }

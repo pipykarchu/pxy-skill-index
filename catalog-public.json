@@ -1,14 +1,14 @@
 {
-    "generatedAt":  "2026-08-02T21:22:51.1147631+08:00",
+    "generatedAt":  "2026-08-02T22:08:14.3657778+08:00",
     "total":  290,
     "downloadable":  14,
-    "workflows":  8,
+    "workflows":  10,
     "downloadCenter":  {
                            "version":  2,
                            "external":  {
                                             "label":  "外部分享 · 免密",
                                             "skillCount":  14,
-                                            "workflowCount":  7
+                                            "workflowCount":  9
                                         },
                            "internal":  {
                                             "label":  "内部分享 · 密码保护",
@@ -442,7 +442,7 @@
                        "name":  "control-in-app-browser",
                        "category":  "02-调研与知识管理",
                        "pmScenario":  "调研与分析",
-                       "pmCommon":  false,
+                       "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
@@ -683,7 +683,7 @@
                        "name":  "collaborative-product-platform-design",
                        "category":  "03-原型设计与视觉",
                        "pmScenario":  "原型与设计",
-                       "pmCommon":  false,
+                       "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
@@ -2454,7 +2454,7 @@
                        "name":  "lark-drive-bulk-upload",
                        "category":  "05-办公协同与飞书",
                        "pmScenario":  "办公与飞书",
-                       "pmCommon":  false,
+                       "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  true,
@@ -3909,7 +3909,7 @@
                        "name":  "github-repo-management",
                        "category":  "06-项目推进与工程化交付",
                        "pmScenario":  "项目推进",
-                       "pmCommon":  false,
+                       "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
@@ -6296,7 +6296,7 @@
                        "name":  "project-handoff-core",
                        "category":  "06-项目推进与工程化交付",
                        "pmScenario":  "项目推进",
-                       "pmCommon":  false,
+                       "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  true,
                        "pxyRecommended":  true,
@@ -11045,7 +11045,7 @@
                        "name":  "local-skill-inventory",
                        "category":  "09-Agent与自动化",
                        "pmScenario":  "Agent 与自动化",
-                       "pmCommon":  false,
+                       "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
@@ -11552,7 +11552,7 @@
                        "name":  "skill-management-workbench",
                        "category":  "09-Agent与自动化",
                        "pmScenario":  "Agent 与自动化",
-                       "pmCommon":  false,
+                       "pmCommon":  true,
                        "operationsCommon":  false,
                        "globalCommon":  false,
                        "pxyRecommended":  false,
@@ -11567,7 +11567,7 @@
                        "upstream":  null,
                        "path":  "skills/09-Agent与自动化/skill-management-workbench",
                        "skillFile":  "skills/09-Agent与自动化/skill-management-workbench/SKILL.md",
-                       "sha256":  "4b19f63b2c4bc4e269e0e993f81172019f2f9d222a3e9e739d2e8c46bfaf6c73",
+                       "sha256":  "254d5e57086d72eaa504c405b8c01f56bedb051350a5dad257e11143a89e7dab",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -11718,6 +11718,136 @@
                                                              "kind":  "workflow",
                                                              "protected":  false,
                                                              "sha256":  "fafdeadc5fc601675023d860ce5ce20bae8780ed240c515bb721b93430ad44ef"
+                                                         },
+                                    "internalDownload":  null
+                                },
+                                {
+                                    "id":  "prd-collaboration-management",
+                                    "title":  "PRD 协作平台管理",
+                                    "entrySkill":  "prd-writer-agent",
+                                    "members":  [
+                                                    "prd-writer-agent",
+                                                    "product-planning-workflow",
+                                                    "collaborative-product-platform-design",
+                                                    "product-delivery-workflow",
+                                                    "project-handoff-core"
+                                                ],
+                                    "conditionalMembers":  [
+
+                                                           ],
+                                    "sequence":  [
+                                                     "prd-writer-agent",
+                                                     "product-planning-workflow",
+                                                     "collaborative-product-platform-design",
+                                                     "product-delivery-workflow",
+                                                     "project-handoff-core"
+                                                 ],
+                                    "pmScenarios":  [
+                                                        "PRD 协作",
+                                                        "平台管理",
+                                                        "评审",
+                                                        "版本管理",
+                                                        "研发交接"
+                                                    ],
+                                    "scenarioGroups":  [
+                                                           "项目推进",
+                                                           "需求与 PRD",
+                                                           "原型与设计"
+                                                       ],
+                                    "platformRules":  {
+                                                          "codex":  "supported",
+                                                          "claude":  "supported",
+                                                          "hermes":  "supported"
+                                                      },
+                                    "packageMode":  "workflow",
+                                    "sharePolicy":  "review-required",
+                                    "usageSteps":  [
+                                                       "用 prd-writer-agent 创建或更新正式 PRD，先明确文档状态和待确认问题。",
+                                                       "用 product-planning-workflow 确定参与人、权限、协作平台、资料目录和评审规则。",
+                                                       "需要自建平台时，用 collaborative-product-platform-design 设计编辑、评论、版本、权限和备份能力。",
+                                                       "用 product-delivery-workflow 收集评审意见、合并修改、明确确认结论并完成研发交接。",
+                                                       "用 project-handoff-core 记录当前版本、已完成评审、未决问题、下一步和踩坑，方便下次继续。"
+                                                   ],
+                                    "prompt":  "这是当前 PRD、参与人和项目阶段，请帮我把 PRD 放进协作平台持续管理，安排权限、评审、版本定稿和研发交接，并记录下一步与未决问题。",
+                                    "summary":  "适合 PRD 已经开始编写、需要放进协作平台持续评审时使用，把文档、评论、版本和研发交接放在同一条流程里管理。",
+                                    "outcome":  "交付协作平台中的正式 PRD、参与人与权限、评审意见、版本记录、确认结论，以及研发可以接手的交接材料。",
+                                    "publicDownloadable":  true,
+                                    "businessScope":  "external",
+                                    "internalDownloadable":  false,
+                                    "externalDownload":  {
+                                                             "file":  "downloads/workflows/prd-collaboration-management.json",
+                                                             "downloadName":  "prd-collaboration-management.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  false,
+                                                             "sha256":  "d0df171568971db212d5f2bffd917e29629c2de1e00adfb97c208a0ceb8abcce"
+                                                         },
+                                    "internalDownload":  null
+                                },
+                                {
+                                    "id":  "skill-index-management",
+                                    "title":  "技能索引管理与发布",
+                                    "entrySkill":  "skill-management-workbench",
+                                    "members":  [
+                                                    "local-skill-inventory",
+                                                    "skill-management-workbench",
+                                                    "verification-before-completion",
+                                                    "control-in-app-browser",
+                                                    "github-repo-management",
+                                                    "lark-drive-bulk-upload",
+                                                    "project-handoff-core"
+                                                ],
+                                    "conditionalMembers":  [
+
+                                                           ],
+                                    "sequence":  [
+                                                     "local-skill-inventory",
+                                                     "skill-management-workbench",
+                                                     "verification-before-completion",
+                                                     "control-in-app-browser",
+                                                     "github-repo-management",
+                                                     "lark-drive-bulk-upload",
+                                                     "project-handoff-core"
+                                                 ],
+                                    "pmScenarios":  [
+                                                        "技能整理",
+                                                        "索引生成",
+                                                        "分享发布",
+                                                        "Git 同步",
+                                                        "飞书交付"
+                                                    ],
+                                    "scenarioGroups":  [
+                                                           "Agent 与自动化",
+                                                           "办公与飞书",
+                                                           "调研与分析",
+                                                           "项目推进",
+                                                           "研发与验收"
+                                                       ],
+                                    "platformRules":  {
+                                                          "codex":  "supported",
+                                                          "claude":  "local-resolved",
+                                                          "hermes":  "local-resolved"
+                                                      },
+                                    "packageMode":  "platform-resolved",
+                                    "sharePolicy":  "review-required",
+                                    "usageSteps":  [
+                                                       "盘点中央技能库、Lab 和各平台来源，确认新增、移动、重复、上游出处和分享权限。",
+                                                       "用 skill-management-workbench 重建 catalog、技能说明、本地工作台和公开分享页面，不手改生成产物。",
+                                                       "运行数据、页面、打包和安全测试，再用内置浏览器确认推荐、详情、下载和响应式界面。",
+                                                       "只提交本次相关文件，分别推送完整源码和公开站点，并确认本地与远端一致。",
+                                                       "更新交付包并同步飞书，回读清单和哈希；最后把进度、下一步、阻塞和踩坑写入 handoff。"
+                                                   ],
+                                    "prompt":  "请按技能索引管理与发布工作流处理本次技能变化：盘点来源与权限，重建并测试索引，浏览器验收，推送源码和公开站点，同步交付包与飞书，最后更新 handoff。",
+                                    "summary":  "适合新增、移动或更新技能后使用，把中央技能库重新盘点、生成网页、验证、发布和同步交付一次做完整。",
+                                    "outcome":  "交付更新后的技能目录、本地工作台、公开分享网页、测试与浏览器验收证据、Git 提交、飞书交付包和可继续工作的 handoff。",
+                                    "publicDownloadable":  true,
+                                    "businessScope":  "external",
+                                    "internalDownloadable":  false,
+                                    "externalDownload":  {
+                                                             "file":  "downloads/workflows/skill-index-management.json",
+                                                             "downloadName":  "skill-index-management.json",
+                                                             "kind":  "workflow",
+                                                             "protected":  false,
+                                                             "sha256":  "b57e0172473fd5b053ae6fdf63492d7cd4299958eb8f99e38bd0948ec65b9f45"
                                                          },
                                     "internalDownload":  null
                                 },
