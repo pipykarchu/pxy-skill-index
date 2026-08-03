@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-03T18:56:22.3209090+08:00",
+    "generatedAt":  "2026-08-04T01:37:41.2950045+08:00",
     "total":  293,
     "downloadable":  13,
     "workflows":  10,
@@ -14521,7 +14521,7 @@
                        "upstream":  null,
                        "path":  "skills/09-Agent与自动化/skill-management-workbench",
                        "skillFile":  "skills/09-Agent与自动化/skill-management-workbench/SKILL.md",
-                       "sha256":  "12c5d375a82098626b2eecfe36be45f7c63249c16298e5b7b9ceaa7e6943c884",
+                       "sha256":  "0c64dfd0b587c989f6b78c7f33441e796c4d037e3d9e554ce90524f1c06d9c0b",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "familyId":  null,
@@ -15442,7 +15442,7 @@
                                                      "downloadName":  "product-prd-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "85243c31397dff329eb1d1ecf2cb2abc8dc1acb2c861ec0f67b665e33b5f2adc",
+                                                     "sha256":  "0b41ed77ca569763329dda51e931ad8bead79336be661f4ca2a4b1d0b512455d",
                                                      "included":  0,
                                                      "blocked":  5
                                                  },
@@ -15451,7 +15451,7 @@
                                                   "downloadName":  "product-prd-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "704c5a0505b4e90f31cb6080fc569e6c9bcbf5927974d9ce2e3bac63fe0fdff2",
+                                                  "sha256":  "0e173238c2e935678acbdd656a1d17b54d2163ba6fc4defc05303acfc0bc0f41",
                                                   "included":  0,
                                                   "blocked":  5
                                               }
@@ -15704,7 +15704,7 @@
                                                      "downloadName":  "office-documents-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "f89059c38f46b3c2274cb4659e5352eb3e2c508e11bb5953fde1ec20178f05bb",
+                                                     "sha256":  "effbb03ee9727356335737872860b2cee63fc05aa5e570c1d3e45d8ce9025e50",
                                                      "included":  1,
                                                      "blocked":  5
                                                  },
@@ -15713,7 +15713,7 @@
                                                   "downloadName":  "office-documents-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "9ff98d3f9f757a6cf097d87970368b4fd4343a94e0b7b4aed322c1b0c1f8235d",
+                                                  "sha256":  "fed88188b51905de315335b082f0d72b178652994ed56689713b5989074d9736",
                                                   "included":  1,
                                                   "blocked":  6
                                               }
@@ -15858,7 +15858,7 @@
                                                      "downloadName":  "figma-workbench-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "f35b1c65cee8844a23ee798974dbf5dd6de94f48ceb1922a0b3248ff4849ea17",
+                                                     "sha256":  "bf8b9841dc793c8439ac2131364df5c9bb692976a7df3614f8bfeab4446ed7bf",
                                                      "included":  0,
                                                      "blocked":  3
                                                  },
@@ -15867,7 +15867,7 @@
                                                   "downloadName":  "figma-workbench-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "464e5ea60bbf48a4a248cc10516380d21a4505407b3fb32a1f7a1dfa30d2d5f8",
+                                                  "sha256":  "7317198b0cac27b258b3a87060710b4489b53f9e76a0b439871f6a939e88c42a",
                                                   "included":  0,
                                                   "blocked":  3
                                               }
@@ -16712,7 +16712,7 @@
                                                      "downloadName":  "feishu-office-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "e4c427b2a981a413c5427935932f0a6c4015bdc17331c8bfa0caaf55ce5b3e26",
+                                                     "sha256":  "d76b5ac39c0dd2cd9c6754f9c13595cc504a19685e5ac5fa4b29dc722fc40f3a",
                                                      "included":  0,
                                                      "blocked":  8
                                                  },
@@ -16721,7 +16721,7 @@
                                                   "downloadName":  "feishu-office-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "aab884d86222a2bc2d10d2506aab0f43884f8f74541eae9f4f03c5caf79466b6",
+                                                  "sha256":  "0816563e2c20fc026a7e7f37e4f4680ce0ff6c8c36188588e6eac81e4e53bcbb",
                                                   "included":  0,
                                                   "blocked":  38
                                               }
@@ -16967,7 +16967,7 @@
                                                      "downloadName":  "github-project-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "e520fea8632e5ed76580713f14606303e0f4cf3947eb7d200b840bd3dbffc585",
+                                                     "sha256":  "ecc5f033554724ef5d068986c132f5dedc7664d3719492cc895a223be59c50d8",
                                                      "included":  0,
                                                      "blocked":  5
                                                  },
@@ -16976,7 +16976,7 @@
                                                   "downloadName":  "github-project-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "5495a7ba58d34b2f883f6c3ad8ce9f75663644784ceb3f722dcb6fcc067cba24",
+                                                  "sha256":  "c07bc13767ef60f3e139d40c1d3f3c676debb7a561ef70e35dbb68e0ecf8105a",
                                                   "included":  0,
                                                   "blocked":  7
                                               }
@@ -18112,7 +18112,7 @@
                                                      "downloadName":  "gstack-suite-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "006aba10cdba7375578707419555f1fd86634eb9deb7958ef55b81e42b6e5856",
+                                                     "sha256":  "2e74b9c2345ae871a6fbdaccb7564a3ab96d6390b509aff7eb09a1427a32e794",
                                                      "included":  0,
                                                      "blocked":  1
                                                  },
@@ -18121,10 +18121,39 @@
                                                   "downloadName":  "gstack-suite-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "f28a552c29b0daacdf38e6e304eecb7612d26efd028153252e9079d569322971",
+                                                  "sha256":  "e2b19fa38cba856fd5f6dbd0f6eca8f3e81c6f4dd2e879880c815b2a285c69f9",
                                                   "included":  0,
                                                   "blocked":  54
                                               }
                      }
-                 ]
+                 ],
+    "gitMarketProjects":  [
+                              {
+                                  "id":  "mv-study",
+                                  "name":  "B站视频 AI 学习助手",
+                                  "description":  "把 B 站视频片段或本地音视频整理成带时间戳的逐字稿、人物区分、学习纲要、脑图和 PPT 大纲。",
+                                  "provider":  "github",
+                                  "repository":  "https://github.com/pipykarchu/MV-study",
+                                  "ref":  "main",
+                                  "private":  true,
+                                  "itemType":  "project",
+                                  "installType":  "git-clone",
+                                  "registeredCommit":  "28ce5ced5b61bf65426d445b8d89762bc94dcfd7",
+                                  "requirements":  [
+                                                       "Node.js 18 或更高版本",
+                                                       "Git 和该私有仓库的 GitHub 访问权限",
+                                                       "处理真实音视频时需要 ffmpeg",
+                                                       "处理 B 站或其他网页视频时还需要 yt-dlp"
+                                                   ],
+                                  "installCommands":  [
+                                                          "git clone https://github.com/pipykarchu/MV-study.git",
+                                                          "cd MV-study",
+                                                          ".\\start.bat"
+                                                      ],
+                                  "startCommand":  ".\\start.bat",
+                                  "accessNote":  "这是私有 GitHub 仓库。打开仓库或克隆项目前，需要使用有权限的 GitHub 账号登录。",
+                                  "updateNote":  "检查更新只读取远端 main 分支版本。发现新版本后，请在项目仓库里拉取、验证和调试；技能索引不会自动覆盖项目文件。",
+                                  "packageable":  false
+                              }
+                          ]
 }
