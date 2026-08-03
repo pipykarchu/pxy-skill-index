@@ -16,7 +16,7 @@
                         "name":  "pm-workflow-router",
                         "role":  "判断当前阶段并选择需要的产品能力",
                         "visibility":  "entry",
-                        "descriptionZh":  "MUST use for 产品/PRD/Mozin/飞书/墨刀/工程交付 tasks on Hermes; routes to the best installed Skill and announces platform, purpose, and limits.",
+                        "descriptionZh":  "MUST use for 产品/PRD/Mozin/飞书/墨刀/工程交付 tasks on Hermes; routes to the best installed Skill and announces platform, purpose, and limits. Triggers on \u0027写PRD\u0027, \u0027走交付流程\u0027, \u0027产品梳理\u0027, \u0027做原型\u0027, \u0027墨刀生成\u0027, \u0027飞书需求\u0027, \u0027交付包\u0027, \u0027产品工程化\u0027, \u0027需求分析\u0027, \u0027竞品分析\u0027, \u0027验收标准\u0027. NOT for pure coding/debugging (use systematic-debugging), git operations (use github-pr-workflow), or daily reports (use daily-report-mozin).",
                         "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 pm-workflow-router，给出执行计划并推进到可验收。",
                         "lifecycle":  "active",
                         "supersededBy":  null,
