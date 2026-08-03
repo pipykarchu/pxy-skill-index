@@ -51,7 +51,7 @@
                         "name":  "figma-implement-design",
                         "role":  "把 Figma 设计还原为项目代码",
                         "visibility":  "module",
-                        "descriptionZh":  "制作原型、设计稿或交互动效",
+                        "descriptionZh":  "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions implement design, generate code, implement component, provides Figma URLs, or asks to build components matching Figma specs. NOT for 墨刀原型生成 (use modao-mcp), Figma canvas writes (use figma-use), or PRD撰写 (use prd-writer-agent).",
                         "usage":  "制作原型、设计稿或交互动效；对 AI 说：请使用 figma-implement-design，按现有产品风格完成这个页面。",
                         "lifecycle":  "active",
                         "supersededBy":  null,

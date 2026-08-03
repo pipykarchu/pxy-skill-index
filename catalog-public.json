@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-03T16:25:54.1820731+08:00",
+    "generatedAt":  "2026-08-03T17:10:06.5867899+08:00",
     "total":  293,
     "downloadable":  13,
     "workflows":  10,
@@ -1016,8 +1016,8 @@
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
-                       "description":  "Use when working with implement design.",
-                       "descriptionZh":  "制作原型、设计稿或交互动效",
+                       "description":  "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions implement design, generate code, implement component, provides Figma URLs, or asks to build components matching Figma specs. NOT for 墨刀原型生成 (use modao-mcp), Figma canvas writes (use figma-use), or PRD撰写 (use prd-writer-agent).",
+                       "descriptionZh":  "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions implement design, generate code, implement component, provides Figma URLs, or asks to build components matching Figma specs. NOT for 墨刀原型生成 (use modao-mcp), Figma canvas writes (use figma-use), or PRD撰写 (use prd-writer-agent).",
                        "usage":  "制作原型、设计稿或交互动效；对 AI 说：请使用 figma-implement-design，按现有产品风格完成这个页面。",
                        "explanation":  null,
                        "comparisons":  [
@@ -1026,7 +1026,7 @@
                        "upstream":  null,
                        "path":  "skills/03-原型设计与视觉/figma-implement-design",
                        "skillFile":  "skills/03-原型设计与视觉/figma-implement-design/SKILL.md",
-                       "sha256":  "0351e96b8f8acc90873dde9375a6e23f0c9692846404430f8ae068eed1cff2dc",
+                       "sha256":  "a07bac2d1e17dd3597ca4a29f5e187ed983181a07356b1cb039ec65334ef269d",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "familyId":  "figma-workbench",
@@ -8457,7 +8457,7 @@
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
-                       "description":  "Use when you have a spec or requirements for a multi-step task, before touching code",
+                       "description":  "Use when you have a spec or requirements for a multi-step implementation task, before touching code. Produces detailed step-by-step plan with review gates. NOT for simple single-step coding plans (use create-plan), executing an existing plan (use executing-plans), or product roadmap planning (use product-planning-workflow).",
                        "descriptionZh":  "拆任务、推进项目或管理协作流程",
                        "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 writing-plans，给出执行计划并推进到可验收。",
                        "explanation":  null,
@@ -8467,7 +8467,7 @@
                        "upstream":  null,
                        "path":  "skills/06-项目推进与工程化交付/writing-plans",
                        "skillFile":  "skills/06-项目推进与工程化交付/writing-plans/SKILL.md",
-                       "sha256":  "63c7ddf50723f1e55f2145b581efd013b9c7922b11ff55578b3370b96f626cfa",
+                       "sha256":  "ccb5d0035c378115c38db24c955eadbde57aa9774c0862ea960e9f2c501703d0",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "familyId":  null,
@@ -11943,8 +11943,8 @@
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
-                       "description":  "Use when the user wants to run an end-to-end 0-1 AI 漫剧 production workflow, coordinate PRD, SOP, character bible, screenplay, character casting/turnaround sheets, scene art, locked props/locations, storyboard scripts, AI image prompts, 人景合一 shot fusion, video generation, workflow dashboards, batch exports, and quality checks by invoking prd-writer-agent, screenplay-director, dingzhuangzao, changjingmeishu, script-to-storyboard, storyboard-image-prompts, renjingheyi, and manju-workflow-dashboard in order.",
-                       "descriptionZh":  "Use when the user wants to run an end-to-end 0-1 AI 漫剧 production workflow, coordinate PRD, SOP, character bible, screenplay, character casting/turnaround sheets, scene art, locked props/locations, storyboard scripts, AI image prompts, 人景合一 shot fusion, video generation, workflow dashboards, batch exports, and quality checks by invoking prd-writer-agent, screenplay-director, dingzhuangzao, changjingmeishu, script-to-storyboard, storyboard-image-prompts, renjingheyi, and manju-workflow-dashboard in order.",
+                       "description":  "Use when the user wants to run an end-to-end 0-1 AI 漫剧 production workflow. NOT for Mozin APP产品交付 (use mozin-product-delivery), PRD撰写 (use prd-writer-agent), or 非漫剧的产品工程化 (use mozin-product-delivery-pxy).",
+                       "descriptionZh":  "Use when the user wants to run an end-to-end 0-1 AI 漫剧 production workflow. NOT for Mozin APP产品交付 (use mozin-product-delivery), PRD撰写 (use prd-writer-agent), or 非漫剧的产品工程化 (use mozin-product-delivery-pxy).",
                        "usage":  "生产图片、音视频、剧本或漫剧资产；对 AI 说：请使用 manju-production-workflow，基于这些素材生成可用成品。",
                        "explanation":  null,
                        "comparisons":  [
@@ -11953,7 +11953,7 @@
                        "upstream":  null,
                        "path":  "skills/08-内容与媒体生产/manju-production-workflow",
                        "skillFile":  "skills/08-内容与媒体生产/manju-production-workflow/SKILL.md",
-                       "sha256":  "8d65950f73bf54b9dea465e4b57d88278d43982000ed06f419edd03630e970da",
+                       "sha256":  "d079654128006f37a12edc6d642d1cb81ba4aa1071d52509ea65e78b005d4568",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "familyId":  null,
@@ -14521,7 +14521,7 @@
                        "upstream":  null,
                        "path":  "skills/09-Agent与自动化/skill-management-workbench",
                        "skillFile":  "skills/09-Agent与自动化/skill-management-workbench/SKILL.md",
-                       "sha256":  "10d434a2a19ee03a83310007dd1865b42aa561b2653238c8ff3754f2d76d7bba",
+                       "sha256":  "390eeb8e04f7bd1a483fe186679ec5d7583e6eef41acf471e80a8873a707e9f7",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "familyId":  null,
@@ -15442,7 +15442,7 @@
                                                      "downloadName":  "product-prd-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "0ced61f78c5a6a0806b4e74e8fd3c5a2739f3717dd3a0746a8edd5f7ae2cbad9",
+                                                     "sha256":  "a1a7cebc54a9ba6b161b1f6cd41758059a976ae94c50a3533a6ff3c9f0f4ebfb",
                                                      "included":  0,
                                                      "blocked":  5
                                                  },
@@ -15451,7 +15451,7 @@
                                                   "downloadName":  "product-prd-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "54e54151fc6d5df42b010a287cc8719e17a8f0c73d4fdc55ba44ad82ccc2e96a",
+                                                  "sha256":  "ec832649eff61b6c134a1cc73762f6263e753f5429dac7ec86c301a2164621bf",
                                                   "included":  0,
                                                   "blocked":  5
                                               }
@@ -15704,7 +15704,7 @@
                                                      "downloadName":  "office-documents-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "025da5d806e76fc3d165c013614f0270da1ff241b88f2a6924551ecd0b8b506f",
+                                                     "sha256":  "f3503e9f7f400b3afb3c3b04ec692335bfac98ec7eb386d60780ffc620afd762",
                                                      "included":  1,
                                                      "blocked":  5
                                                  },
@@ -15713,7 +15713,7 @@
                                                   "downloadName":  "office-documents-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "68ca91fd1d47dbaed902c214c46840fb033f771aaa0e424f40126f25d33a120c",
+                                                  "sha256":  "2937232f823142eac8ea88c04c2925713e397aad8874ace80cce1303a9063e7a",
                                                   "included":  1,
                                                   "blocked":  6
                                               }
@@ -15772,7 +15772,7 @@
                                              "name":  "figma-implement-design",
                                              "role":  "把 Figma 设计还原为项目代码",
                                              "visibility":  "module",
-                                             "descriptionZh":  "制作原型、设计稿或交互动效",
+                                             "descriptionZh":  "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions implement design, generate code, implement component, provides Figma URLs, or asks to build components matching Figma specs. NOT for 墨刀原型生成 (use modao-mcp), Figma canvas writes (use figma-use), or PRD撰写 (use prd-writer-agent).",
                                              "usage":  "制作原型、设计稿或交互动效；对 AI 说：请使用 figma-implement-design，按现有产品风格完成这个页面。",
                                              "lifecycle":  "active",
                                              "supersededBy":  null,
@@ -15851,14 +15851,14 @@
                                                "downloadName":  "figma-workbench-entry.json",
                                                "kind":  "family-definition",
                                                "protected":  false,
-                                               "sha256":  "9d4af0942056121f9a65203a28fbfaefd7368fa135a7aeccac71c8007ee6dd85"
+                                               "sha256":  "d597794138303eb194d0af63a1e8537e4709427f51504d69170b1e7c195c49be"
                                            },
                          "recommendedDownload":  {
                                                      "file":  "downloads/families/figma-workbench-recommended.zip",
                                                      "downloadName":  "figma-workbench-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "0add7d2c5a417ed8ca1c49dd4c3f989a3d28030f3c1513c38a46e87bac8a23df",
+                                                     "sha256":  "299bc8447f5f0286567a810bea5ad31ba005272fd7f54cae4a7f7c339fbe2c02",
                                                      "included":  0,
                                                      "blocked":  3
                                                  },
@@ -15867,7 +15867,7 @@
                                                   "downloadName":  "figma-workbench-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "96e4954b29a202243874bb982aa0ab49592840f686cc0b0ba6d4037a764305a4",
+                                                  "sha256":  "ea1fa33563f9e91a48abc718c664ccf019ae4a4ce0438a0ce268c7f9c8ab7bd6",
                                                   "included":  0,
                                                   "blocked":  3
                                               }
@@ -16712,7 +16712,7 @@
                                                      "downloadName":  "feishu-office-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "605f4176836575d2337a92dca447d10ed0e3f35f6d4848032e3f64aec4a57cac",
+                                                     "sha256":  "07d15a1a2b9782e419bbd245ae9ecd244ac00a18f8060dce5ac1595299087f3f",
                                                      "included":  0,
                                                      "blocked":  8
                                                  },
@@ -16721,7 +16721,7 @@
                                                   "downloadName":  "feishu-office-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "3c4fe82e726d42247f7c661a0e0880d22fe15cf47883b008e350e9688c63d57c",
+                                                  "sha256":  "527ec0097703ab3a9330188e038fd560e918b3f25dd6e5ad14191d83bc3ee0ca",
                                                   "included":  0,
                                                   "blocked":  38
                                               }
@@ -16967,7 +16967,7 @@
                                                      "downloadName":  "github-project-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "e3c64fb36328e349b3b3cbfb4c47d45a9f2bcbedc6948d9d0ce47d6d754fc890",
+                                                     "sha256":  "7146b58919fb064ab8fda64e27415f819e0174b087215f986f931a2df3613229",
                                                      "included":  0,
                                                      "blocked":  5
                                                  },
@@ -16976,7 +16976,7 @@
                                                   "downloadName":  "github-project-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "e5cae36f909cd44ac5950552c5ad26a0aba1211a76a821c629b8a8be04d29194",
+                                                  "sha256":  "59c9a9974189501d584473141dfb85315805334b9a180a7547f7062406f12aae",
                                                   "included":  0,
                                                   "blocked":  7
                                               }
@@ -18112,7 +18112,7 @@
                                                      "downloadName":  "gstack-suite-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "65ce6248e6fae9358c60c2e5de88d1db43bcd9d4dd0798c53103edb4176b8cbf",
+                                                     "sha256":  "7b3b8cb3438981ba01859d61b2244a731c98539152dc127eabd70d44ab6be37c",
                                                      "included":  0,
                                                      "blocked":  1
                                                  },
@@ -18121,7 +18121,7 @@
                                                   "downloadName":  "gstack-suite-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "cd9f2adac71ba08ca8aac1454571c2408eb6f31b99ec2189265a42344b4486ea",
+                                                  "sha256":  "238ccb1a138c53683097ba172e4fe1388f26bc312ed60bd2d7b909fe007a77e8",
                                                   "included":  0,
                                                   "blocked":  54
                                               }
