@@ -1,6 +1,6 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-03T17:10:06.2320807+08:00",
+    "generatedAt":  "2026-08-03T18:56:21.9340677+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
                      "skillCount":  13,
@@ -16,7 +16,7 @@
                   {
                       "file":  "downloads/families/feishu-office-complete.zip",
                       "bytes":  826,
-                      "sha256":  "527ec0097703ab3a9330188e038fd560e918b3f25dd6e5ad14191d83bc3ee0ca"
+                      "sha256":  "aab884d86222a2bc2d10d2506aab0f43884f8f74541eae9f4f03c5caf79466b6"
                   },
                   {
                       "file":  "downloads/families/feishu-office-entry.json",
@@ -26,12 +26,12 @@
                   {
                       "file":  "downloads/families/feishu-office-recommended.zip",
                       "bytes":  547,
-                      "sha256":  "07d15a1a2b9782e419bbd245ae9ecd244ac00a18f8060dce5ac1595299087f3f"
+                      "sha256":  "e4c427b2a981a413c5427935932f0a6c4015bdc17331c8bfa0caaf55ce5b3e26"
                   },
                   {
                       "file":  "downloads/families/figma-workbench-complete.zip",
                       "bytes":  449,
-                      "sha256":  "ea1fa33563f9e91a48abc718c664ccf019ae4a4ce0438a0ce268c7f9c8ab7bd6"
+                      "sha256":  "464e5ea60bbf48a4a248cc10516380d21a4505407b3fb32a1f7a1dfa30d2d5f8"
                   },
                   {
                       "file":  "downloads/families/figma-workbench-entry.json",
@@ -41,12 +41,12 @@
                   {
                       "file":  "downloads/families/figma-workbench-recommended.zip",
                       "bytes":  453,
-                      "sha256":  "299bc8447f5f0286567a810bea5ad31ba005272fd7f54cae4a7f7c339fbe2c02"
+                      "sha256":  "f35b1c65cee8844a23ee798974dbf5dd6de94f48ceb1922a0b3248ff4849ea17"
                   },
                   {
                       "file":  "downloads/families/github-project-complete.zip",
                       "bytes":  549,
-                      "sha256":  "59c9a9974189501d584473141dfb85315805334b9a180a7547f7062406f12aae"
+                      "sha256":  "5495a7ba58d34b2f883f6c3ad8ce9f75663644784ceb3f722dcb6fcc067cba24"
                   },
                   {
                       "file":  "downloads/families/github-project-entry.json",
@@ -56,12 +56,12 @@
                   {
                       "file":  "downloads/families/github-project-recommended.zip",
                       "bytes":  483,
-                      "sha256":  "7146b58919fb064ab8fda64e27415f819e0174b087215f986f931a2df3613229"
+                      "sha256":  "e520fea8632e5ed76580713f14606303e0f4cf3947eb7d200b840bd3dbffc585"
                   },
                   {
                       "file":  "downloads/families/gstack-suite-complete.zip",
                       "bytes":  810,
-                      "sha256":  "238ccb1a138c53683097ba172e4fe1388f26bc312ed60bd2d7b909fe007a77e8"
+                      "sha256":  "f28a552c29b0daacdf38e6e304eecb7612d26efd028153252e9079d569322971"
                   },
                   {
                       "file":  "downloads/families/gstack-suite-entry.json",
@@ -71,12 +71,12 @@
                   {
                       "file":  "downloads/families/gstack-suite-recommended.zip",
                       "bytes":  416,
-                      "sha256":  "7b3b8cb3438981ba01859d61b2244a731c98539152dc127eabd70d44ab6be37c"
+                      "sha256":  "006aba10cdba7375578707419555f1fd86634eb9deb7958ef55b81e42b6e5856"
                   },
                   {
                       "file":  "downloads/families/office-documents-complete.zip",
                       "bytes":  10163,
-                      "sha256":  "2937232f823142eac8ea88c04c2925713e397aad8874ace80cce1303a9063e7a"
+                      "sha256":  "9ff98d3f9f757a6cf097d87970368b4fd4343a94e0b7b4aed322c1b0c1f8235d"
                   },
                   {
                       "file":  "downloads/families/office-documents-entry.json",
@@ -86,12 +86,12 @@
                   {
                       "file":  "downloads/families/office-documents-recommended.zip",
                       "bytes":  10158,
-                      "sha256":  "f3503e9f7f400b3afb3c3b04ec692335bfac98ec7eb386d60780ffc620afd762"
+                      "sha256":  "f89059c38f46b3c2274cb4659e5352eb3e2c508e11bb5953fde1ec20178f05bb"
                   },
                   {
                       "file":  "downloads/families/product-prd-complete.zip",
                       "bytes":  535,
-                      "sha256":  "ec832649eff61b6c134a1cc73762f6263e753f5429dac7ec86c301a2164621bf"
+                      "sha256":  "704c5a0505b4e90f31cb6080fc569e6c9bcbf5927974d9ce2e3bac63fe0fdff2"
                   },
                   {
                       "file":  "downloads/families/product-prd-entry.json",
@@ -101,12 +101,12 @@
                   {
                       "file":  "downloads/families/product-prd-recommended.zip",
                       "bytes":  540,
-                      "sha256":  "a1a7cebc54a9ba6b161b1f6cd41758059a976ae94c50a3533a6ff3c9f0f4ebfb"
+                      "sha256":  "85243c31397dff329eb1d1ecf2cb2abc8dc1acb2c861ec0f67b665e33b5f2adc"
                   },
                   {
                       "file":  "downloads/internal/workflows/mozin-delivery.pxy",
                       "bytes":  2696,
-                      "sha256":  "9d7b32e7edce7fc70e41f09ffc9b89075fee6674f1e90783b0d96ba100b18f97"
+                      "sha256":  "77c66303bfd76f20d0e91acc8860aba714158506dbc57568d1ffa6b9113b20ec"
                   },
                   {
                       "file":  "downloads/skills/create-plan.zip",

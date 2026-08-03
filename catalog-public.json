@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-03T17:10:06.5867899+08:00",
+    "generatedAt":  "2026-08-03T18:56:22.3209090+08:00",
     "total":  293,
     "downloadable":  13,
     "workflows":  10,
@@ -14521,7 +14521,7 @@
                        "upstream":  null,
                        "path":  "skills/09-Agent与自动化/skill-management-workbench",
                        "skillFile":  "skills/09-Agent与自动化/skill-management-workbench/SKILL.md",
-                       "sha256":  "390eeb8e04f7bd1a483fe186679ec5d7583e6eef41acf471e80a8873a707e9f7",
+                       "sha256":  "12c5d375a82098626b2eecfe36be45f7c63249c16298e5b7b9ceaa7e6943c884",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "familyId":  null,
@@ -15442,7 +15442,7 @@
                                                      "downloadName":  "product-prd-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "a1a7cebc54a9ba6b161b1f6cd41758059a976ae94c50a3533a6ff3c9f0f4ebfb",
+                                                     "sha256":  "85243c31397dff329eb1d1ecf2cb2abc8dc1acb2c861ec0f67b665e33b5f2adc",
                                                      "included":  0,
                                                      "blocked":  5
                                                  },
@@ -15451,7 +15451,7 @@
                                                   "downloadName":  "product-prd-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "ec832649eff61b6c134a1cc73762f6263e753f5429dac7ec86c301a2164621bf",
+                                                  "sha256":  "704c5a0505b4e90f31cb6080fc569e6c9bcbf5927974d9ce2e3bac63fe0fdff2",
                                                   "included":  0,
                                                   "blocked":  5
                                               }
@@ -15704,7 +15704,7 @@
                                                      "downloadName":  "office-documents-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "f3503e9f7f400b3afb3c3b04ec692335bfac98ec7eb386d60780ffc620afd762",
+                                                     "sha256":  "f89059c38f46b3c2274cb4659e5352eb3e2c508e11bb5953fde1ec20178f05bb",
                                                      "included":  1,
                                                      "blocked":  5
                                                  },
@@ -15713,7 +15713,7 @@
                                                   "downloadName":  "office-documents-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "2937232f823142eac8ea88c04c2925713e397aad8874ace80cce1303a9063e7a",
+                                                  "sha256":  "9ff98d3f9f757a6cf097d87970368b4fd4343a94e0b7b4aed322c1b0c1f8235d",
                                                   "included":  1,
                                                   "blocked":  6
                                               }
@@ -15858,7 +15858,7 @@
                                                      "downloadName":  "figma-workbench-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "299bc8447f5f0286567a810bea5ad31ba005272fd7f54cae4a7f7c339fbe2c02",
+                                                     "sha256":  "f35b1c65cee8844a23ee798974dbf5dd6de94f48ceb1922a0b3248ff4849ea17",
                                                      "included":  0,
                                                      "blocked":  3
                                                  },
@@ -15867,7 +15867,7 @@
                                                   "downloadName":  "figma-workbench-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "ea1fa33563f9e91a48abc718c664ccf019ae4a4ce0438a0ce268c7f9c8ab7bd6",
+                                                  "sha256":  "464e5ea60bbf48a4a248cc10516380d21a4505407b3fb32a1f7a1dfa30d2d5f8",
                                                   "included":  0,
                                                   "blocked":  3
                                               }
@@ -16712,7 +16712,7 @@
                                                      "downloadName":  "feishu-office-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "07d15a1a2b9782e419bbd245ae9ecd244ac00a18f8060dce5ac1595299087f3f",
+                                                     "sha256":  "e4c427b2a981a413c5427935932f0a6c4015bdc17331c8bfa0caaf55ce5b3e26",
                                                      "included":  0,
                                                      "blocked":  8
                                                  },
@@ -16721,7 +16721,7 @@
                                                   "downloadName":  "feishu-office-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "527ec0097703ab3a9330188e038fd560e918b3f25dd6e5ad14191d83bc3ee0ca",
+                                                  "sha256":  "aab884d86222a2bc2d10d2506aab0f43884f8f74541eae9f4f03c5caf79466b6",
                                                   "included":  0,
                                                   "blocked":  38
                                               }
@@ -16967,7 +16967,7 @@
                                                      "downloadName":  "github-project-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "7146b58919fb064ab8fda64e27415f819e0174b087215f986f931a2df3613229",
+                                                     "sha256":  "e520fea8632e5ed76580713f14606303e0f4cf3947eb7d200b840bd3dbffc585",
                                                      "included":  0,
                                                      "blocked":  5
                                                  },
@@ -16976,7 +16976,7 @@
                                                   "downloadName":  "github-project-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "59c9a9974189501d584473141dfb85315805334b9a180a7547f7062406f12aae",
+                                                  "sha256":  "5495a7ba58d34b2f883f6c3ad8ce9f75663644784ceb3f722dcb6fcc067cba24",
                                                   "included":  0,
                                                   "blocked":  7
                                               }
@@ -18112,7 +18112,7 @@
                                                      "downloadName":  "gstack-suite-recommended.zip",
                                                      "kind":  "family-recommended",
                                                      "protected":  false,
-                                                     "sha256":  "7b3b8cb3438981ba01859d61b2244a731c98539152dc127eabd70d44ab6be37c",
+                                                     "sha256":  "006aba10cdba7375578707419555f1fd86634eb9deb7958ef55b81e42b6e5856",
                                                      "included":  0,
                                                      "blocked":  1
                                                  },
@@ -18121,7 +18121,7 @@
                                                   "downloadName":  "gstack-suite-complete.zip",
                                                   "kind":  "family-complete",
                                                   "protected":  false,
-                                                  "sha256":  "238ccb1a138c53683097ba172e4fe1388f26bc312ed60bd2d7b909fe007a77e8",
+                                                  "sha256":  "f28a552c29b0daacdf38e6e304eecb7612d26efd028153252e9079d569322971",
                                                   "included":  0,
                                                   "blocked":  54
                                               }
