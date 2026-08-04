@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-04T02:57:09.6555834+08:00",
+    "generatedAt":  "2026-08-04T11:31:59.8274596+08:00",
     "total":  293,
     "downloadable":  14,
     "workflows":  10,
@@ -1161,7 +1161,7 @@
                        "upstream":  null,
                        "path":  "skills/04-文档数据与汇报/daily-report-mozin",
                        "skillFile":  "skills/04-文档数据与汇报/daily-report-mozin/SKILL.md",
-                       "sha256":  "0dedf71b4439506b8667f0d281e08fc598c2483fadf43323c5593193d520ce1f",
+                       "sha256":  "1b63646cb376711479dfee01a03c054d6ec1d0794ae908357714ff2c63e16009",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -6068,9 +6068,13 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "Use when doing Mozin product delivery work: A-G层级交付包生成、SOP流程执行、产品规格编写。Triggers on \u0027走交付流程\u0027, \u0027写PRD\u0027, \u0027产品梳理\u0027, \u0027交付规格包\u0027, \u0027验收标准\u0027, \u0027初审\u0027, \u0027竞品分析\u0027, \u0027设计系统\u0027, \u0027交互红线\u0027, \u0027对外介绍\u0027, \u0027客户演示\u0027, \u0027公司介绍\u0027, \u0027用户使用手册\u0027, \u0027全流程SOP\u0027, \u0027验收流程\u0027, \u0027接入我的模型\u0027, \u0027个人 API Key\u0027, \u0027OpenAI-compatible\u0027, \u0027AI 鉴权失败\u0027. NOT for PXY飞书→墨刀自动化管道 (use mozin-product-delivery-pxy), 漫剧内容生产 (use manju-production-workflow), or 纯PRD讨论/草稿 (use prd-writer-agent).",
-                       "descriptionZh":  "Use when doing Mozin product delivery work: A-G层级交付包生成、SOP流程执行、产品规格编写。Triggers on \u0027走交付流程\u0027, \u0027写PRD\u0027, \u0027产品梳理\u0027, \u0027交付规格包\u0027, \u0027验收标准\u0027, \u0027初审\u0027, \u0027竞品分析\u0027, \u0027设计系统\u0027, \u0027交互红线\u0027, \u0027对外介绍\u0027, \u0027客户演示\u0027, \u0027公司介绍\u0027, \u0027用户使用手册\u0027, \u0027全流程SOP\u0027, \u0027验收流程\u0027, \u0027接入我的模型\u0027, \u0027个人 API Key\u0027, \u0027OpenAI-compatible\u0027, \u0027AI 鉴权失败\u0027. NOT for PXY飞书→墨刀自动化管道 (use mozin-product-delivery-pxy), 漫剧内容生产 (use manju-production-workflow), or 纯PRD讨论/草稿 (use prd-writer-agent).",
-                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 mozin-product-delivery，给出执行计划并推进到可验收。",
-                       "explanation":  null,
+                       "descriptionZh":  "产品交付标准化流水线，覆盖 7 Phase 从真需求验证到验收标准，产出 A-G 层级交付包。",
+                       "usage":  "走交付流程 / 验收标准 / 竞品分析 / 交付规格包 / 对外介绍 / 接入我的模型",
+                       "explanation":  {
+                                           "when":  "走交付流程、写PRD、产品梳理、交付规格包、验收标准、竞品分析、设计系统、客户演示准备时使用。",
+                                           "capability":  "7 Phase 全流程（P0真需求验证→P6交付打包），L1-L3 复杂度裁剪，A-G 层级交付包（产品定义/竞品/原型/技术规格/验收/手册/对外介绍），反骨架写法审查，产品部能力三角覆盖。",
+                                           "limits":  "只适用于 Mozin 项目（非 Mozin 用 prd-writer-agent），纯研发问题不走此流程，原型生成依赖 modao-mcp 状态。"
+                                       },
                        "comparisons":  [
 
                                        ],
@@ -6107,9 +6111,13 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "MUST use for Mozin PXY/皮玺玉/飞书→墨刀/产品工程化交付 on Hermes. 飞书需求自动提取→Hermes分析→墨刀原型生成→飞书评论回写的全链路自动化管道，含节点审批制。Triggers on \u0027走产品交付流程\u0027, \u0027开始产品工程化\u0027, \u0027mozin交付\u0027, \u0027从飞书需求开始做原型\u0027, \u0027全链路自动化交付\u0027, \u0027pxy流程\u0027, \u0027突破次元壁\u0027, \u0027数字生命体\u0027, \u00273D空间交互\u0027, \u0027数字小屋\u0027, \u0027用我的prd技能\u0027, \u0027prd编辑管理\u0027, \u0027做原型\u0027, \u00273D demo\u0027, \u0027概念demo\u0027. NOT for 通用SOP交付包编写 (use mozin-product-delivery), 纯PRD撰写 (use prd-writer-agent), or 非Hermes平台 (Codex/Claude不支持此技能的lark-cli和modao-mcp依赖).",
-                       "descriptionZh":  "MUST use for Mozin PXY/皮玺玉/飞书→墨刀/产品工程化交付 on Hermes. 飞书需求自动提取→Hermes分析→墨刀原型生成→飞书评论回写的全链路自动化管道，含节点审批制。Triggers on \u0027走产品交付流程\u0027, \u0027开始产品工程化\u0027, \u0027mozin交付\u0027, \u0027从飞书需求开始做原型\u0027, \u0027全链路自动化交付\u0027, \u0027pxy流程\u0027, \u0027突破次元壁\u0027, \u0027数字生命体\u0027, \u00273D空间交互\u0027, \u0027数字小屋\u0027, \u0027用我的prd技能\u0027, \u0027prd编辑管理\u0027, \u0027做原型\u0027, \u00273D demo\u0027, \u0027概念demo\u0027. NOT for 通用SOP交付包编写 (use mozin-product-delivery), 纯PRD撰写 (use prd-writer-agent), or 非Hermes平台 (Codex/Claude不支持此技能的lark-cli和modao-mcp依赖).",
-                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 mozin-product-delivery-pxy，给出执行计划并推进到可验收。",
-                       "explanation":  null,
+                       "descriptionZh":  "飞书需求→Hermes分析→墨刀原型→飞书评论回写的全链路自动化管道。",
+                       "usage":  "走产品交付流程 / 从飞书需求开始做原型 / 做原型 / 突破次元壁 / 3D demo / 开始产品工程化",
+                       "explanation":  {
+                                           "when":  "走产品交付流程、从飞书需求开始做原型、全链路自动化交付、突破次元壁/3D概念方案时使用。",
+                                           "capability":  "飞书需求自动提取(lark-cli)→AI需求分析→墨刀原型生成(modao-mcp)→飞书评论回写，节点审批制，需求看板4状态管理，3D概念Demo支持。",
+                                           "limits":  "仅Hermes平台（依赖lark-cli和modao-mcp），飞书sheet标签需另读，墨刀生成在个人空间需手动移动，token会过期需重新授权。"
+                                       },
                        "comparisons":  [
 
                                        ],
@@ -6185,9 +6193,13 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "MUST use for 产品/PRD/Mozin/飞书/墨刀/工程交付 tasks on Hermes; routes to the best installed Skill and announces platform, purpose, and limits. Triggers on \u0027写PRD\u0027, \u0027走交付流程\u0027, \u0027产品梳理\u0027, \u0027做原型\u0027, \u0027墨刀生成\u0027, \u0027飞书需求\u0027, \u0027交付包\u0027, \u0027产品工程化\u0027, \u0027需求分析\u0027, \u0027竞品分析\u0027, \u0027验收标准\u0027. NOT for pure coding/debugging (use systematic-debugging), git operations (use github-pr-workflow), or daily reports (use daily-report-mozin).",
-                       "descriptionZh":  "MUST use for 产品/PRD/Mozin/飞书/墨刀/工程交付 tasks on Hermes; routes to the best installed Skill and announces platform, purpose, and limits. Triggers on \u0027写PRD\u0027, \u0027走交付流程\u0027, \u0027产品梳理\u0027, \u0027做原型\u0027, \u0027墨刀生成\u0027, \u0027飞书需求\u0027, \u0027交付包\u0027, \u0027产品工程化\u0027, \u0027需求分析\u0027, \u0027竞品分析\u0027, \u0027验收标准\u0027. NOT for pure coding/debugging (use systematic-debugging), git operations (use github-pr-workflow), or daily reports (use daily-report-mozin).",
-                       "usage":  "拆任务、推进项目或管理协作流程；对 AI 说：请使用 pm-workflow-router，给出执行计划并推进到可验收。",
-                       "explanation":  null,
+                       "descriptionZh":  "产品经理在 Hermes 上的统一入口，说一句话就自动路由到对应的专业技能。",
+                       "usage":  "写PRD / 走交付流程 / 做原型 / 需求分析 / 竞品分析 / 产品梳理",
+                       "explanation":  {
+                                           "when":  "要写PRD、做原型、走交付流程、需求分析、竞品分析，或不确定该用哪个产品技能时使用。",
+                                           "capability":  "根据用户意图自动选择最合适的技能加载（支持多步骤串联），声明平台能力和限制，缺少依赖时提示替代方案，识别必须在 Codex/Claude 完成的步骤。",
+                                           "limits":  "不做纯代码 bug 修复（用 systematic-debugging）、Git 操作（用 github-pr-workflow）、日报周报（用 daily-report-mozin）、非产品类任务。"
+                                       },
                        "comparisons":  [
 
                                        ],
@@ -7277,9 +7289,13 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "墨刀 (Modao) MCP integration: generate prototypes, HTML, React, Vue, images, and PRDs via the Modao AI Agent API. Triggers on \u0027墨刀\u0027, \u0027Modao\u0027, \u0027生成原型\u0027, \u0027做个页面\u0027, \u0027出个prototype\u0027, \u0027HTML原型\u0027, \u0027墨刀MCP配置\u0027. NOT for PRD需求讨论 (use prd-writer-agent), Figma设计稿实现 (use figma-implement-design), or 飞书→墨刀自动化管道 (use mozin-product-delivery-pxy).",
-                       "descriptionZh":  "墨刀 (Modao) MCP integration: generate prototypes, HTML, React, Vue, images, and PRDs via the Modao AI Agent API. Triggers on \u0027墨刀\u0027, \u0027Modao\u0027, \u0027生成原型\u0027, \u0027做个页面\u0027, \u0027出个prototype\u0027, \u0027HTML原型\u0027, \u0027墨刀MCP配置\u0027. NOT for PRD需求讨论 (use prd-writer-agent), Figma设计稿实现 (use figma-implement-design), or 飞书→墨刀自动化管道 (use mozin-product-delivery-pxy).",
-                       "usage":  "辅助开发、排错、测试和上线；对 AI 说：请使用 modao-mcp，先定位问题，再完成修复与验证。",
-                       "explanation":  null,
+                       "descriptionZh":  "需求文字变成可点击原型——调用墨刀AI生成HTML/React/Vue原型并返回预览链接。",
+                       "usage":  "生成原型 / 做个页面 / 墨刀生成iPhone登录页深色渐变风格 / 用Vue做设置面板 / 画首页mockup / 墨刀MCP配置",
+                       "explanation":  {
+                                           "when":  "生成原型、做个页面、墨刀生成、出个prototype、画UI mockup、配置墨刀MCP时使用。",
+                                           "capability":  "7个MCP工具：通用生成、HTML/React/Vue原型生成、图片生成、PRD生成、积分查询。单次可生成多页面各有独立预览链接。MCP不可用时自动降级为本地HTML。",
+                                           "limits":  "生成在个人空间需手动移到团队空间，无法读取原型评论，无法管理文件夹/项目结构，每次消耗积分，MCP工具只能在会话内调用不能终端执行。"
+                                       },
                        "comparisons":  [
 
                                        ],
@@ -12386,32 +12402,5 @@
                                                          },
                                     "internalDownload":  null
                                 }
-                            ],
-    "gitMarketProjects":  [
-                              {
-                                  "id":  "mv-study",
-                                  "name":  "B站视频 AI 学习助手",
-                                  "description":  "把 B 站视频片段或本地音视频整理成带时间戳的逐字稿、人物区分、学习纲要、脑图和 PPT 大纲。",
-                                  "provider":  "github",
-                                  "repository":  "https://github.com/pipykarchu/MV-study",
-                                  "ref":  "main",
-                                  "private":  true,
-                                  "itemType":  "project",
-                                  "installType":  "git-clone",
-                                  "requirements":  [
-                                                       "Node.js 18 或更高版本",
-                                                       "Git 和该私有仓库的 GitHub 访问权限",
-                                                       "处理真实音视频时需要 ffmpeg",
-                                                       "处理 B 站或其他网页视频时还需要 yt-dlp"
-                                                   ],
-                                  "installCommands":  [
-                                                           "git clone https://github.com/pipykarchu/MV-study.git",
-                                                           "cd MV-study",
-                                                           ".\\start.bat"
-                                                       ],
-                                  "accessNote":  "这是私有 GitHub 仓库。打开仓库或克隆项目前，需要使用有权限的 GitHub 账号登录。",
-                                  "updateNote":  "检查更新只读取远端 main 分支版本。发现新版本后，请在项目仓库里拉取、验证和调试；技能索引不会自动覆盖项目文件。",
-                                  "packageable":  false
-                              }
-                          ]
+                            ]
 }
