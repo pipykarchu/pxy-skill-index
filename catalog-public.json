@@ -1,6 +1,6 @@
 {
-    "generatedAt":  "2026-08-04T12:00:55.3231219+08:00",
-    "total":  293,
+    "generatedAt":  "2026-08-04T17:00:28.7708973+08:00",
+    "total":  295,
     "downloadable":  14,
     "workflows":  10,
     "downloadCenter":  {
@@ -1032,6 +1032,84 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
+                   },
+                   {
+                       "name":  "prototype-closure-auditor",
+                       "category":  "03-原型设计与视觉",
+                       "pmScenario":  "原型与设计",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "Audit project prototypes across visual mockups, screenshots, Figma links, HTML/frontend projects, PRDs, docs, and change notes for feature closure, user-operation loops, internal SOP/business-process loops, screen/page mapping, evidence-backed gap detection, visual function trees, version impact analysis, and PRD patches. Use when the user asks to review/check a prototype, 原型审查, 功能闭环, SOP闭环, 功能树, 流程闭环, feature tree, missing flows, version impact, or reduce repeated prototype rework.",
+                       "descriptionZh":  "Audit project prototypes across visual mockups, screenshots, Figma links, HTML/frontend projects, PRDs, docs, and change notes for feature closure, user-operation loops, internal SOP/business-process loops, screen/page mapping, evidence-backed gap detection, visual function trees, version impact analysis, and PRD patches. Use when the user asks to review/check a prototype, 原型审查, 功能闭环, SOP闭环, 功能树, 流程闭环, feature tree, missing flows, version impact, or reduce repeated prototype rework.",
+                       "usage":  "审查 APP 或网页原型的功能闭环、页面映射、SOP 流程和缺口；对 AI 说：请使用 prototype-closure-auditor，帮我审查这个原型。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/03-原型设计与视觉/prototype-closure-auditor",
+                       "skillFile":  "skills/03-原型设计与视觉/prototype-closure-auditor/SKILL.md",
+                       "sha256":  "1b78685351035e694e3ee527a81d2988a58acf7948976621ca8ee682cc786d46",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  false,
+                       "packageBlockers":  [
+                                               "No redistribution license was included in the downloaded source package."
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
+                                     },
+                       "publicDownloadable":  false,
+                       "businessScope":  "external",
+                       "publicBlockReason":  "许可待确认，仅索引",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
+                   },
+                   {
+                       "name":  "prototype-parity-redesigner",
+                       "category":  "03-原型设计与视觉",
+                       "pmScenario":  "原型与设计",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "",
+                       "descriptionZh":  "在不丢功能和业务闭环的前提下重做原型视觉与交互",
+                       "usage":  "在不丢功能和业务闭环的前提下重做原型视觉与交互；对 AI 说：请使用 prototype-parity-redesigner，按原功能合同完成改版。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/03-原型设计与视觉/prototype-parity-redesigner",
+                       "skillFile":  "skills/03-原型设计与视觉/prototype-parity-redesigner/SKILL.md",
+                       "sha256":  "93e2bf1fafa1e986d0c858a40d0702d28220206e6bc03b15032c4ec5eac0caef",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  false,
+                       "packageBlockers":  [
+                                               "No redistribution license was included in the downloaded source package."
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
+                                     },
+                       "publicDownloadable":  false,
+                       "businessScope":  "external",
+                       "publicBlockReason":  "许可待确认，仅索引",
                        "internalDownloadable":  false,
                        "externalDownload":  null,
                        "internalDownload":  null
@@ -3450,7 +3528,7 @@
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/windows-powershell-lark-cli-integration",
                        "skillFile":  "skills/05-办公协同与飞书/windows-powershell-lark-cli-integration/SKILL.md",
-                       "sha256":  "f99bfb50e4a7d4ac6a93f72ae7bdcbca9a29aa7bfb930a4dc6ca909fa5b01f14",
+                       "sha256":  "a32de50dad595869b9ca34751fcfefc2c71607dc7a643568cdd23d4c12f39eec",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -7536,7 +7614,7 @@
                        "upstream":  null,
                        "path":  "skills/07-研发交付与质量/product-codebase-analysis",
                        "skillFile":  "skills/07-研发交付与质量/product-codebase-analysis/SKILL.md",
-                       "sha256":  "5ad999181273fa13815cf6ff374621042cc50870c6a9fd6d5f3b193b3cf9d216",
+                       "sha256":  "e5f8d3b71629cef4e92375eecad37ed3e69148c01d5310775f1fd0e4b7f62cb4",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
