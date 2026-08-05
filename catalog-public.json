@@ -1,6 +1,6 @@
 {
-    "generatedAt":  "2026-08-04T18:56:17.4365652+08:00",
-    "total":  295,
+    "generatedAt":  "2026-08-05T21:08:48.5664646+08:00",
+    "total":  296,
     "downloadable":  14,
     "workflows":  10,
     "downloadCenter":  {
@@ -1100,6 +1100,46 @@
                        "internalDownload":  null
                    },
                    {
+                       "name":  "prototype-design-review-explainer",
+                       "category":  "03-原型设计与视觉",
+                       "pmScenario":  "原型与设计",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "developerCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "为 Mozin pages-v1.2 构建、补全和验收独立 Pxx 手机原型，并套用海钓原型交付的“实时手机页 + 说明评审板”模式。用户要求做 Mozin 页面原型、说明视图、交互和 UIUX 评审、三尺寸适配、页面专属测试、浏览器截图证据，或需要区分本地 Mock 与真实云端、AI、设备、鉴权、加密和持久化接口时使用。",
+                       "descriptionZh":  "为 Mozin pages-v1.2 构建、补全和验收独立 Pxx 手机原型，并套用海钓原型交付的“实时手机页 + 说明评审板”模式。用户要求做 Mozin 页面原型、说明视图、交互和 UIUX 评审、三尺寸适配、页面专属测试、浏览器截图证据，或需要区分本地 Mock 与真实云端、AI、设备、鉴权、加密和持久化接口时使用。",
+                       "usage":  "请使用 prototype-design-review-explainer，按海钓原型交付模式完成这个 Pxx 页面，并验证交互、UIUX、三档尺寸及 Mock/真实接口边界。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/03-原型设计与视觉/prototype-design-review-explainer",
+                       "skillFile":  "skills/03-原型设计与视觉/prototype-design-review-explainer/SKILL.md",
+                       "sha256":  "12132e275166a37b22ee5994834766db27c98e098436132a0e12d65535c1bae8",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
+                                     },
+                       "publicDownloadable":  false,
+                       "businessScope":  "internal",
+                       "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
+                   },
+                   {
                        "name":  "prototype-parity-redesigner",
                        "category":  "03-原型设计与视觉",
                        "pmScenario":  "原型与设计",
@@ -1267,7 +1307,7 @@
                        "upstream":  null,
                        "path":  "skills/04-文档数据与汇报/daily-report-mozin",
                        "skillFile":  "skills/04-文档数据与汇报/daily-report-mozin/SKILL.md",
-                       "sha256":  "4a1cd9a4b0457401b162751266a836f6dd09810e60b5d0fcd881a3066df296f6",
+                       "sha256":  "a87a4e2d430dd8960821f2850bdea7d123c0384514b32987a6c153fbfe4ce1e2",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -1873,7 +1913,7 @@
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/feishu-batch-operations",
                        "skillFile":  "skills/05-办公协同与飞书/feishu-batch-operations/SKILL.md",
-                       "sha256":  "0d99bd0f928c4fc44105a2d92eb1323b626a7263f5c1d38091dd94bdb6b55395",
+                       "sha256":  "ebb85f91acd2fa147a9adfc3f58d1fbf5c1155a25613e53dbe6e4636cb647104",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -6311,7 +6351,7 @@
                        "upstream":  null,
                        "path":  "skills/06-项目推进与工程化交付/mozin-product-delivery",
                        "skillFile":  "skills/06-项目推进与工程化交付/mozin-product-delivery/SKILL.md",
-                       "sha256":  "f929aa99f8b0c7037c1b75db410b183e1f5c464fb495a3247c8f65eed5cac075",
+                       "sha256":  "e51b1132c7893f431bb569b74d4535d0195ee098c40d426180f0d273d9bd0579",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -10491,7 +10531,7 @@
                        "upstream":  null,
                        "path":  "skills/08-内容与媒体生产/threejs-single-file-demo",
                        "skillFile":  "skills/08-内容与媒体生产/threejs-single-file-demo/SKILL.md",
-                       "sha256":  "44975f4a69e556a23d93e76e258ac15a84c4a4079f4486adab8068b343dfb93b",
+                       "sha256":  "9d8b0d014d761959c3491c67d6758c6ef374459211bb788e67b2e605a0095587",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
