@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-05T21:08:48.5664646+08:00",
+    "generatedAt":  "2026-08-06T00:44:56.8485814+08:00",
     "total":  296,
     "downloadable":  14,
     "workflows":  10,
@@ -1307,7 +1307,7 @@
                        "upstream":  null,
                        "path":  "skills/04-文档数据与汇报/daily-report-mozin",
                        "skillFile":  "skills/04-文档数据与汇报/daily-report-mozin/SKILL.md",
-                       "sha256":  "a87a4e2d430dd8960821f2850bdea7d123c0384514b32987a6c153fbfe4ce1e2",
+                       "sha256":  "8afb4e992f8c675bdeea70b8b300611f69496da488a34dcb8440dc92d66753c9",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
