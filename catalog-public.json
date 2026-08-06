@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-06T17:49:13.3897560+08:00",
+    "generatedAt":  "2026-08-06T19:04:42.3174833+08:00",
     "total":  297,
     "downloadable":  14,
     "workflows":  10,
@@ -12,7 +12,7 @@
                                         },
                            "internal":  {
                                             "label":  "内部分享 · 密码保护",
-                                            "skillCount":  0,
+                                            "skillCount":  34,
                                             "workflowCount":  1
                                         },
                            "manifestFile":  "downloads/manifest.json"
@@ -221,9 +221,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/product-delivery-workflow.pxy",
+                                                "downloadName":  "product-delivery-workflow.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "87c2463873e73c3a7c791f68a74c0d32fb2edafa3447f41a6430291419a81da7"
+                                            }
                    },
                    {
                        "name":  "product-planning-workflow",
@@ -801,9 +807,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/collaborative-product-platform-design.pxy",
+                                                "downloadName":  "collaborative-product-platform-design.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "77ff43f0826866ad4988079f359e1cacacf8250e3e2d262a05394d07dc3a67cc"
+                                            }
                    },
                    {
                        "name":  "dashboard-builder",
@@ -1143,9 +1155,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/mozin-product-engineering-requirements-v2.pxy",
+                                                "downloadName":  "mozin-product-engineering-requirements-v2.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "e7cc32445a94b4ccea8b7793b4655060cbc0fb9f14c94616ecd5fac300630a37"
+                                            }
                    },
                    {
                        "name":  "prototype-closure-auditor",
@@ -1227,9 +1245,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/prototype-design-review-explainer.pxy",
+                                                "downloadName":  "prototype-design-review-explainer.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "ad6825b2f224d73ca788897ebc2adde59ee6a3ba5b837cb5c3ee2ffd1d2f7c4d"
+                                            }
                    },
                    {
                        "name":  "prototype-parity-redesigner",
@@ -1423,9 +1447,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/daily-report-mozin.pxy",
+                                                "downloadName":  "daily-report-mozin.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "b1881ec25df279ade6ccc2a0481ff9352e9a8955b69498a1564088632e702d40"
+                                            }
                    },
                    {
                        "name":  "documents",
@@ -1591,9 +1621,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/minimalist-product-documentation.pxy",
+                                                "downloadName":  "minimalist-product-documentation.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "e1cc148fa27cced28b3c4b47b3f2e7815d53eadb4ced37f32a43619e30efb5f4"
+                                            }
                    },
                    {
                        "name":  "nano-pdf",
@@ -2059,9 +2095,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/feishu-batch-operations.pxy",
+                                                "downloadName":  "feishu-batch-operations.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "98962cb446a26aafaf2f213f743045b5bc9e5b4f51ccc87f01b7e5bd46f5e574"
+                                            }
                    },
                    {
                        "name":  "feishu-bitable-docs",
@@ -2143,9 +2185,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/feishu-cli-integration.pxy",
+                                                "downloadName":  "feishu-cli-integration.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "9723f8ed6d9db883babe7c9f14f129802362417c632a1ef45156b22f934931d0"
+                                            }
                    },
                    {
                        "name":  "feishu-modao-ai-workflow",
@@ -2185,9 +2233,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/feishu-modao-ai-workflow.pxy",
+                                                "downloadName":  "feishu-modao-ai-workflow.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "95f764ffd72407b52e399ecbe5c5bbfe948a0c89e1d066c50054466e39a46256"
+                                            }
                    },
                    {
                        "name":  "feishu-modao-product-workflow",
@@ -2227,9 +2281,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/feishu-modao-product-workflow.pxy",
+                                                "downloadName":  "feishu-modao-product-workflow.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "9a577371c0a245a61e8cbfbca0643fe2e26e546a700562b25c21789c5a94a8bb"
+                                            }
                    },
                    {
                        "name":  "feishu-modao-workflow",
@@ -2269,9 +2329,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/feishu-modao-workflow.pxy",
+                                                "downloadName":  "feishu-modao-workflow.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "d1d783bb53c03ffb8ee9ae8d3975dcc46c3627756d0ca6ec7f8638c77c0e70af"
+                                            }
                    },
                    {
                        "name":  "feishu-selective-upload",
@@ -2326,9 +2392,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/feishu-selective-upload.pxy",
+                                                "downloadName":  "feishu-selective-upload.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "443fbd202121e99778e148d5fce8a95be2ca1f6d2422180275e9a461ade28820"
+                                            }
                    },
                    {
                        "name":  "himalaya",
@@ -2620,9 +2692,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/lark-cli.pxy",
+                                                "downloadName":  "lark-cli.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "9bef8c5dbb08898f56764f2a4dce8a33086a983e9d40d68d4cfeb2a75a782dd3"
+                                            }
                    },
                    {
                        "name":  "lark-cli Bulk Operations via Python",
@@ -2788,9 +2866,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/lark-drive.pxy",
+                                                "downloadName":  "lark-drive.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "ad6ddbec9bef1fc050ee368dbce5d40309c88ead2fb15c055bac815d7ce5ff5c"
+                                            }
                    },
                    {
                        "name":  "lark-drive-bulk-upload",
@@ -2845,9 +2929,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/lark-drive-bulk-upload.pxy",
+                                                "downloadName":  "lark-drive-bulk-upload.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "ad6ddbec9bef1fc050ee368dbce5d40309c88ead2fb15c055bac815d7ce5ff5c"
+                                            }
                    },
                    {
                        "name":  "lark-event",
@@ -4099,9 +4189,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/git-auth-noninteractive.pxy",
+                                                "downloadName":  "git-auth-noninteractive.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "18096f4ea65a7f8b29e637cd3fce43da7058a263f570209198d7ba2cbd72bc72"
+                                            }
                    },
                    {
                        "name":  "git-corporate-proxy",
@@ -4183,9 +4279,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/gitea-repo-organization.pxy",
+                                                "downloadName":  "gitea-repo-organization.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "82e339e31a81ac7d371500eb41d3fef0fd55ec3e05e277973aa29f4e000eacd8"
+                                            }
                    },
                    {
                        "name":  "github-auth",
@@ -4435,9 +4537,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/git-repo-organization.pxy",
+                                                "downloadName":  "git-repo-organization.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "512a81498e34e1ab87d9c665e9f08de1376cf63c3c639dba123407f1f936fff8"
+                                            }
                    },
                    {
                        "name":  "gstack-autoplan",
@@ -6715,9 +6823,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/mozin-product-delivery.pxy",
+                                                "downloadName":  "mozin-product-delivery.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "13879b0dc4d2a485259943f87da30d905351ea4211a943598978827d00f01b59"
+                                            }
                    },
                    {
                        "name":  "mozin-product-delivery-pxy",
@@ -6761,9 +6875,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/mozin-product-delivery-pxy.pxy",
+                                                "downloadName":  "mozin-product-delivery-pxy.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "13879b0dc4d2a485259943f87da30d905351ea4211a943598978827d00f01b59"
+                                            }
                    },
                    {
                        "name":  "plan",
@@ -6849,9 +6969,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/pm-workflow-router.pxy",
+                                                "downloadName":  "pm-workflow-router.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "8342919e8c826706203bc792455b1b16bb545264a10e6b9f2b94fd69fbdf974b"
+                                            }
                    },
                    {
                        "name":  "product-workflow-automation",
@@ -6891,9 +7017,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/product-workflow-automation.pxy",
+                                                "downloadName":  "product-workflow-automation.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "92e678b5c9d375730f39a6c4fd2d35c3739d473142841264fa563cb793ee5e9e"
+                                            }
                    },
                    {
                        "name":  "project-flow-narrator",
@@ -7212,9 +7344,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/skill-review-process.pxy",
+                                                "downloadName":  "skill-review-process.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "d03150112611f47bae2e0c72d63f13c4663183d21e95105213581eca58a320ef"
+                                            }
                    },
                    {
                        "name":  "software-dev-event-router",
@@ -7380,9 +7518,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/android-codebase-analysis.pxy",
+                                                "downloadName":  "android-codebase-analysis.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "70feb645457204795f5d040bb5f0372d06a0ebf1fe5e9dc1b9696498a04ef73a"
+                                            }
                    },
                    {
                        "name":  "chinese-windows-fixes",
@@ -7590,9 +7734,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/express-sqljs-webapp.pxy",
+                                                "downloadName":  "express-sqljs-webapp.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "0322ed9a7dce4a47854f6114af0e4b06d00fb65f62f8be100e71b2475f1d2850"
+                                            }
                    },
                    {
                        "name":  "finishing-a-development-branch",
@@ -7674,9 +7824,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/frontend-modal-drawer-patterns.pxy",
+                                                "downloadName":  "frontend-modal-drawer-patterns.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "a2b599420442e589a6c8c08a647aa69090fc3fc57190cb3b1b1907b9806dcf9f"
+                                            }
                    },
                    {
                        "name":  "gh-address-comments",
@@ -8026,9 +8182,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/modao-mcp.pxy",
+                                                "downloadName":  "modao-mcp.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "8f13b72f80b46c591955cce6aede3cbcd44008d30e737d218fe5049f9346ae80"
+                                            }
                    },
                    {
                        "name":  "node-inspect-debugger",
@@ -8278,9 +8440,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/product-codebase-analysis.pxy",
+                                                "downloadName":  "product-codebase-analysis.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "134426d9323314a63fd877838917540358ca7a8fda4fcd0c1e3459df83fe7bc2"
+                                            }
                    },
                    {
                        "name":  "python-debugpy",
@@ -8452,9 +8620,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/single-file-webapp-maintenance.pxy",
+                                                "downloadName":  "single-file-webapp-maintenance.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "385f5743642a1ad74717728b57274e45e0610a35ae8ea77b6b9002b74a7754ac"
+                                            }
                    },
                    {
                        "name":  "single-file-webapp-syntax-debugging",
@@ -8494,9 +8668,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/single-file-webapp-syntax-debugging.pxy",
+                                                "downloadName":  "single-file-webapp-syntax-debugging.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "4d2f2619b1afea8266cb459205a96d608d590bdd4e56f44beacf0976b5b7d689"
+                                            }
                    },
                    {
                        "name":  "skill-authoring-and-distribution",
@@ -9052,9 +9232,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/windows-app-deployment.pxy",
+                                                "downloadName":  "windows-app-deployment.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "1e11c750e6e6eef9d8c83c17227b79be08a1fd001cbc1978936b5f84adfa706d"
+                                            }
                    },
                    {
                        "name":  "windows-powershell-terminal-safety",
@@ -9094,9 +9280,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/windows-powershell-terminal-safety.pxy",
+                                                "downloadName":  "windows-powershell-terminal-safety.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "279b5b8441eaa653ce14636b91c0118c78dc12ec13c19d2db203b7a7aaa379c7"
+                                            }
                    },
                    {
                        "name":  "windows-software-uninstall",
@@ -11917,9 +12109,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/hermes-skills-pm-audit.pxy",
+                                                "downloadName":  "hermes-skills-pm-audit.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "bb9e9e918c2029859f3ca6b5268b2c6ef1b9a8c51a35b8480fcc6daf3519e5ad"
+                                            }
                    },
                    {
                        "name":  "huggingface-hub",
@@ -12631,9 +12829,15 @@
                        "publicDownloadable":  false,
                        "businessScope":  "internal",
                        "publicBlockReason":  "包含 Mozin 或公司内部内容，仅限内部分享",
-                       "internalDownloadable":  false,
+                       "internalDownloadable":  true,
                        "externalDownload":  null,
-                       "internalDownload":  null
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/product-system-delivery.pxy",
+                                                "downloadName":  "product-system-delivery.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "63780e71bf78bd6ca07aa644433ecf3193845aeba77bf9e4323884f8d56d62c7"
+                                            }
                    },
                    {
                        "name":  "segment-anything-model",
