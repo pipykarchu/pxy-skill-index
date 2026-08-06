@@ -1,6 +1,6 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-06T15:36:29.0849879+08:00",
+    "generatedAt":  "2026-08-06T15:43:38.4955494+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
                      "skillCount":  14,
@@ -16,7 +16,7 @@
                   {
                       "file":  "downloads/internal/workflows/mozin-delivery.pxy",
                       "bytes":  2696,
-                      "sha256":  "908b4f402feaee767ca2d58354e302a007137681f69a751113e66c454a687fcd"
+                      "sha256":  "b9c25f3a74a001749c3bac2030a7434d26d29b807b0f61a6a1f1ec48062d1ee3"
                   },
                   {
                       "file":  "downloads/skills/create-plan.zip",
