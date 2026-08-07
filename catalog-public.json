@@ -1,6 +1,6 @@
 {
-    "generatedAt":  "2026-08-07T00:33:57.8724878+08:00",
-    "total":  297,
+    "generatedAt":  "2026-08-07T10:27:53.0621645+08:00",
+    "total":  298,
     "downloadable":  19,
     "workflows":  10,
     "downloadCenter":  {
@@ -1554,9 +1554,9 @@
                        "globalCommon":  false,
                        "pxyRecommended":  true,
                        "pxyRank":  4,
-                       "description":  "Use when user says \u0027日报\u0027, \u0027写日报\u0027, \u0027生成日报\u0027, \u0027今日进展\u0027, \u0027汇报\u0027, \u0027周报\u0027, \u0027写周报\u0027, \u0027月报\u0027, \u0027本月总结\u0027. 五源自动采集(飞书+Git+本地+Edge+Hermes)或手动输入，输出飞书汇报三字段+本地存档+IM发送。支持日报/周报(大小周自动判断)/月报。多用户自动检测(无需硬编码ID)。飞书集成完整（markdown卡片消息）。**内容一致性同步**：飞书消息与本地 MD 文件内容保持完全一致。NOT for 产品交付流程 (use mozin-product-delivery), 项目状态汇报 (use project-handoff-core), or 纯飞书消息发送 (use lark-im).",
-                       "version":  "4.1.0",
-                       "lastUpdated":  "2026-08-06",
+                       "description":  "为皮玺玉或当前登录用户生成 Mozin 个人日报、周报和月报。接到日报类请求时先判断核心定位：包含我、我的、个人、我今天做了什么等信号时使用本技能；包含团队、部门、全员、成员、负责人汇总等信号时改用 mozin-daily-report；只有写日报等无法判断范围的说法才询问一次。自动采集飞书汇报、日历、任务、文档、Git、本地文件、Edge 与 Hermes，输出飞书三字段、本地 Markdown 和飞书卡片，支持大小周与 Cron。",
+                       "version":  "",
+                       "lastUpdated":  "2026-08-07",
                        "descriptionZh":  "日报/周报/月报自动化：五源采集+五色自评+飞书汇报API拉取+大小周判断+卡片发送，对齐公司PMO V2.0规范。",
                        "usage":  "请用 daily-report-mozin 生成我的日报、周报或月报，自动汇总飞书、Git、本地文件、浏览器和会话记录；先让我确认内容，再存档并发送飞书。",
                        "explanation":  {
@@ -1587,7 +1587,7 @@
                        "upstream":  null,
                        "path":  "skills/04-文档数据与汇报/daily-report-mozin",
                        "skillFile":  "skills/04-文档数据与汇报/daily-report-mozin/SKILL.md",
-                       "sha256":  "9c21c1fa61020fe1b59abf09844137833e7180d15b3f866c6df0c9406d5507ec",
+                       "sha256":  "47c446d40aa132d19d22f53ef0e95c21d1668c0733946d7fed6ffd3249b314f1",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -1804,6 +1804,48 @@
                                                 "protected":  true,
                                                 "sha256":  "e1cc148fa27cced28b3c4b47b3f2e7815d53eadb4ced37f32a43619e30efb5f4"
                                             }
+                   },
+                   {
+                       "name":  "mozin-daily-report",
+                       "category":  "04-文档数据与汇报",
+                       "pmScenario":  "文档与汇报",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "developerCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "为 Mozin 团队负责人、组长或 PMO 生成团队日报和周报。用户提到团队、部门、全员、成员、项目组、负责人汇总、组长周报、PMO 汇总或团队 GitLab 产出时使用；个人日报、个人周报、月报、定时归档或飞书发送改用 daily-report-mozin。采集飞书、GitLab、本地 Git 和文件，逐项核验 author、organizer、creator 与成员归属，避免把团队成果算作负责人个人成果。",
+                       "version":  "",
+                       "lastUpdated":  "2026-08-07",
+                       "descriptionZh":  "为 Mozin 团队负责人、组长或 PMO 生成团队日报和周报。用户提到团队、部门、全员、成员、项目组、负责人汇总、组长周报、PMO 汇总或团队 GitLab 产出时使用；个人日报、个人周报、月报、定时归档或飞书发送改用 daily-report-mozin。采集飞书、GitLab、本地 Git 和文件，逐项核验 author、organizer、creator 与成员归属，避免把团队成果算作负责人个人成果。",
+                       "usage":  "生成或处理文档、表格、汇报材料；对 AI 说：请使用 mozin-daily-report，把这些材料整理成可交付文件。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/04-文档数据与汇报/mozin-daily-report",
+                       "skillFile":  "skills/04-文档数据与汇报/mozin-daily-report/SKILL.md",
+                       "sha256":  "129e62d8f8aadd448c3aac0c20cb1aac85342c7c1519a15a28f66ee58055ad61",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "installed",
+                                         "claude":  "installed",
+                                         "hermes":  "installed"
+                                     },
+                       "publicDownloadable":  false,
+                       "businessScope":  "external",
+                       "publicBlockReason":  "公开包仍需清理后发布",
+                       "internalDownloadable":  false,
+                       "externalDownload":  null,
+                       "internalDownload":  null
                    },
                    {
                        "name":  "nano-pdf",
@@ -4385,7 +4427,7 @@
                        "pxyRank":  null,
                        "description":  "Use when Windows PowerShell 5.1 + lark-cli 集成. Triggers on \u0027Windows + lark-cli 命令失败或内容被截断\u0027, \u0027PowerShell 中使用 lark-cli 出现编码问题\u0027, \u0027lark-cli 上传文件到飞书时内容丢失\u0027, \u0027需要批量上传文件到飞书云盘\u0027.",
                        "version":  "1.0.0",
-                       "lastUpdated":  "2026-08-06",
+                       "lastUpdated":  "2026-08-07",
                        "descriptionZh":  "Use when Windows PowerShell 5.1 + lark-cli 集成. Triggers on \u0027Windows + lark-cli 命令失败或内容被截断\u0027, \u0027PowerShell 中使用 lark-cli 出现编码问题\u0027, \u0027lark-cli 上传文件到飞书时内容丢失\u0027, \u0027需要批量上传文件到飞书云盘\u0027.",
                        "usage":  "处理飞书办公、会议、任务和协作信息；对 AI 说：请使用 windows-powershell-lark-cli-integration，完成这项飞书操作。",
                        "explanation":  null,
@@ -4395,7 +4437,7 @@
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/windows-powershell-lark-cli-integration",
                        "skillFile":  "skills/05-办公协同与飞书/windows-powershell-lark-cli-integration/SKILL.md",
-                       "sha256":  "0dc224b20b7acb63936e7c98b5e507f058f650adfbf6689e23578a7092263b03",
+                       "sha256":  "8977a68a9e7de3fda271f78d445da8a0f56d0a9be1445a9e3ca62eaddfee2613",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
