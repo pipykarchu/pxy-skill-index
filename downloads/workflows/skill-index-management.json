@@ -1,0 +1,58 @@
+{
+    "id":  "skill-index-management",
+    "title":  "技能索引管理与发布",
+    "entrySkill":  "skill-management-workbench",
+    "members":  [
+                    "local-skill-inventory",
+                    "skill-management-workbench",
+                    "verification-before-completion",
+                    "control-in-app-browser",
+                    "github-repo-management",
+                    "lark-drive-bulk-upload",
+                    "project-handoff-core"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "local-skill-inventory",
+                     "skill-management-workbench",
+                     "verification-before-completion",
+                     "control-in-app-browser",
+                     "github-repo-management",
+                     "lark-drive-bulk-upload",
+                     "project-handoff-core"
+                 ],
+    "pmScenarios":  [
+                        "技能整理",
+                        "索引生成",
+                        "分享发布",
+                        "Git 同步",
+                        "飞书交付"
+                    ],
+    "scenarioGroups":  [
+                           "Agent 与自动化",
+                           "办公与飞书",
+                           "调研与分析",
+                           "项目推进",
+                           "研发与验收"
+                       ],
+    "platformRules":  {
+                          "codex":  "supported",
+                          "claude":  "local-resolved",
+                          "hermes":  "local-resolved"
+                      },
+    "packageMode":  "platform-resolved",
+    "sharePolicy":  "review-required",
+    "usageSteps":  [
+                       "盘点中央技能库、Lab 和各平台来源，确认新增、移动、重复、上游出处和分享权限。",
+                       "用 skill-management-workbench 重建 catalog、技能说明、本地工作台和公开分享页面，不手改生成产物。",
+                       "运行数据、页面、打包和安全测试，再用内置浏览器确认推荐、详情、下载和响应式界面。",
+                       "只提交本次相关文件，分别推送完整源码和公开站点，并确认本地与远端一致。",
+                       "更新交付包并同步飞书，回读清单和哈希；最后把进度、下一步、阻塞和踩坑写入 handoff。"
+                   ],
+    "prompt":  "请按技能索引管理与发布工作流处理本次技能变化：盘点来源与权限，重建并测试索引，浏览器验收，推送源码和公开站点，同步交付包与飞书，最后更新 handoff。",
+    "summary":  "适合新增、移动或更新技能后使用，把中央技能库重新盘点、生成网页、验证、发布和同步交付一次做完整。",
+    "outcome":  "交付更新后的技能目录、本地工作台、公开分享网页、测试与浏览器验收证据、Git 提交、飞书交付包和可继续工作的 handoff。",
+    "businessScope":  "external"
+}
