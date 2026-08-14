@@ -1,0 +1,177 @@
+{
+    "version":  2,
+    "generatedAt":  "2026-08-14T16:16:03.1778633+08:00",
+    "external":  {
+                     "label":  "外部分享 · 免密",
+                     "skillCount":  11,
+                     "workflowCount":  9
+                 },
+    "internal":  {
+                     "label":  "内部分享 · 密码保护",
+                     "skillCount":  11,
+                     "workflowCount":  1
+                 },
+    "sourceBundleSha256":  "6c76934280233a1cd2d46d76b71368e982cb226e425809f7e35f18c851517ad4",
+    "files":  [
+                  {
+                      "file":  "downloads/internal/skills/canvas-edit-elements.pxy",
+                      "bytes":  8056,
+                      "sha256":  "e597432260ba5a2be4ecada6c5571db8daaac08cfe6f84f399b0addc7dee2eaa"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/canvas-edit-text.pxy",
+                      "bytes":  5032,
+                      "sha256":  "01b15e3bb83deedb0671c48fb61655997e996811b7e1e32654ee5e64589c450f"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/canvas-expand.pxy",
+                      "bytes":  5032,
+                      "sha256":  "d3451053e43f85907689c52632b9806edbf2da8fa97995984599091533aa1f68"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/canvas-quick-edit.pxy",
+                      "bytes":  5304,
+                      "sha256":  "37b4bf8bea01d5d30f19dbab5f1466feef26885cfb333d66c6ab5ffa72c0cad7"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/canvas-remove-bg.pxy",
+                      "bytes":  5128,
+                      "sha256":  "84dd5f299555b6136a8587a3077fa64b2bced2987caa95f39fbc39aa59a4fe01"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/canvas.pxy",
+                      "bytes":  8056,
+                      "sha256":  "91f54e323437338ba96c3a576b0ad3726cfce7aeb2d178c74b4a46c49669cdb5"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/hifi-component-library.pxy",
+                      "bytes":  12472,
+                      "sha256":  "1c3806f0e12f8361d5d8566bbe2a92f43cff4106aff0adb464668eec5868928c"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/hifi-design-review.pxy",
+                      "bytes":  11496,
+                      "sha256":  "10080dafd4dfa034b6d77fa06767f60be0d3b62c7d536a11a476b1bbdcf15527"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/hifi-layout-template.pxy",
+                      "bytes":  10024,
+                      "sha256":  "a646c291dffe79bbbca449dfe759c3704b2ae5071fdfcf642c2e46e1140a1d04"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/hifi-style-guide.pxy",
+                      "bytes":  8136,
+                      "sha256":  "c6e15294a766587c4ebac5774047814120d7a678e94ca8e45095691ba52cda0f"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/mozin-daily-report.pxy",
+                      "bytes":  149576,
+                      "sha256":  "05210a81d274c1135ee8386f39bc7e57a02473683e4d164f73fd36a891f232d6"
+                  },
+                  {
+                      "file":  "downloads/internal/workflows/mozin-delivery.pxy",
+                      "bytes":  2696,
+                      "sha256":  "6c4faab2564ca513125be648f887f00abe2a57c5acab8f51f6654c604026164d"
+                  },
+                  {
+                      "file":  "downloads/skills/canvas-edit-elements.zip",
+                      "bytes":  7983,
+                      "sha256":  "bc370540313fdf8061e0ecf7f62ab11afebb48c912b69e06f442867329b10c03"
+                  },
+                  {
+                      "file":  "downloads/skills/canvas-edit-text.zip",
+                      "bytes":  4952,
+                      "sha256":  "b8d1b9442893d5469b21ffd1b1f719265707cf309923deab96bcafd2d6b55b73"
+                  },
+                  {
+                      "file":  "downloads/skills/canvas-expand.zip",
+                      "bytes":  4946,
+                      "sha256":  "cc604973b76e4727f1b334a3c87044bec57fa237c2ca4f72032e009a25d02444"
+                  },
+                  {
+                      "file":  "downloads/skills/canvas-quick-edit.zip",
+                      "bytes":  5225,
+                      "sha256":  "01732e1a7e74b576ebb61c192a5db8a4e1e48d2ce44d305f70150f030658f7e8"
+                  },
+                  {
+                      "file":  "downloads/skills/canvas-remove-bg.zip",
+                      "bytes":  5047,
+                      "sha256":  "7964393d73f018bcab5388ed36988a589abf60110c9cd88c36d0663750d7e34c"
+                  },
+                  {
+                      "file":  "downloads/skills/canvas.zip",
+                      "bytes":  7983,
+                      "sha256":  "bc370540313fdf8061e0ecf7f62ab11afebb48c912b69e06f442867329b10c03"
+                  },
+                  {
+                      "file":  "downloads/skills/hifi-component-library.zip",
+                      "bytes":  12391,
+                      "sha256":  "4679e2a134b6a00859224327b184aa5802a1de78157af7c98cd34113cf6799f9"
+                  },
+                  {
+                      "file":  "downloads/skills/hifi-design-review.zip",
+                      "bytes":  11417,
+                      "sha256":  "33d228f3661fc1c5d80164f19c9f728c8ad0ccc00e28efdaa792c9be335a2b73"
+                  },
+                  {
+                      "file":  "downloads/skills/hifi-layout-template.zip",
+                      "bytes":  9936,
+                      "sha256":  "83632d78cc934926eba551421c1d1f53ab2a6bc5601cdf40c8b3ca938a7e2862"
+                  },
+                  {
+                      "file":  "downloads/skills/hifi-style-guide.zip",
+                      "bytes":  8057,
+                      "sha256":  "3df27083b132b0a9c4ebfe014f311f1a038bfa38b414699dbff3f656f0eaf7a1"
+                  },
+                  {
+                      "file":  "downloads/skills/mozin-daily-report.zip",
+                      "bytes":  149502,
+                      "sha256":  "caf8f3535801b8132685de591dc5bc1a120fbf415e06ad21a9f181bf6f7f749c"
+                  },
+                  {
+                      "file":  "downloads/workflows/document-processing.json",
+                      "bytes":  2337,
+                      "sha256":  "2b59bdd8f144ddbce3d1ad5f577add67ca6627a6520382760ca7394b9077f2f4"
+                  },
+                  {
+                      "file":  "downloads/workflows/engineering-quality.json",
+                      "bytes":  2414,
+                      "sha256":  "a18e2a26f9f45dd0c9176a155d42eb451a73dce6a16ab00957f2d3637cd65040"
+                  },
+                  {
+                      "file":  "downloads/workflows/figma-delivery.json",
+                      "bytes":  2011,
+                      "sha256":  "e89cb80613be1e1006e68236c9786f92a86bad2bc13f0a9dfb147fb069ce1401"
+                  },
+                  {
+                      "file":  "downloads/workflows/lark-collaboration.json",
+                      "bytes":  2272,
+                      "sha256":  "73c758b3d36af1a2c51a4d7f2cfd61e5e460706b8a3f928147469d4246763bfc"
+                  },
+                  {
+                      "file":  "downloads/workflows/manju-production.json",
+                      "bytes":  2529,
+                      "sha256":  "ff3576106dca87b144e5ec3f9dbdd93f56b6d1d4f85df2a9fc89cb4dbd6ae40c"
+                  },
+                  {
+                      "file":  "downloads/workflows/plan-execution.json",
+                      "bytes":  2024,
+                      "sha256":  "ab16cfd5c316f76367ac522051b67c8cd3f3a9f6c6dbd6b827d2896a79547850"
+                  },
+                  {
+                      "file":  "downloads/workflows/prd-collaboration-management.json",
+                      "bytes":  2737,
+                      "sha256":  "d0df171568971db212d5f2bffd917e29629c2de1e00adfb97c208a0ceb8abcce"
+                  },
+                  {
+                      "file":  "downloads/workflows/product-definition.json",
+                      "bytes":  2002,
+                      "sha256":  "fafdeadc5fc601675023d860ce5ce20bae8780ed240c515bb721b93430ad44ef"
+                  },
+                  {
+                      "file":  "downloads/workflows/skill-index-management.json",
+                      "bytes":  3121,
+                      "sha256":  "b57e0172473fd5b053ae6fdf63492d7cd4299958eb8f99e38bd0948ec65b9f45"
+                  }
+              ]
+}
