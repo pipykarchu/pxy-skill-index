@@ -1,0 +1,47 @@
+{
+    "id":  "lark-collaboration",
+    "title":  "飞书会议与任务协同",
+    "entrySkill":  "pm-workflow-router",
+    "members":  [
+                    "lark-workflow-meeting-summary",
+                    "lark-workflow-standup-report",
+                    "lark-doc",
+                    "lark-task",
+                    "lark-calendar",
+                    "lark-im"
+                ],
+    "conditionalMembers":  [
+
+                           ],
+    "sequence":  [
+                     "lark-workflow-meeting-summary",
+                     "lark-workflow-standup-report"
+                 ],
+    "pmScenarios":  [
+                        "会议纪要",
+                        "日程待办",
+                        "文档协作",
+                        "消息"
+                    ],
+    "scenarioGroups":  [
+                           "办公与飞书",
+                           "项目推进"
+                       ],
+    "platformRules":  {
+                          "codex":  "connector-resolved",
+                          "claude":  "connector-resolved",
+                          "hermes":  "cli-resolved"
+                      },
+    "packageMode":  "platform-resolved",
+    "sharePolicy":  "route-only-when-restricted",
+    "usageSteps":  [
+                       "说明协作目标、时间范围、参与人，以及现有会议记录或待处理事项。",
+                       "先整理会议纪要或工作摘要，区分决定、问题、待办和风险。",
+                       "为每个待办补齐负责人和截止时间，再写入飞书任务或日历。",
+                       "需要时更新文档并发送消息，最后回读确认对象确实创建或更新成功。"
+                   ],
+    "prompt":  "这是会议记录、参与人和时间范围，请整理决定、问题和待办，补齐负责人及截止时间，并列出要更新的飞书文档、任务、日历和消息。",
+    "summary":  "适合会议结束或事项较多时使用，先整理重点，再把负责人、时间和后续动作落到飞书对象中。",
+    "outcome":  "交付结构化会议或工作摘要、负责人和截止时间，以及需要处理的文档、任务、日历和消息清单。",
+    "businessScope":  "external"
+}
