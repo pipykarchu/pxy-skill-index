@@ -1,14 +1,14 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-19T03:15:33.6923331+08:00",
+    "generatedAt":  "2026-08-19T03:18:40.1140570+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
-                     "skillCount":  1,
+                     "skillCount":  15,
                      "workflowCount":  9
                  },
     "internal":  {
                      "label":  "内部分享 · 密码保护",
-                     "skillCount":  2,
+                     "skillCount":  16,
                      "workflowCount":  1
                  },
     "sourceBundleSha256":  "e10753d583c727e3951f256e056aff2e2e3071e67588ee3eaa54eb585d486a22",
@@ -16,22 +16,162 @@
                   {
                       "file":  "downloads/internal/skills/agents-md-generator.pxy",
                       "bytes":  13720,
-                      "sha256":  "9d1bd2fb61435f66cf522c842ee00c20611c5b85a9be8c6d1280014348fe6b7a"
+                      "sha256":  "d1cba7ede961ab2dbbb4201e367a95ba1aff78a5f6be03ffddef35a9b77b39da"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/create-plan.pxy",
+                      "bytes":  8856,
+                      "sha256":  "f0c86a5956b97ffb24d87c9a50e35e36995e4f70c5d1b531c671e0d119e30500"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/gh-address-comments.pxy",
+                      "bytes":  14232,
+                      "sha256":  "418a777c48638a2470bec9b740070462087c06e345acfaad7ff8f410c058d397"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/gh-fix-ci.pxy",
+                      "bytes":  16728,
+                      "sha256":  "c7c354808819fbeba2d6c1762c7b9902d621b2defcdf3eb18d70bef71e0674b3"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/keep-codex-fast.pxy",
+                      "bytes":  1163480,
+                      "sha256":  "2e198872bc91c3799910c6187bb5afdde9bacf79f2ec037770c6df47f61f8298"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/mcp-builder.pxy",
+                      "bytes":  55448,
+                      "sha256":  "334669cac3c93db4cf4f765adf349acf9e1e354530c1a46d9420d6bd759d809b"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/notion-knowledge-capture.pxy",
+                      "bytes":  42920,
+                      "sha256":  "3a10e28ef9a0853299dc11e49ee2a8179925acaa13dcd3b6371763eb0a0ac10d"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/notion-research-documentation.pxy",
+                      "bytes":  46088,
+                      "sha256":  "0298b5b1f0229ff2bbbf13c9f7228fad5192bf3eb24203c0db53261ea32814be"
                   },
                   {
                       "file":  "downloads/internal/skills/notion.pxy",
                       "bytes":  46088,
-                      "sha256":  "ce53f8fc0504a74e9c1dcd62fcf85fbf9b281b3c58bb59a9bb9bde996f47213e"
+                      "sha256":  "ed41c8b286349f0a8333c39f9cc166f5e35f58334ff4a4758fcec9de497fd233"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/openai-docs.pxy",
+                      "bytes":  40024,
+                      "sha256":  "045e0ff4f908f2c4de3e497412803d5247888596122a1a4b69948e8a3a5ccaab"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/pdf.pxy",
+                      "bytes":  10568,
+                      "sha256":  "97ea188ae705766a20d705785b68e05001a349580a75e28e302c7e3267af449e"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/project-handoff-core.pxy",
+                      "bytes":  10024,
+                      "sha256":  "ec2863dc6db94fadc5c9b5ac954131f2ea1fd3877d43e724863434231109d417"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/security-ownership-map.pxy",
+                      "bytes":  31160,
+                      "sha256":  "8bcd2a1961dcb1bccdc068252706efea4d56bf6e9f783b4b8c756ec3fc5795f9"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/skill-creator.pxy",
+                      "bytes":  24968,
+                      "sha256":  "1f67c264fe78eb6347a04d9715bbe907a49fd806f4f4a70c89e0433de4f9e8a8"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/skill-installer.pxy",
+                      "bytes":  17208,
+                      "sha256":  "b6eefbf58c03fb1325a34e5879b5c125c6eddf1b715b920f9c2065f1604ccd9e"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/vercel-deploy.pxy",
+                      "bytes":  10872,
+                      "sha256":  "ece1543f7975c67307b5dae49111a98222e39b5d992786b4b7b699fe0f153e5b"
                   },
                   {
                       "file":  "downloads/internal/workflows/mozin-delivery.pxy",
                       "bytes":  2696,
-                      "sha256":  "15be67a9514020033e39dbae5f600dd3c2f9c5940d6c6bab6abb35b08f84bd5f"
+                      "sha256":  "79fbaa52e269b5137c19f6c71ad35be9dbede11751254a37e56d3f6c25c22cdd"
                   },
                   {
                       "file":  "downloads/skills/agents-md-generator.zip",
                       "bytes":  13637,
                       "sha256":  "fd582dfb9dd67f5c76de00ef4087dfa69af92d542ea1bdc03d8350ff12694dbe"
+                  },
+                  {
+                      "file":  "downloads/skills/create-plan.zip",
+                      "bytes":  8768,
+                      "sha256":  "4ad7d748055aeaa70be8fd8a56b8a37d697a19f3dd3127ec9254d682b73cf37b"
+                  },
+                  {
+                      "file":  "downloads/skills/gh-address-comments.zip",
+                      "bytes":  14152,
+                      "sha256":  "071aad161d67e8451c5c0164248dae99461869286106d11a374e78a20adab229"
+                  },
+                  {
+                      "file":  "downloads/skills/gh-fix-ci.zip",
+                      "bytes":  16642,
+                      "sha256":  "0844ebe159a802bb3902e3acc2e735f00013b935389264529fd946f0b68b2bd7"
+                  },
+                  {
+                      "file":  "downloads/skills/keep-codex-fast.zip",
+                      "bytes":  1163396,
+                      "sha256":  "72c98dfe4a8d1bf371973a2330094ef04840a8d487a7a0891e09e42c6e363060"
+                  },
+                  {
+                      "file":  "downloads/skills/mcp-builder.zip",
+                      "bytes":  55369,
+                      "sha256":  "a7db855d5f085587d4b5bee099c979723dba5192e0d510f4f9cec4515edf8891"
+                  },
+                  {
+                      "file":  "downloads/skills/notion-knowledge-capture.zip",
+                      "bytes":  42838,
+                      "sha256":  "5d84231eb647996ef865e83c05d06effd5ac0c1787fc353edcf1bd2dd9016765"
+                  },
+                  {
+                      "file":  "downloads/skills/notion-research-documentation.zip",
+                      "bytes":  46006,
+                      "sha256":  "501782e928a2a39d8d8b974b05cce5c33103880e985300f72c86964b02e51e42"
+                  },
+                  {
+                      "file":  "downloads/skills/openai-docs.zip",
+                      "bytes":  39943,
+                      "sha256":  "7623b9ca5913f8e630a72e7f0d04628192dabd365e47f697e1f900fdfa41ce80"
+                  },
+                  {
+                      "file":  "downloads/skills/pdf.zip",
+                      "bytes":  10490,
+                      "sha256":  "8e4afffa9e7110c15c3f25f8d1af84aca5b44430afee5ac5d09bd32ea4e012a5"
+                  },
+                  {
+                      "file":  "downloads/skills/project-handoff-core.zip",
+                      "bytes":  9951,
+                      "sha256":  "3c3c18e8da878cb3f3778426ba9900e2d915515f0a5a88a0cf939c132483ffed"
+                  },
+                  {
+                      "file":  "downloads/skills/security-ownership-map.zip",
+                      "bytes":  31083,
+                      "sha256":  "1b40f054f09a6b2a32b80e2efa834b9676a30ab90ca794db78c23b4226dbf341"
+                  },
+                  {
+                      "file":  "downloads/skills/skill-creator.zip",
+                      "bytes":  24889,
+                      "sha256":  "c432b4e27b46071f4acab7891d3639f98d2cd6f8ac6e3e605ae94e3c92b26596"
+                  },
+                  {
+                      "file":  "downloads/skills/skill-installer.zip",
+                      "bytes":  17135,
+                      "sha256":  "1c369f37294c9b739cd00170e39f1078ffe73d2be3f61a11d7726c27ddce400a"
+                  },
+                  {
+                      "file":  "downloads/skills/vercel-deploy.zip",
+                      "bytes":  10787,
+                      "sha256":  "9aa2e4e75a60e6b852ddc03a02fa85ea5fe77cd81283909cafa7df91be7734b4"
                   },
                   {
                       "file":  "downloads/workflows/document-processing.json",

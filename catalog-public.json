@@ -1,18 +1,18 @@
 {
-    "generatedAt":  "2026-08-19T03:15:33.9289576+08:00",
+    "generatedAt":  "2026-08-19T03:18:40.5297958+08:00",
     "total":  299,
-    "downloadable":  1,
+    "downloadable":  15,
     "workflows":  10,
     "downloadCenter":  {
                            "version":  2,
                            "external":  {
                                             "label":  "外部分享 · 免密",
-                                            "skillCount":  1,
+                                            "skillCount":  15,
                                             "workflowCount":  9
                                         },
                            "internal":  {
                                             "label":  "内部分享 · 密码保护",
-                                            "skillCount":  2,
+                                            "skillCount":  16,
                                             "workflowCount":  1
                                         },
                            "manifestFile":  "downloads/manifest.json"
@@ -678,12 +678,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/notion-knowledge-capture.zip",
+                                                "downloadName":  "notion-knowledge-capture.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "5d84231eb647996ef865e83c05d06effd5ac0c1787fc353edcf1bd2dd9016765"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/notion-knowledge-capture.pxy",
+                                                "downloadName":  "notion-knowledge-capture.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "5d84231eb647996ef865e83c05d06effd5ac0c1787fc353edcf1bd2dd9016765"
+                                            }
                    },
                    {
                        "name":  "polymarket",
@@ -1098,12 +1110,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/mcp-builder.zip",
+                                                "downloadName":  "mcp-builder.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "a7db855d5f085587d4b5bee099c979723dba5192e0d510f4f9cec4515edf8891"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/mcp-builder.pxy",
+                                                "downloadName":  "mcp-builder.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "a7db855d5f085587d4b5bee099c979723dba5192e0d510f4f9cec4515edf8891"
+                                            }
                    },
                    {
                        "name":  "mozin-product-engineering-requirements-v2",
@@ -1714,12 +1738,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/notion-research-documentation.zip",
+                                                "downloadName":  "notion-research-documentation.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "501782e928a2a39d8d8b974b05cce5c33103880e985300f72c86964b02e51e42"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/notion-research-documentation.pxy",
+                                                "downloadName":  "notion-research-documentation.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "501782e928a2a39d8d8b974b05cce5c33103880e985300f72c86964b02e51e42"
+                                            }
                    },
                    {
                        "name":  "ocr-and-documents",
@@ -1798,12 +1834,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/pdf.zip",
+                                                "downloadName":  "pdf.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "8e4afffa9e7110c15c3f25f8d1af84aca5b44430afee5ac5d09bd32ea4e012a5"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/pdf.pxy",
+                                                "downloadName":  "pdf.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "8e4afffa9e7110c15c3f25f8d1af84aca5b44430afee5ac5d09bd32ea4e012a5"
+                                            }
                    },
                    {
                        "name":  "powerpoint",
@@ -2840,7 +2888,7 @@
                        "pxyRank":  5,
                        "description":  "批量上传文件到飞书云空间或 Wiki，包括 Markdown → Docs 转换、嵌套文件夹路由、文件类型分发、错误处理和验证。适用于产品交付包、文档迁移、档案导入等大规模文件操作。",
                        "version":  "1.1.0",
-                       "lastUpdated":  "2026-08-07",
+                       "lastUpdated":  "2026-08-19",
                        "descriptionZh":  "把本地一整批文件搬到飞书云空间：保留文件夹层级，Markdown 自动变成云文档。",
                        "usage":  "请用 lark-drive-bulk-upload 把这个本地目录批量同步到飞书云空间，保留层级，把 Markdown 转为云文档，并在上传后核对总数和失败项。",
                        "explanation":  {
@@ -2865,7 +2913,7 @@
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/lark-drive-bulk-upload",
                        "skillFile":  "skills/05-办公协同与飞书/lark-drive-bulk-upload/SKILL.md",
-                       "sha256":  "0b1fe1aabe337ef0d8185c1363a66134898229203cf1405d94ae1531e6b0730d",
+                       "sha256":  "03e9107f0fbe2c41029d38cf4a07bcdc4c46457eaaac70f39a4c2ef5b4d50c21",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -4000,12 +4048,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/create-plan.zip",
+                                                "downloadName":  "create-plan.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "4ad7d748055aeaa70be8fd8a56b8a37d697a19f3dd3127ec9254d682b73cf37b"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/create-plan.pxy",
+                                                "downloadName":  "create-plan.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "4ad7d748055aeaa70be8fd8a56b8a37d697a19f3dd3127ec9254d682b73cf37b"
+                                            }
                    },
                    {
                        "name":  "dispatching-parallel-agents",
@@ -7023,12 +7083,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/project-handoff-core.zip",
+                                                "downloadName":  "project-handoff-core.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "3c3c18e8da878cb3f3778426ba9900e2d915515f0a5a88a0cf939c132483ffed"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/project-handoff-core.pxy",
+                                                "downloadName":  "project-handoff-core.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "3c3c18e8da878cb3f3778426ba9900e2d915515f0a5a88a0cf939c132483ffed"
+                                            }
                    },
                    {
                        "name":  "push-hermes-skill-to-github",
@@ -7737,12 +7809,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/gh-address-comments.zip",
+                                                "downloadName":  "gh-address-comments.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "071aad161d67e8451c5c0164248dae99461869286106d11a374e78a20adab229"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/gh-address-comments.pxy",
+                                                "downloadName":  "gh-address-comments.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "071aad161d67e8451c5c0164248dae99461869286106d11a374e78a20adab229"
+                                            }
                    },
                    {
                        "name":  "gh-fix-ci",
@@ -7779,12 +7863,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/gh-fix-ci.zip",
+                                                "downloadName":  "gh-fix-ci.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "0844ebe159a802bb3902e3acc2e735f00013b935389264529fd946f0b68b2bd7"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/gh-fix-ci.pxy",
+                                                "downloadName":  "gh-fix-ci.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "0844ebe159a802bb3902e3acc2e735f00013b935389264529fd946f0b68b2bd7"
+                                            }
                    },
                    {
                        "name":  "global-error-banner",
@@ -7989,12 +8085,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/keep-codex-fast.zip",
+                                                "downloadName":  "keep-codex-fast.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "72c98dfe4a8d1bf371973a2330094ef04840a8d487a7a0891e09e42c6e363060"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/keep-codex-fast.pxy",
+                                                "downloadName":  "keep-codex-fast.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "72c98dfe4a8d1bf371973a2330094ef04840a8d487a7a0891e09e42c6e363060"
+                                            }
                    },
                    {
                        "name":  "modao-mcp",
@@ -8161,12 +8269,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/openai-docs.zip",
+                                                "downloadName":  "openai-docs.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "7623b9ca5913f8e630a72e7f0d04628192dabd365e47f697e1f900fdfa41ce80"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/openai-docs.pxy",
+                                                "downloadName":  "openai-docs.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "7623b9ca5913f8e630a72e7f0d04628192dabd365e47f697e1f900fdfa41ce80"
+                                            }
                    },
                    {
                        "name":  "opencode",
@@ -8371,12 +8491,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/security-ownership-map.zip",
+                                                "downloadName":  "security-ownership-map.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "1b40f054f09a6b2a32b80e2efa834b9676a30ab90ca794db78c23b4226dbf341"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/security-ownership-map.pxy",
+                                                "downloadName":  "security-ownership-map.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "1b40f054f09a6b2a32b80e2efa834b9676a30ab90ca794db78c23b4226dbf341"
+                                            }
                    },
                    {
                        "name":  "simplify-code",
@@ -8581,12 +8713,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/skill-creator.zip",
+                                                "downloadName":  "skill-creator.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "c432b4e27b46071f4acab7891d3639f98d2cd6f8ac6e3e605ae94e3c92b26596"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/skill-creator.pxy",
+                                                "downloadName":  "skill-creator.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "c432b4e27b46071f4acab7891d3639f98d2cd6f8ac6e3e605ae94e3c92b26596"
+                                            }
                    },
                    {
                        "name":  "skill-installer",
@@ -8623,12 +8767,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/skill-installer.zip",
+                                                "downloadName":  "skill-installer.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "1c369f37294c9b739cd00170e39f1078ffe73d2be3f61a11d7726c27ddce400a"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/skill-installer.pxy",
+                                                "downloadName":  "skill-installer.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "1c369f37294c9b739cd00170e39f1078ffe73d2be3f61a11d7726c27ddce400a"
+                                            }
                    },
                    {
                        "name":  "spike",
@@ -8917,12 +9073,24 @@
                                          "claude":  "installed",
                                          "hermes":  "installed"
                                      },
-                       "publicDownloadable":  false,
+                       "publicDownloadable":  true,
                        "businessScope":  "external",
-                       "publicBlockReason":  "公开包仍需清理后发布",
-                       "internalDownloadable":  false,
-                       "externalDownload":  null,
-                       "internalDownload":  null
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/vercel-deploy.zip",
+                                                "downloadName":  "vercel-deploy.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "9aa2e4e75a60e6b852ddc03a02fa85ea5fe77cd81283909cafa7df91be7734b4"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/vercel-deploy.pxy",
+                                                "downloadName":  "vercel-deploy.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "9aa2e4e75a60e6b852ddc03a02fa85ea5fe77cd81283909cafa7df91be7734b4"
+                                            }
                    },
                    {
                        "name":  "verification-before-completion",
