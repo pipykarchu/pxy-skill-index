@@ -1,18 +1,18 @@
 {
-    "generatedAt":  "2026-08-21T11:50:27.4167024+08:00",
-    "total":  329,
-    "downloadable":  10,
+    "generatedAt":  "2026-08-27T01:33:56.5613085+08:00",
+    "total":  334,
+    "downloadable":  15,
     "workflows":  10,
     "downloadCenter":  {
                            "version":  2,
                            "external":  {
                                             "label":  "外部分享 · 免密",
-                                            "skillCount":  10,
+                                            "skillCount":  15,
                                             "workflowCount":  9
                                         },
                            "internal":  {
                                             "label":  "内部分享 · 密码保护",
-                                            "skillCount":  45,
+                                            "skillCount":  50,
                                             "workflowCount":  1
                                         },
                            "manifestFile":  "downloads/manifest.json"
@@ -383,6 +383,60 @@
                        "internalDownloadable":  false,
                        "externalDownload":  null,
                        "internalDownload":  null
+                   },
+                   {
+                       "name":  "bilibili-video-analysis",
+                       "category":  "02-调研与知识管理",
+                       "pmScenario":  "其他专业能力",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "developerCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "视频 AI 学习助手（BiliLearn）：把 B站/抖音视频链接变成带时间戳逐字稿 + 学习纲要 + 思维导图 + PPT 大纲。转写走本地 SenseVoice（免费离线），LLM 整理走 OpenAI 兼容网关。当用户贴出 bilibili/B站/抖音视频链接要求分析、学习、总结、转笔记、做脑图/PPT 时使用。",
+                       "version":  "1.0.0",
+                       "lastUpdated":  "2026-08-27",
+                       "descriptionZh":  "视频 AI 学习助手（BiliLearn）：把 B站/抖音视频链接变成带时间戳逐字稿 + 学习纲要 + 思维导图 + PPT 大纲。转写走本地 SenseVoice（免费离线），LLM 整理走 OpenAI 兼容网关。当用户贴出 bilibili/B站/抖音视频链接要求分析、学习、总结、转笔记、做脑图/PPT 时使用。",
+                       "usage":  "请使用 bilibili-video-analysis，并说明目标、输入和期望输出。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/02-调研与知识管理/bilibili-video-analysis",
+                       "skillFile":  "skills/02-调研与知识管理/bilibili-video-analysis/SKILL.md",
+                       "sha256":  "365ce1f68efb40496cdd805ba205e41d71a7dce943f7ff5540536e58a74b7f6e",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "portable",
+                                         "claude":  "portable",
+                                         "hermes":  "portable"
+                                     },
+                       "publicDownloadable":  true,
+                       "businessScope":  "external",
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/bilibili-video-analysis.zip",
+                                                "downloadName":  "bilibili-video-analysis.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "31114cbe85b2f31e4d2cdb83c5398000d05f33460d4455dbf2721bb12b5eb3cf"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/bilibili-video-analysis.pxy",
+                                                "downloadName":  "bilibili-video-analysis.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "31114cbe85b2f31e4d2cdb83c5398000d05f33460d4455dbf2721bb12b5eb3cf"
+                                            }
                    },
                    {
                        "name":  "blogwatcher",
@@ -1694,6 +1748,60 @@
                        "internalDownload":  null
                    },
                    {
+                       "name":  "microinteractions",
+                       "category":  "03-原型设计与视觉",
+                       "pmScenario":  "其他专业能力",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "developerCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "",
+                       "version":  "",
+                       "lastUpdated":  "2026-08-27",
+                       "descriptionZh":  "请使用 microinteractions，并说明目标、输入和期望输出。",
+                       "usage":  "请使用 microinteractions，并说明目标、输入和期望输出。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/03-原型设计与视觉/microinteractions",
+                       "skillFile":  "skills/03-原型设计与视觉/microinteractions/SKILL.md",
+                       "sha256":  "8b15dd90426c08bc5d559290d61c5d52d24668979c2be6a20c199272ea68c3e8",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "portable",
+                                         "claude":  "portable",
+                                         "hermes":  "portable"
+                                     },
+                       "publicDownloadable":  true,
+                       "businessScope":  "external",
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/microinteractions.zip",
+                                                "downloadName":  "microinteractions.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "fac5439cd284794525b33b8abd46efeb52fbde4c131a0db7aed2a759f2ca42dc"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/microinteractions.pxy",
+                                                "downloadName":  "microinteractions.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "fac5439cd284794525b33b8abd46efeb52fbde4c131a0db7aed2a759f2ca42dc"
+                                            }
+                   },
+                   {
                        "name":  "mozin-product-engineering-requirements-v2",
                        "category":  "03-原型设计与视觉",
                        "pmScenario":  "原型与设计",
@@ -1963,6 +2071,60 @@
                        "internalDownloadable":  false,
                        "externalDownload":  null,
                        "internalDownload":  null
+                   },
+                   {
+                       "name":  "web-motion-design",
+                       "category":  "03-原型设计与视觉",
+                       "pmScenario":  "其他专业能力",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "developerCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "Use when building CSS animations, JavaScript transitions, React/Vue motion, or any browser-based animation work.",
+                       "version":  "",
+                       "lastUpdated":  "2026-08-27",
+                       "descriptionZh":  "请使用 web-motion-design，并说明目标、输入和期望输出。",
+                       "usage":  "请使用 web-motion-design，并说明目标、输入和期望输出。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/03-原型设计与视觉/web-motion-design",
+                       "skillFile":  "skills/03-原型设计与视觉/web-motion-design/SKILL.md",
+                       "sha256":  "f8e2fe08a6cdbe8772b54a3bf14e63a025f9d8ba5a84abc9b34050b36daabda7",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "portable",
+                                         "claude":  "portable",
+                                         "hermes":  "portable"
+                                     },
+                       "publicDownloadable":  true,
+                       "businessScope":  "external",
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/web-motion-design.zip",
+                                                "downloadName":  "web-motion-design.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "a6297a9ab124d811c6b38215049da485459bf674a2cb07d8514b155ae57bff1f"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/web-motion-design.pxy",
+                                                "downloadName":  "web-motion-design.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "a6297a9ab124d811c6b38215049da485459bf674a2cb07d8514b155ae57bff1f"
+                                            }
                    },
                    {
                        "name":  "daily-report-mozin",
@@ -7646,6 +7808,60 @@
                        "internalDownload":  null
                    },
                    {
+                       "name":  "interactive-architecture-atlas",
+                       "category":  "06-项目推进与工程化交付",
+                       "pmScenario":  "其他专业能力",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "developerCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "将含 Mermaid 图的 Markdown 生成为离线交互式架构图集，支持浏览、缩放拖动、编辑和导出；在用户明确要求时可原位上传飞书并回读校验。适用于页面地图、信息架构、业务流程和用例图交付，不用于替代专业多人协同绘图平台。",
+                       "version":  "",
+                       "lastUpdated":  "2026-08-27",
+                       "descriptionZh":  "将含 Mermaid 图的 Markdown 生成为离线交互式架构图集，支持浏览、缩放拖动、编辑和导出；在用户明确要求时可原位上传飞书并回读校验。适用于页面地图、信息架构、业务流程和用例图交付，不用于替代专业多人协同绘图平台。",
+                       "usage":  "请使用 interactive-architecture-atlas，并说明目标、输入和期望输出。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/06-项目推进与工程化交付/interactive-architecture-atlas",
+                       "skillFile":  "skills/06-项目推进与工程化交付/interactive-architecture-atlas/SKILL.md",
+                       "sha256":  "f004a754ff51319c96737107b40387e853f548234632a1dd677c1d89d54b3792",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "portable",
+                                         "claude":  "portable",
+                                         "hermes":  "portable"
+                                     },
+                       "publicDownloadable":  true,
+                       "businessScope":  "external",
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/interactive-architecture-atlas.zip",
+                                                "downloadName":  "interactive-architecture-atlas.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "c7d95e23f410ec17db7fdcf558d79d9e140a381bdeb95d0ef15581ace7b15ed5"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/interactive-architecture-atlas.pxy",
+                                                "downloadName":  "interactive-architecture-atlas.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "c7d95e23f410ec17db7fdcf558d79d9e140a381bdeb95d0ef15581ace7b15ed5"
+                                            }
+                   },
+                   {
                        "name":  "mozin-product-delivery",
                        "category":  "06-项目推进与工程化交付",
                        "pmScenario":  "项目推进",
@@ -11804,6 +12020,60 @@
                        "internalDownloadable":  false,
                        "externalDownload":  null,
                        "internalDownload":  null
+                   },
+                   {
+                       "name":  "remotion-video-helper",
+                       "category":  "08-内容与媒体生产",
+                       "pmScenario":  "其他专业能力",
+                       "pmCommon":  false,
+                       "operationsCommon":  false,
+                       "developerCommon":  false,
+                       "globalCommon":  false,
+                       "pxyRecommended":  false,
+                       "pxyRank":  null,
+                       "description":  "Remotion 视频开发最佳实践助手，用于在 React 中制作视频、动画、字幕、图文合成和可渲染的视频组件，帮助规范项目结构、动画写法和渲染流程。",
+                       "version":  "",
+                       "lastUpdated":  "2026-08-27",
+                       "descriptionZh":  "Remotion 视频开发最佳实践助手，用于在 React 中制作视频、动画、字幕、图文合成和可渲染的视频组件，帮助规范项目结构、动画写法和渲染流程。",
+                       "usage":  "请使用 remotion-video-helper，并说明目标、输入和期望输出。",
+                       "explanation":  null,
+                       "comparisons":  [
+
+                                       ],
+                       "upstream":  null,
+                       "path":  "skills/08-内容与媒体生产/remotion-video-helper",
+                       "skillFile":  "skills/08-内容与媒体生产/remotion-video-helper/SKILL.md",
+                       "sha256":  "53b51828d0e3b0bac1b83646378f75bd925ecc1cfc878dc18f086e12eb31b471",
+                       "lifecycle":  "active",
+                       "supersededBy":  null,
+                       "packageable":  true,
+                       "packageBlockers":  [
+
+                                           ],
+                       "formatPortable":  true,
+                       "platforms":  {
+                                         "codex":  "portable",
+                                         "claude":  "portable",
+                                         "hermes":  "portable"
+                                     },
+                       "publicDownloadable":  true,
+                       "businessScope":  "external",
+                       "publicBlockReason":  null,
+                       "internalDownloadable":  true,
+                       "externalDownload":  {
+                                                "file":  "downloads/skills/remotion-video-helper.zip",
+                                                "downloadName":  "remotion-video-helper.zip",
+                                                "kind":  "skill",
+                                                "protected":  false,
+                                                "sha256":  "9d25decec7ea4222fce540fddebacfecb67b7904455142b4f79cb3d5cfd2c5db"
+                                            },
+                       "internalDownload":  {
+                                                "file":  "downloads/internal/skills/remotion-video-helper.pxy",
+                                                "downloadName":  "remotion-video-helper.zip",
+                                                "kind":  "skill",
+                                                "protected":  true,
+                                                "sha256":  "9d25decec7ea4222fce540fddebacfecb67b7904455142b4f79cb3d5cfd2c5db"
+                                            }
                    },
                    {
                        "name":  "renjingheyi",

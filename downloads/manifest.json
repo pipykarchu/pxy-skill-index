@@ -1,247 +1,277 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-21T11:50:27.2433301+08:00",
+    "generatedAt":  "2026-08-27T01:33:56.2788875+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
-                     "skillCount":  10,
+                     "skillCount":  15,
                      "workflowCount":  9
                  },
     "internal":  {
                      "label":  "内部分享 · 密码保护",
-                     "skillCount":  45,
+                     "skillCount":  50,
                      "workflowCount":  1
                  },
-    "sourceBundleSha256":  "6c76934280233a1cd2d46d76b71368e982cb226e425809f7e35f18c851517ad4",
+    "sourceBundleSha256":  "805d7d3cfb14f0e1593bde270629e2dcd4608c35309705aa4f225d1ac8e5d2f2",
     "files":  [
                   {
                       "file":  "downloads/internal/skills/android-codebase-analysis.pxy",
                       "bytes":  15560,
-                      "sha256":  "bd88eb27a5b251745e2deccdeb4850582819270e04a2cc254f81408cffccd71b"
+                      "sha256":  "b27b8bfe8d25e5fb724e48ba7b76f37b46163b2620f16a892c9779c73466c1a4"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/bilibili-video-analysis.pxy",
+                      "bytes":  6936,
+                      "sha256":  "8d4b9098567a41293f44d5a6c8b6d5e07d1d9e5aa6750db8411f7bb0b4e3f190"
                   },
                   {
                       "file":  "downloads/internal/skills/canvas-edit-elements.pxy",
                       "bytes":  8056,
-                      "sha256":  "bc73aa398ae9ebd6299e7590fca385e20d3a8e683d2f1e273ec3db48bb001e8b"
+                      "sha256":  "cc4c70c70e533ed8fa2f41039f0185b93f491b31f298d0af7acc3b0c26a4bb5a"
                   },
                   {
                       "file":  "downloads/internal/skills/canvas-edit-text.pxy",
                       "bytes":  5032,
-                      "sha256":  "ad8fa24bf25085dbe9fc81a8e819cbb1cd043ddc2b12a7bf35c97be1a13628bc"
+                      "sha256":  "c31bf113a5c3983c64d019affebb1d97d4efeb4f3495803544c730974db3a604"
                   },
                   {
                       "file":  "downloads/internal/skills/canvas-expand.pxy",
                       "bytes":  5032,
-                      "sha256":  "31ee1c2a9cea32293e5003f7a24fdaa81e3a0e5411a2838cc835094cc6072397"
+                      "sha256":  "1213cb1ee31390c3ffbd502e7d1367438df36cbaf4939b87b075d8efc36c25d4"
                   },
                   {
                       "file":  "downloads/internal/skills/canvas-quick-edit.pxy",
                       "bytes":  5304,
-                      "sha256":  "22f3aad997eee62ca455d1850d84527614d58d9c1cfae9ce4dcb8974cba04d87"
+                      "sha256":  "8435baf44e6d1a651b4deb76240005f54f9c127352a54cf0cbce92bbbea793cb"
                   },
                   {
                       "file":  "downloads/internal/skills/canvas-remove-bg.pxy",
                       "bytes":  5128,
-                      "sha256":  "36ba1fffc5a8dbb44145fda784eb1fdc6f85a219479057503d73e35ed4b8cd8d"
+                      "sha256":  "728c9f76ae1680d412413136f90b6eb811b3963ad5e0cd843a9405fafaadc695"
                   },
                   {
                       "file":  "downloads/internal/skills/canvas.pxy",
                       "bytes":  8056,
-                      "sha256":  "537b33852d8b21590a228c54b5dd9b5204b8501a46bc2209b46151569836d071"
+                      "sha256":  "4550d8f1d9e62e94b61b1376f7c98d11673afccec592c762725a1fe493971128"
                   },
                   {
                       "file":  "downloads/internal/skills/collaborative-product-platform-design.pxy",
                       "bytes":  27960,
-                      "sha256":  "29917e52716ab4ff7ee0d66dd3d0712466ec76a6f76829bde75765950a9c2492"
+                      "sha256":  "7f195c2b4acc0c72dea8d684b50dfb5b4199b8fa62e7b7d87bc77764e85b7d81"
                   },
                   {
                       "file":  "downloads/internal/skills/daily-report-mozin.pxy",
                       "bytes":  144376,
-                      "sha256":  "5e7347dd6f3e7bde0cb9bacb92cdc65e69cf7b6f9e16fa1ccc5709bf2773f5c5"
+                      "sha256":  "8fda7356cfdb108ab6bb8931cf18a981b904e208fec7f05987154326b212a4c5"
                   },
                   {
                       "file":  "downloads/internal/skills/express-sqljs-webapp.pxy",
                       "bytes":  11544,
-                      "sha256":  "ebfd613d7b7ea935b1e66841aff34c4061b071eb3f63306e7c1b590e0c13c421"
+                      "sha256":  "8ede2df5c2d635f1599947ca9cde2263a0f45ad9f5b92f02e746ae0850ba0038"
                   },
                   {
                       "file":  "downloads/internal/skills/feishu-batch-operations.pxy",
                       "bytes":  34216,
-                      "sha256":  "c7305ac886720b9244cb08dbe2ab227d2d7f65d0b678d6d3228799187da91b94"
+                      "sha256":  "6e0b4c387df9610b615234baa67bca52dc4116ad3869fe43b5c93a23068baf20"
                   },
                   {
                       "file":  "downloads/internal/skills/feishu-cli-integration.pxy",
                       "bytes":  20872,
-                      "sha256":  "be5dbadba9339252419a231a845f0a3e2e331a29291e181ab825e972b4fa47b1"
+                      "sha256":  "7e0f9e41d34baddae7bd0efffacb84b354810aeee446b8d00ae6fa786cb10444"
                   },
                   {
                       "file":  "downloads/internal/skills/feishu-modao-ai-workflow.pxy",
                       "bytes":  17320,
-                      "sha256":  "3225b2a23e4506e059dbf9e035462c67160a3eba1739f198ac27cac3828e1522"
+                      "sha256":  "d6f679c2a2e20a09cced2da1e7e07e99c68461225d72d6911a8fd5fc1fc6add0"
                   },
                   {
                       "file":  "downloads/internal/skills/feishu-modao-product-workflow.pxy",
                       "bytes":  19224,
-                      "sha256":  "de3d93777979d857cc641b2805fd6d362dcdc863efb5902ca5c570be91999261"
+                      "sha256":  "f4f706ea51a02bca1ad7a0dcd326c0df2c4150e00fba143bcd00bae38bb1d8f3"
                   },
                   {
                       "file":  "downloads/internal/skills/feishu-modao-workflow.pxy",
                       "bytes":  13768,
-                      "sha256":  "23dcdd00380a04d4e8d2073547642b9976da6be7e654f22f46fbf69114f7c8e5"
+                      "sha256":  "8863fee989424384ca95df31ef900231cfa851e3b7fd90664891f15ab299c6df"
                   },
                   {
                       "file":  "downloads/internal/skills/feishu-selective-upload.pxy",
                       "bytes":  33048,
-                      "sha256":  "c730b6d2d367bda572843469fd4493782703f39ce60352fa005deb2d22ff21a2"
+                      "sha256":  "fbe29946f0f831c081f75b61b67a4f1f149b1bd5718e2ba65bcce244a72c03c0"
                   },
                   {
                       "file":  "downloads/internal/skills/frontend-modal-drawer-patterns.pxy",
                       "bytes":  11608,
-                      "sha256":  "f9f693a663af4e734717d6cd0d089f2ea3e260da9f098300ec91e7c2fbf3211e"
+                      "sha256":  "d6a29b22c7295bd9890910d81e8cda9e520e5e4751c097f4f8580021df66e651"
                   },
                   {
                       "file":  "downloads/internal/skills/git-auth-noninteractive.pxy",
                       "bytes":  17192,
-                      "sha256":  "5d798f1e91bce82535ed61d0597ec897fd19096804c76226b016fce8c9980e63"
+                      "sha256":  "6bdfce05c81de427c46f29d96b3cb31ea17dc360a4bd1adce595e43c23def333"
                   },
                   {
                       "file":  "downloads/internal/skills/git-repo-organization.pxy",
                       "bytes":  5832,
-                      "sha256":  "9811c6409b9a5fce24b1ece117bf678f09f426bf2d1bc64f590c5b55718e0744"
+                      "sha256":  "7b405f4e1abcf8f5315250b6d3199499a07a409082d6d347f364359b9117a925"
                   },
                   {
                       "file":  "downloads/internal/skills/gitea-repo-organization.pxy",
                       "bytes":  19880,
-                      "sha256":  "7604f164f72d0976208e83ef05555ee73e5d7f8ec17aed5fc45af0d55937a5d3"
+                      "sha256":  "507e1027b6ff42dba00ed873dcb841954378efc32d05d3d89c2ec2413d41a496"
                   },
                   {
                       "file":  "downloads/internal/skills/hermes-skills-pm-audit.pxy",
                       "bytes":  17896,
-                      "sha256":  "e440913956344af8d33c7bb0e2dbbc89915a7b1add9da9876a12cc4e4c20faa7"
+                      "sha256":  "80c3d36242ba2d55cb0c79a632a33d22ef5888768d1c26a5c358b454431cf298"
                   },
                   {
                       "file":  "downloads/internal/skills/hifi-component-library.pxy",
                       "bytes":  12472,
-                      "sha256":  "1585be36c663b8a787e27a7b6661224ce24ffae1a44d963c4346d74a557b45fd"
+                      "sha256":  "2a37b667fa1c077a98db87b0457c6bb5014b7bf128bdec96b8a50ec5a2aa7556"
                   },
                   {
                       "file":  "downloads/internal/skills/hifi-design-review.pxy",
                       "bytes":  11496,
-                      "sha256":  "e70516bec2bae924bc3a3b40601535c066714287179a55bb92b6b3190341a294"
+                      "sha256":  "e7d18e9b6f9c0c2780df95044169266f468320d13cd449a2b0bff0f8e8a75778"
                   },
                   {
                       "file":  "downloads/internal/skills/hifi-layout-template.pxy",
                       "bytes":  10024,
-                      "sha256":  "62112d803791750154b66a670a4fcba3856c881b3b8e5cf19793935f3eaf1eb6"
+                      "sha256":  "e722d3d30db25389ba4bb97edc96cda6d96bae66e8700353f49281c46a61c8af"
                   },
                   {
                       "file":  "downloads/internal/skills/hifi-style-guide.pxy",
                       "bytes":  8136,
-                      "sha256":  "b6ab4c333ad39962f3a88df0bb6176dba37d6d2f1992b155da136b4aa6ac077a"
+                      "sha256":  "82ba3533d943eed63be575c7c551236c9448dfd7fb3d563c04ea2dd470e52891"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/interactive-architecture-atlas.pxy",
+                      "bytes":  1028744,
+                      "sha256":  "10f7b368868f5dab19baa2bab88cb0650d9c5e5e0808449400d40310d3becacc"
                   },
                   {
                       "file":  "downloads/internal/skills/lark-cli.pxy",
                       "bytes":  52168,
-                      "sha256":  "a741ce609d4a154cc5125db295f45300b3e5c956d2e1f97635f749de6af88034"
+                      "sha256":  "b5a7aacc3c6934afefac435a4f0e3e9b7d4983e06ad00d37a019eda6f7140709"
                   },
                   {
                       "file":  "downloads/internal/skills/lark-drive-bulk-upload.pxy",
                       "bytes":  15464,
-                      "sha256":  "f4f7ce72784b12955005576a60d8280567d5645e843990cebd1b9887017083a4"
+                      "sha256":  "bad8f807bb9028f4620d4b49072c5e4ea09e4fea70f73f198592dcd3df62a476"
                   },
                   {
                       "file":  "downloads/internal/skills/lark-drive.pxy",
                       "bytes":  15464,
-                      "sha256":  "0f85a8c5435af25176cc5f29861c353b426a59b40a3475f17103333510d3fa9c"
+                      "sha256":  "bb381f789ba4a9c10feeec62dfcbca66fc152977a81fd44f9bf2a3e490c95073"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/microinteractions.pxy",
+                      "bytes":  49352,
+                      "sha256":  "b9ca428073adc9a7ad70fc4157a7b08505f8f7b4dec61bf1aec5739862c6f363"
                   },
                   {
                       "file":  "downloads/internal/skills/minimalist-product-documentation.pxy",
                       "bytes":  17480,
-                      "sha256":  "cc2151b087bb49f699fb82004c8410632ef938a013ba6daf92d6839d48726dc2"
+                      "sha256":  "7fd2f5886312497d3713ca254b4636a0b23e19b1f169afeed9b285519a171a5e"
                   },
                   {
                       "file":  "downloads/internal/skills/modao-mcp.pxy",
                       "bytes":  11608,
-                      "sha256":  "c1929666820ef98d14a599c5a5889cb3ab642a82bd269533958b97a512831f9d"
+                      "sha256":  "0acaaef64547e1931f6213c9c5446ba72baee22e9b7d9bcb08b7f4fa6e8ad532"
                   },
                   {
                       "file":  "downloads/internal/skills/mozin-daily-report.pxy",
                       "bytes":  149576,
-                      "sha256":  "60643dc9e7f6a5ffc493256e75d1cbaf583882c9952286a5704b942c12da87c1"
+                      "sha256":  "9084cee6612787389f32525d411221fc10ad85b95c32f16da6bfe24124af2478"
                   },
                   {
                       "file":  "downloads/internal/skills/mozin-product-delivery-pxy.pxy",
                       "bytes":  46584,
-                      "sha256":  "31ba5169dbfb727432792ad306c8045f8d53f7149197ea115131d8ff7005977f"
+                      "sha256":  "61b300a32aa579522a134f49d77e5aa31b0ce8647b58342d99876b1c6c07b5d6"
                   },
                   {
                       "file":  "downloads/internal/skills/mozin-product-delivery.pxy",
                       "bytes":  46584,
-                      "sha256":  "bff65f841e14640ee1deb8e3d73e2dfa5f42d424f77535c730cadbbd4a2c6773"
+                      "sha256":  "afdc04599d91b040a34b8049760d5574d57af0e6e9f0d4c507932b6d2bad2324"
                   },
                   {
                       "file":  "downloads/internal/skills/mozin-product-engineering-requirements-v2.pxy",
                       "bytes":  9128,
-                      "sha256":  "927a8b5635dc3f4f94f29fdb478862a950486b49802dc877de3c3289f4a1c69a"
+                      "sha256":  "c3d67867b085bb540a9eb4b8cac278201dae9ec1179bf9e021edb2e17d5bd9a3"
                   },
                   {
                       "file":  "downloads/internal/skills/pm-workflow-router.pxy",
                       "bytes":  5176,
-                      "sha256":  "bfbcc5634c1e90ce4d16859ff081ca11ef3c7d11887cf037d8242520bd5ce1b9"
+                      "sha256":  "7581c741c077768f8416cd6084b77ad4348ec2eab0fe2bcd2124666b1dcbe18a"
                   },
                   {
                       "file":  "downloads/internal/skills/product-codebase-analysis.pxy",
                       "bytes":  18952,
-                      "sha256":  "d15b1728215ddd6d5b8a3d48d7070bdda4e7a3257cefdc3acba77ee55b381d80"
+                      "sha256":  "10c466ddc34f661bb519df5172256202db3a829a940040bde327806d058460fa"
                   },
                   {
                       "file":  "downloads/internal/skills/product-delivery-workflow.pxy",
                       "bytes":  33368,
-                      "sha256":  "926c65b25d6d7425fd4c9719b3f46ed1ada6a88ce19b92dff497a8e476cec91f"
+                      "sha256":  "f92ec8ce768b2327423c77dbe64cf6eca11d122824e11b1cc99f664357674c52"
                   },
                   {
                       "file":  "downloads/internal/skills/product-system-delivery.pxy",
                       "bytes":  21496,
-                      "sha256":  "9fc7e0bb958c8bb8cfebdf44cb8008d475af5fceea39d9fb55a397c03f7d0722"
+                      "sha256":  "676deb4db1843e49af1808dc2e2f19f505a1bfc3380c062f14f353169b293533"
                   },
                   {
                       "file":  "downloads/internal/skills/product-workflow-automation.pxy",
                       "bytes":  26072,
-                      "sha256":  "ec8582ae6b9be5dca4f886c57764e566989b3a71cd69a4b5bd9b596151c69a5c"
+                      "sha256":  "7db41b68909af85eb56b3a2b9ae219eed5880c3493f780b1204ee986660313ca"
                   },
                   {
                       "file":  "downloads/internal/skills/prototype-design-review-explainer.pxy",
                       "bytes":  10568,
-                      "sha256":  "4b6ca49812099a5ac4a945ca36f4bedd970f61daf94ba67df40dfe597c87966b"
+                      "sha256":  "d8875bf4ed4b2f1b3a4c7dfd309c7a8b10e8ab7c0edb6ce5e647a6df530c0fab"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/remotion-video-helper.pxy",
+                      "bytes":  56936,
+                      "sha256":  "ced4bcf2dcd7a008439bf3529cdc8800684e97c86cce020bd482902e5b3c925c"
                   },
                   {
                       "file":  "downloads/internal/skills/single-file-webapp-maintenance.pxy",
                       "bytes":  73656,
-                      "sha256":  "750a2296acb534b7a42bcfb3b1266bfbcdd8c994eb06d16ce4c6a7864056d95b"
+                      "sha256":  "2e71c32dd7878656144957ed72ee66ed094a49727b79e2c0cb52a463d593111c"
                   },
                   {
                       "file":  "downloads/internal/skills/single-file-webapp-syntax-debugging.pxy",
                       "bytes":  9672,
-                      "sha256":  "b005d559d547a8f2db30bcfa38046d03b6cc5de50a25a076eb20d7cb5a4c8a27"
+                      "sha256":  "99e26d98d906668e470ecb8c0bbba53c56a44d12700947a9c6b04ef4f5bcbfed"
                   },
                   {
                       "file":  "downloads/internal/skills/skill-review-process.pxy",
                       "bytes":  7288,
-                      "sha256":  "61aa5cf39ab48c2d2bf66c04217aa2cdc0b003ae85032529fee872c1060da8aa"
+                      "sha256":  "66aa57cce4c27a98a15e5487fdfb85a9bced533656b39ef194b3d348b1a96b4c"
+                  },
+                  {
+                      "file":  "downloads/internal/skills/web-motion-design.pxy",
+                      "bytes":  6520,
+                      "sha256":  "fe35bd978f62d2b977b021790ae1a3b6abcbb61a46bc20b702d0aa3fac0c8ed1"
                   },
                   {
                       "file":  "downloads/internal/skills/windows-app-deployment.pxy",
                       "bytes":  17832,
-                      "sha256":  "7ab14153c41b9d5669fd3db05c39208eba56191771da037a50ef80bed7ffa25a"
+                      "sha256":  "f8c8074de5af759a16be3412d188f120e195362b5d0b79b83ec5729f96d2548b"
                   },
                   {
                       "file":  "downloads/internal/skills/windows-powershell-terminal-safety.pxy",
                       "bytes":  27064,
-                      "sha256":  "529c51214449a688f282a3988433ac8d329011d14d04a071657b76b60f6a0c82"
+                      "sha256":  "83b615d21d0e75804ed46b4290d843025f9d56ba7069feef42e6e41d1ad622d6"
                   },
                   {
                       "file":  "downloads/internal/workflows/mozin-delivery.pxy",
                       "bytes":  2696,
-                      "sha256":  "239e7da34b8b288df3bff9f6ee9a16e14e8232fd5517a2b9599bb247cbddbebb"
+                      "sha256":  "9d348ffe9456454f7a82145bc07b7da1c94c63bbcac5c0e20b29c9648a83b0a0"
+                  },
+                  {
+                      "file":  "downloads/skills/bilibili-video-analysis.zip",
+                      "bytes":  6852,
+                      "sha256":  "31114cbe85b2f31e4d2cdb83c5398000d05f33460d4455dbf2721bb12b5eb3cf"
                   },
                   {
                       "file":  "downloads/skills/canvas-edit-elements.zip",
@@ -292,6 +322,26 @@
                       "file":  "downloads/skills/hifi-style-guide.zip",
                       "bytes":  8057,
                       "sha256":  "3df27083b132b0a9c4ebfe014f311f1a038bfa38b414699dbff3f656f0eaf7a1"
+                  },
+                  {
+                      "file":  "downloads/skills/interactive-architecture-atlas.zip",
+                      "bytes":  1028657,
+                      "sha256":  "c7d95e23f410ec17db7fdcf558d79d9e140a381bdeb95d0ef15581ace7b15ed5"
+                  },
+                  {
+                      "file":  "downloads/skills/microinteractions.zip",
+                      "bytes":  49268,
+                      "sha256":  "fac5439cd284794525b33b8abd46efeb52fbde4c131a0db7aed2a759f2ca42dc"
+                  },
+                  {
+                      "file":  "downloads/skills/remotion-video-helper.zip",
+                      "bytes":  56851,
+                      "sha256":  "9d25decec7ea4222fce540fddebacfecb67b7904455142b4f79cb3d5cfd2c5db"
+                  },
+                  {
+                      "file":  "downloads/skills/web-motion-design.zip",
+                      "bytes":  6432,
+                      "sha256":  "a6297a9ab124d811c6b38215049da485459bf674a2cb07d8514b155ae57bff1f"
                   },
                   {
                       "file":  "downloads/workflows/document-processing.json",
