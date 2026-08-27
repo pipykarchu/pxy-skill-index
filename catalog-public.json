@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-08-27T01:33:56.5613085+08:00",
+    "generatedAt":  "2026-08-28T01:56:16.0650513+08:00",
     "total":  334,
     "downloadable":  15,
     "workflows":  10,
@@ -7829,7 +7829,7 @@
                        "upstream":  null,
                        "path":  "skills/06-项目推进与工程化交付/interactive-architecture-atlas",
                        "skillFile":  "skills/06-项目推进与工程化交付/interactive-architecture-atlas/SKILL.md",
-                       "sha256":  "f004a754ff51319c96737107b40387e853f548234632a1dd677c1d89d54b3792",
+                       "sha256":  "990fd597c398add7785e3b18d0707d3e0b2f373c79582807ef095fc6a4f81b9c",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -7851,14 +7851,14 @@
                                                 "downloadName":  "interactive-architecture-atlas.zip",
                                                 "kind":  "skill",
                                                 "protected":  false,
-                                                "sha256":  "c7d95e23f410ec17db7fdcf558d79d9e140a381bdeb95d0ef15581ace7b15ed5"
+                                                "sha256":  "2762c23b23127bcc02389a0b0675b9349483f0d65ec5ee7cbb65193e65b51b96"
                                             },
                        "internalDownload":  {
                                                 "file":  "downloads/internal/skills/interactive-architecture-atlas.pxy",
                                                 "downloadName":  "interactive-architecture-atlas.zip",
                                                 "kind":  "skill",
                                                 "protected":  true,
-                                                "sha256":  "c7d95e23f410ec17db7fdcf558d79d9e140a381bdeb95d0ef15581ace7b15ed5"
+                                                "sha256":  "2762c23b23127bcc02389a0b0675b9349483f0d65ec5ee7cbb65193e65b51b96"
                                             }
                    },
                    {

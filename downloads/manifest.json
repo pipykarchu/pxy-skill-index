@@ -1,6 +1,6 @@
 {
     "version":  2,
-    "generatedAt":  "2026-08-27T01:33:56.2788875+08:00",
+    "generatedAt":  "2026-08-28T01:56:16.0650513+08:00",
     "external":  {
                      "label":  "外部分享 · 免密",
                      "skillCount":  15,
@@ -145,8 +145,8 @@
                   },
                   {
                       "file":  "downloads/internal/skills/interactive-architecture-atlas.pxy",
-                      "bytes":  1028744,
-                      "sha256":  "10f7b368868f5dab19baa2bab88cb0650d9c5e5e0808449400d40310d3becacc"
+                      "bytes":  1028840,
+                      "sha256":  "70d2bed8e776cfb34222526fbe46b7ccdbaffb0caa7118fd16020a4c9d51046c"
                   },
                   {
                       "file":  "downloads/internal/skills/lark-cli.pxy",
@@ -325,8 +325,8 @@
                   },
                   {
                       "file":  "downloads/skills/interactive-architecture-atlas.zip",
-                      "bytes":  1028657,
-                      "sha256":  "c7d95e23f410ec17db7fdcf558d79d9e140a381bdeb95d0ef15581ace7b15ed5"
+                      "bytes":  1028765,
+                      "sha256":  "2762c23b23127bcc02389a0b0675b9349483f0d65ec5ee7cbb65193e65b51b96"
                   },
                   {
                       "file":  "downloads/skills/microinteractions.zip",
