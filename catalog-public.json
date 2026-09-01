@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-09-01T19:32:27.9949130+08:00",
+    "generatedAt":  "2026-09-01T19:41:24.0138042+08:00",
     "total":  336,
     "downloadable":  52,
     "workflows":  10,
@@ -3345,7 +3345,7 @@
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/feishu-diagram-board-online-edit",
                        "skillFile":  "skills/05-办公协同与飞书/feishu-diagram-board-online-edit/SKILL.md",
-                       "sha256":  "051e1aaa908a200a23476b6c6487223accb113ebf5d1e0ff4a1440c5dd770b42",
+                       "sha256":  "efffaf8d7dba34f76b7c623a1eb491ae9225b7e813a6555abcc8585e5a47c77b",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -3354,9 +3354,9 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "unreviewed",
-                                         "claude":  "unreviewed",
-                                         "hermes":  "unreviewed"
+                                         "codex":  "portable",
+                                         "claude":  "portable",
+                                         "hermes":  "portable"
                                      },
                        "publicDownloadable":  true,
                        "businessScope":  "external",
