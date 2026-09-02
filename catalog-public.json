@@ -417,7 +417,7 @@
                    {
                        "name":  "bilibili-video-analysis",
                        "category":  "02-调研与知识管理",
-                       "pmScenario":  "其他专业能力",
+                       "pmScenario":  "办公与飞书",
                        "pmCommon":  false,
                        "operationsCommon":  false,
                        "developerCommon":  false,
@@ -3333,11 +3333,11 @@
                        "globalCommon":  false,
                        "pxyRecommended":  false,
                        "pxyRank":  null,
-                       "description":  "从 Markdown 源稿生成交互式业务架构图集看板（内嵌 Mermaid + 评论选文 + 高亮 + 暗色主题），上传飞书云空间后支持在线编辑源稿、页面内密码弹窗验证、通过本机在线保存桥原位回写到飞书在线版。触发词：\u0027生成图集看板\u0027、\u0027在线编辑飞书HTML\u0027、\u0027图集密码保存\u0027、\u0027飞书HTML回写\u0027、\u0027架构图集在线保存桥\u0027。",
-                       "version":  "1.0.0",
-                       "lastUpdated":  "2026-09-01",
-                       "descriptionZh":  "从 Markdown 源稿生成交互式业务架构图集看板（内嵌 Mermaid + 评论选文 + 高亮 + 暗色主题），上传飞书云空间后支持在线编辑源稿、页面内密码弹窗验证、通过本机在线保存桥原位回写到飞书在线版。触发词：\u0027生成图集看板\u0027、\u0027在线编辑飞书HTML\u0027、\u0027图集密码保存\u0027、\u0027飞书HTML回写\u0027、\u0027架构图集在线保存桥\u0027。",
-                       "usage":  "请使用 feishu-diagram-board-online-edit，并说明目标、输入和期望输出。",
+                       "description":  "用于把含 Mermaid 的 Markdown 架构文档生成可编辑、可框选评论、可本地预览并能原位发布到飞书的交互式 HTML 图集；也用于修复保存总显示取消、评论发布不了或飞书预览丢图。Use when generating or repairing this Feishu architecture-board workflow.",
+                       "version":  "1.0.1",
+                       "lastUpdated":  "2026-09-02",
+                       "descriptionZh":  "用于把含 Mermaid 的 Markdown 架构文档生成可编辑、可框选评论、可本地预览并能原位发布到飞书的交互式 HTML 图集；也用于修复保存总显示取消、评论发布不了或飞书预览丢图。Use when generating or repairing this Feishu architecture-board workflow.",
+                       "usage":  "处理飞书办公、会议、任务和协作信息；对 AI 说：请使用 feishu-diagram-board-online-edit，完成这项飞书操作。",
                        "explanation":  null,
                        "comparisons":  [
 
@@ -3345,7 +3345,7 @@
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/feishu-diagram-board-online-edit",
                        "skillFile":  "skills/05-办公协同与飞书/feishu-diagram-board-online-edit/SKILL.md",
-                       "sha256":  "efffaf8d7dba34f76b7c623a1eb491ae9225b7e813a6555abcc8585e5a47c77b",
+                       "sha256":  "5e827322d6df7ac0bcd7e5da46567add8b36286fccc9fa1da16d87d7c6d41348",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -3354,7 +3354,7 @@
                                            ],
                        "formatPortable":  true,
                        "platforms":  {
-                                         "codex":  "portable",
+                                         "codex":  "installed",
                                          "claude":  "portable",
                                          "hermes":  "portable"
                                      },
@@ -3367,14 +3367,14 @@
                                                 "downloadName":  "feishu-diagram-board-online-edit.zip",
                                                 "kind":  "skill",
                                                 "protected":  false,
-                                                "sha256":  "3cec32f1cca6bdc181c8ea1a671d896467603e39acb3403cfee42152c201e14a"
+                                                "sha256":  "2e408bd6df6740b4caacc82420bfe8bdb3deb7f7373cdb63443c7f84cf0c08a1"
                                             },
                        "internalDownload":  {
                                                 "file":  "downloads/internal/skills/feishu-diagram-board-online-edit.pxy",
                                                 "downloadName":  "feishu-diagram-board-online-edit.zip",
                                                 "kind":  "skill",
                                                 "protected":  true,
-                                                "sha256":  "3cec32f1cca6bdc181c8ea1a671d896467603e39acb3403cfee42152c201e14a"
+                                                "sha256":  "2e408bd6df6740b4caacc82420bfe8bdb3deb7f7373cdb63443c7f84cf0c08a1"
                                             }
                    },
                    {
