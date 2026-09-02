@@ -3334,7 +3334,7 @@
                        "pxyRecommended":  false,
                        "pxyRank":  null,
                        "description":  "用于把含 Mermaid 的 Markdown 架构文档生成可编辑、可框选评论、可本地预览并能原位发布到飞书的交互式 HTML 图集；也用于修复保存总显示取消、评论发布不了或飞书预览丢图。Use when generating or repairing this Feishu architecture-board workflow.",
-                       "version":  "1.0.1",
+                       "version":  "1.0.2",
                        "lastUpdated":  "2026-09-02",
                        "descriptionZh":  "用于把含 Mermaid 的 Markdown 架构文档生成可编辑、可框选评论、可本地预览并能原位发布到飞书的交互式 HTML 图集；也用于修复保存总显示取消、评论发布不了或飞书预览丢图。Use when generating or repairing this Feishu architecture-board workflow.",
                        "usage":  "处理飞书办公、会议、任务和协作信息；对 AI 说：请使用 feishu-diagram-board-online-edit，完成这项飞书操作。",
@@ -3345,7 +3345,7 @@
                        "upstream":  null,
                        "path":  "skills/05-办公协同与飞书/feishu-diagram-board-online-edit",
                        "skillFile":  "skills/05-办公协同与飞书/feishu-diagram-board-online-edit/SKILL.md",
-                       "sha256":  "5e827322d6df7ac0bcd7e5da46567add8b36286fccc9fa1da16d87d7c6d41348",
+                       "sha256":  "3aab55afe4d8f744c28a99d2d7e4273d18322ddbadea8e4e2dc4e8cefb18e229",
                        "lifecycle":  "active",
                        "supersededBy":  null,
                        "packageable":  true,
@@ -3367,14 +3367,14 @@
                                                 "downloadName":  "feishu-diagram-board-online-edit.zip",
                                                 "kind":  "skill",
                                                 "protected":  false,
-                                                "sha256":  "2e408bd6df6740b4caacc82420bfe8bdb3deb7f7373cdb63443c7f84cf0c08a1"
+                                                "sha256":  "f21b6be22662165e738492a8964256ccdfa567c058b98aba37012b215452e275"
                                             },
                        "internalDownload":  {
                                                 "file":  "downloads/internal/skills/feishu-diagram-board-online-edit.pxy",
                                                 "downloadName":  "feishu-diagram-board-online-edit.zip",
                                                 "kind":  "skill",
                                                 "protected":  true,
-                                                "sha256":  "2e408bd6df6740b4caacc82420bfe8bdb3deb7f7373cdb63443c7f84cf0c08a1"
+                                                "sha256":  "f21b6be22662165e738492a8964256ccdfa567c058b98aba37012b215452e275"
                                             }
                    },
                    {
