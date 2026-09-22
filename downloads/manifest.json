@@ -13,6 +13,11 @@
                  },
     "sourceBundleSha256":  "805d7d3cfb14f0e1593bde270629e2dcd4608c35309705aa4f225d1ac8e5d2f2",
     "files":  [
+{
+  "file": "downloads/internal/skills/prototype-spec-workbench.pxy",
+  "bytes": 17816,
+  "sha256": "22fa5af14dc102ff85cf71e95191483b4a499cb870b25fe546edcd33518a4664"
+},
                   {
                       "file":  "downloads/internal/skills/agents-md-generator.pxy",
                       "bytes":  2248,
