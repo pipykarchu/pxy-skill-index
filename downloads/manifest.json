@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-23T03:27:03+08:00",
+  "generatedAt": "2026-11-23T03:42:19+08:00",
   "external": {
     "label": "外部分享 · 免密",
     "skillCount": 52,
@@ -8,7 +8,7 @@
   },
   "internal": {
     "label": "内部分享 · 密码保护",
-    "skillCount": 330,
+    "skillCount": 331,
     "workflowCount": 1
   },
   "sourceBundleSha256": "805d7d3cfb14f0e1593bde270629e2dcd4608c35309705aa4f225d1ac8e5d2f2",
@@ -1972,6 +1972,11 @@
       "file": "downloads/internal/skills/mozin-product-delivery-pxy.pxy",
       "bytes": 41896,
       "sha256": "4485324a4b33658ff973336d8d75032cca98754dc68e9432d74620276ee4562a"
+    },
+    {
+      "file": "downloads/internal/skills/kengku.pxy",
+      "bytes": 13128,
+      "sha256": "d0e38d047daac709bdc10b15df0c2247be0bb1fea3c5f86f4ec395a6e7daa73a"
     }
   ]
 }

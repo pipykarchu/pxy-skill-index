@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T03:32:55+08:00",
+  "generatedAt": "2026-11-23T03:42:19+08:00",
   "total": 356,
   "downloadable": 52,
   "workflows": 10,
@@ -12,7 +12,7 @@
     },
     "internal": {
       "label": "内部分享 · 密码保护",
-      "skillCount": 330,
+      "skillCount": 331,
       "workflowCount": 1
     },
     "manifestFile": "downloads/manifest.json"
@@ -14374,10 +14374,8 @@
       "sha256": "b782773b69fb1b51118376a1b27bfdbc4fae7b7efaa290d0ef0742069696eb20",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": false,
-      "packageBlockers": [
-        "本地技能署名皮玺玉，现有版本未记录分发授权，参考资料的分享范围待确认。"
-      ],
+      "packageable": true,
+      "packageBlockers": [],
       "formatPortable": true,
       "platforms": {
         "codex": "unreviewed",
@@ -14385,11 +14383,17 @@
         "hermes": "unreviewed"
       },
       "publicDownloadable": false,
-      "businessScope": "external",
-      "publicBlockReason": "本地技能署名皮玺玉，现有版本未记录分发授权，参考资料的分享范围待确认。",
-      "internalDownloadable": false,
+      "businessScope": "internal",
+      "publicBlockReason": "仅限内部密码下载。",
+      "internalDownloadable": true,
       "externalDownload": null,
-      "internalDownload": null
+      "internalDownload": {
+        "file": "downloads/internal/skills/kengku.pxy",
+        "downloadName": "kengku.zip",
+        "kind": "skill",
+        "protected": true,
+        "sha256": "349812746b3685becb6f65226651b3d533ed0eba712f038d3154182e270bbad3"
+      }
     },
     {
       "name": "llama-cpp",
