@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T03:14:35+08:00",
+  "generatedAt": "2026-11-23T03:19:28+08:00",
   "total": 356,
   "downloadable": 52,
   "workflows": 10,
@@ -12,7 +12,7 @@
     },
     "internal": {
       "label": "内部分享 · 密码保护",
-      "skillCount": 331,
+      "skillCount": 327,
       "workflowCount": 1
     },
     "manifestFile": "downloads/manifest.json"
@@ -346,8 +346,8 @@
         "hermes": "installed"
       },
       "publicDownloadable": false,
-      "businessScope": "external",
-      "publicBlockReason": "许可待确认，仅索引",
+      "businessScope": "internal",
+      "publicBlockReason": "仅限内部密码下载。",
       "internalDownloadable": true,
       "externalDownload": null,
       "internalDownload": {
@@ -355,7 +355,7 @@
         "downloadName": "product-planning-workflow.zip",
         "kind": "skill",
         "protected": true,
-        "sha256": "34cdcd9db4648ee3dc83ba1d08fa88b99eecffcae003a76a18fee748827342fc"
+        "sha256": "a32fc4a1950a7611668f9b71f0932a5e267d685e38326139816faac416f41d03"
       }
     },
     {
@@ -2216,8 +2216,10 @@
       "sha256": "7155bbfdad5c9973e50adab755091a982afd01800787e88d3da1ab879247cc36",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": true,
-      "packageBlockers": [],
+      "packageable": false,
+      "packageBlockers": [
+        "新版包包含本机路径和内网配置，待清理后发布。"
+      ],
       "formatPortable": true,
       "platforms": {
         "codex": "installed",
@@ -2226,16 +2228,10 @@
       },
       "publicDownloadable": false,
       "businessScope": "internal",
-      "publicBlockReason": "包含 Mozin 或公司内部内容，仅限内部分享",
-      "internalDownloadable": true,
+      "publicBlockReason": "新版包包含本机路径和内网配置，待清理后发布。",
+      "internalDownloadable": false,
       "externalDownload": null,
-      "internalDownload": {
-        "file": "downloads/internal/skills/daily-report-mozin.pxy",
-        "downloadName": "daily-report-mozin.zip",
-        "kind": "skill",
-        "protected": true,
-        "sha256": "5d5139bec1da05f129a20fd6501c0d27ecdc750278cadcca1943d8ca1e6a18c7"
-      }
+      "internalDownload": null
     },
     {
       "name": "documents",
@@ -5416,8 +5412,10 @@
       "sha256": "53234f389cd9070ae60cfafbe98aabf55245661dfae530ef031985ae29200f86",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": true,
-      "packageBlockers": [],
+      "packageable": false,
+      "packageBlockers": [
+        "新版包包含 URL 用户认证示例、内网地址和本机路径，待清理后发布。"
+      ],
       "formatPortable": true,
       "platforms": {
         "codex": "installed",
@@ -5426,16 +5424,10 @@
       },
       "publicDownloadable": false,
       "businessScope": "internal",
-      "publicBlockReason": "包含 Mozin 或公司内部内容，仅限内部分享",
-      "internalDownloadable": true,
+      "publicBlockReason": "新版包包含 URL 用户认证示例、内网地址和本机路径，待清理后发布。",
+      "internalDownloadable": false,
       "externalDownload": null,
-      "internalDownload": {
-        "file": "downloads/internal/skills/git-auth-noninteractive.pxy",
-        "downloadName": "git-auth-noninteractive.zip",
-        "kind": "skill",
-        "protected": true,
-        "sha256": "6087b926a8ea2329b280111da5575c4417976757914e1a40cd1e59d4976c11ab"
-      }
+      "internalDownload": null
     },
     {
       "name": "git-corporate-proxy",
@@ -5778,7 +5770,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "internal",
-      "publicBlockReason": "包含 Mozin 或公司内部内容，仅限内部分享",
+      "publicBlockReason": "仅限内部密码下载。",
       "internalDownloadable": true,
       "externalDownload": null,
       "internalDownload": {
@@ -5786,7 +5778,7 @@
         "downloadName": "git-repo-organization.zip",
         "kind": "skill",
         "protected": true,
-        "sha256": "ac6c09bed5d87e8db8e3929550b9b58313a8e723d03bb3e0435b6b755f254cd3"
+        "sha256": "42869a51f86d32fa03b7917c9339dbaa2a90be0d06f9ea2b83280d259a432791"
       }
     },
     {
@@ -8254,8 +8246,10 @@
       "sha256": "4d7e5e4ac2166f65327f56926ebfbd96a0211d478bf240bafe4625a303ecb336",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": true,
-      "packageBlockers": [],
+      "packageable": false,
+      "packageBlockers": [
+        "新版包包含本机路径和内网配置，待清理后发布。"
+      ],
       "formatPortable": true,
       "platforms": {
         "codex": "installed",
@@ -8264,16 +8258,10 @@
       },
       "publicDownloadable": false,
       "businessScope": "internal",
-      "publicBlockReason": "包含 Mozin 或公司内部内容，仅限内部分享",
-      "internalDownloadable": true,
+      "publicBlockReason": "新版包包含本机路径和内网配置，待清理后发布。",
+      "internalDownloadable": false,
       "externalDownload": null,
-      "internalDownload": {
-        "file": "downloads/internal/skills/mozin-product-delivery-pxy.pxy",
-        "downloadName": "mozin-product-delivery-pxy.zip",
-        "kind": "skill",
-        "protected": true,
-        "sha256": "dd6028713e152c902a7d044af86af7c1c9c298fcae97ee038c6160cce88d4b86"
-      }
+      "internalDownload": null
     },
     {
       "name": "plan",
@@ -9140,21 +9128,15 @@
       "publicDownloadable": true,
       "businessScope": "external",
       "publicBlockReason": null,
-      "internalDownloadable": true,
+      "internalDownloadable": false,
       "externalDownload": {
         "file": "downloads/skills/codex-canvas.zip",
         "downloadName": "codex-canvas.zip",
         "kind": "skill",
         "protected": false,
-        "sha256": "e54b6111609911f166df3b2b64dd3621db8c13191c287c5765551aa7cff9526d"
+        "sha256": "9d7563b9fd608a94288c3512a8ce87b2ebeeda4790843e3dbb4a692e7474db83"
       },
-      "internalDownload": {
-        "file": "downloads/internal/skills/codex-canvas.pxy",
-        "downloadName": "codex-canvas.zip",
-        "kind": "skill",
-        "protected": true,
-        "sha256": "e54b6111609911f166df3b2b64dd3621db8c13191c287c5765551aa7cff9526d"
-      }
+      "internalDownload": null
     },
     {
       "name": "distribute-working-system-as-skill",
@@ -14380,8 +14362,10 @@
       "sha256": "b782773b69fb1b51118376a1b27bfdbc4fae7b7efaa290d0ef0742069696eb20",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": true,
-      "packageBlockers": [],
+      "packageable": false,
+      "packageBlockers": [
+        "现有目录缺少可核实的再分发许可，保留索引。"
+      ],
       "formatPortable": true,
       "platforms": {
         "codex": "unreviewed",
@@ -14390,16 +14374,10 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "许可待确认，仅索引",
-      "internalDownloadable": true,
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "internalDownloadable": false,
       "externalDownload": null,
-      "internalDownload": {
-        "file": "downloads/internal/skills/kengku.pxy",
-        "downloadName": "kengku.zip",
-        "kind": "skill",
-        "protected": true,
-        "sha256": "d614e8a0534880fd5b82e9e6da49519473fab2e9e86b477369dbe8d53277bcd5"
-      }
+      "internalDownload": null
     },
     {
       "name": "llama-cpp",
@@ -15456,7 +15434,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15466,7 +15444,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15496,7 +15474,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15506,7 +15484,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15536,7 +15514,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15546,7 +15524,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15576,7 +15554,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15586,7 +15564,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15616,7 +15594,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15626,7 +15604,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15656,7 +15634,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15666,7 +15644,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15696,7 +15674,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15706,7 +15684,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15736,7 +15714,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15746,7 +15724,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15776,7 +15754,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15786,7 +15764,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15816,7 +15794,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15826,7 +15804,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15856,7 +15834,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15866,7 +15844,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15896,7 +15874,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15906,7 +15884,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15936,7 +15914,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15946,7 +15924,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15976,7 +15954,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15986,7 +15964,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16016,7 +15994,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16026,7 +16004,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16056,7 +16034,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16066,7 +16044,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16096,7 +16074,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16106,7 +16084,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16136,7 +16114,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16146,7 +16124,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16176,7 +16154,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "本次仅同步索引"
+        "现有目录缺少可核实的再分发许可，保留索引。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16186,7 +16164,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "分发许可和安装平台待核验",
+      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
