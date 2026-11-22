@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T03:19:28+08:00",
+  "generatedAt": "2026-11-23T03:27:03+08:00",
   "total": 356,
   "downloadable": 52,
   "workflows": 10,
@@ -12,7 +12,7 @@
     },
     "internal": {
       "label": "内部分享 · 密码保护",
-      "skillCount": 327,
+      "skillCount": 330,
       "workflowCount": 1
     },
     "manifestFile": "downloads/manifest.json"
@@ -2216,10 +2216,8 @@
       "sha256": "7155bbfdad5c9973e50adab755091a982afd01800787e88d3da1ab879247cc36",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": false,
-      "packageBlockers": [
-        "新版包包含本机路径和内网配置，待清理后发布。"
-      ],
+      "packageable": true,
+      "packageBlockers": [],
       "formatPortable": true,
       "platforms": {
         "codex": "installed",
@@ -2228,10 +2226,16 @@
       },
       "publicDownloadable": false,
       "businessScope": "internal",
-      "publicBlockReason": "新版包包含本机路径和内网配置，待清理后发布。",
-      "internalDownloadable": false,
+      "publicBlockReason": "仅限内部密码下载。",
+      "internalDownloadable": true,
       "externalDownload": null,
-      "internalDownload": null
+      "internalDownload": {
+        "file": "downloads/internal/skills/daily-report-mozin.pxy",
+        "downloadName": "daily-report-mozin.zip",
+        "kind": "skill",
+        "protected": true,
+        "sha256": "9103ae8e5bdb2c02ac52996cc5fea9fcff258f139242cd4212f49933a4156d33"
+      }
     },
     {
       "name": "documents",
@@ -5412,10 +5416,8 @@
       "sha256": "53234f389cd9070ae60cfafbe98aabf55245661dfae530ef031985ae29200f86",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": false,
-      "packageBlockers": [
-        "新版包包含 URL 用户认证示例、内网地址和本机路径，待清理后发布。"
-      ],
+      "packageable": true,
+      "packageBlockers": [],
       "formatPortable": true,
       "platforms": {
         "codex": "installed",
@@ -5424,10 +5426,16 @@
       },
       "publicDownloadable": false,
       "businessScope": "internal",
-      "publicBlockReason": "新版包包含 URL 用户认证示例、内网地址和本机路径，待清理后发布。",
-      "internalDownloadable": false,
+      "publicBlockReason": "仅限内部密码下载。",
+      "internalDownloadable": true,
       "externalDownload": null,
-      "internalDownload": null
+      "internalDownload": {
+        "file": "downloads/internal/skills/git-auth-noninteractive.pxy",
+        "downloadName": "git-auth-noninteractive.zip",
+        "kind": "skill",
+        "protected": true,
+        "sha256": "32289bd5c876c6f9d429310548e99987ee687c8b9dc0980e005d4b1c30c25394"
+      }
     },
     {
       "name": "git-corporate-proxy",
@@ -8246,10 +8254,8 @@
       "sha256": "4d7e5e4ac2166f65327f56926ebfbd96a0211d478bf240bafe4625a303ecb336",
       "lifecycle": "active",
       "supersededBy": null,
-      "packageable": false,
-      "packageBlockers": [
-        "新版包包含本机路径和内网配置，待清理后发布。"
-      ],
+      "packageable": true,
+      "packageBlockers": [],
       "formatPortable": true,
       "platforms": {
         "codex": "installed",
@@ -8258,10 +8264,16 @@
       },
       "publicDownloadable": false,
       "businessScope": "internal",
-      "publicBlockReason": "新版包包含本机路径和内网配置，待清理后发布。",
-      "internalDownloadable": false,
+      "publicBlockReason": "仅限内部密码下载。",
+      "internalDownloadable": true,
       "externalDownload": null,
-      "internalDownload": null
+      "internalDownload": {
+        "file": "downloads/internal/skills/mozin-product-delivery-pxy.pxy",
+        "downloadName": "mozin-product-delivery-pxy.zip",
+        "kind": "skill",
+        "protected": true,
+        "sha256": "442a67296a8f8f15ec097193333e53673360dd643f1538f3769be24d4130f332"
+      }
     },
     {
       "name": "plan",

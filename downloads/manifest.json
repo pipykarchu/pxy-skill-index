@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-23T03:19:28+08:00",
+  "generatedAt": "2026-11-23T03:27:03+08:00",
   "external": {
     "label": "外部分享 · 免密",
     "skillCount": 52,
@@ -8,7 +8,7 @@
   },
   "internal": {
     "label": "内部分享 · 密码保护",
-    "skillCount": 327,
+    "skillCount": 330,
     "workflowCount": 1
   },
   "sourceBundleSha256": "805d7d3cfb14f0e1593bde270629e2dcd4608c35309705aa4f225d1ac8e5d2f2",
@@ -1957,6 +1957,21 @@
       "file": "downloads/skills/codex-canvas.zip",
       "bytes": 3424080,
       "sha256": "9d7563b9fd608a94288c3512a8ce87b2ebeeda4790843e3dbb4a692e7474db83"
+    },
+    {
+      "file": "downloads/internal/skills/daily-report-mozin.pxy",
+      "bytes": 130984,
+      "sha256": "903b5453e27976f9c94fe837983f20230039b85b981c37c5dfbebb7eb5cd4934"
+    },
+    {
+      "file": "downloads/internal/skills/git-auth-noninteractive.pxy",
+      "bytes": 12920,
+      "sha256": "3e21151a54109b1a0e2b07ebf80ef8202b2e429c6eb93d75d391a330c1f7fb40"
+    },
+    {
+      "file": "downloads/internal/skills/mozin-product-delivery-pxy.pxy",
+      "bytes": 41896,
+      "sha256": "4485324a4b33658ff973336d8d75032cca98754dc68e9432d74620276ee4562a"
     }
   ]
 }
