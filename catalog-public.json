@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T03:27:03+08:00",
+  "generatedAt": "2026-11-23T03:32:55+08:00",
   "total": 356,
   "downloadable": 52,
   "workflows": 10,
@@ -14376,7 +14376,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "本地技能署名皮玺玉，现有版本未记录分发授权，参考资料的分享范围待确认。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -14386,7 +14386,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "本地技能署名皮玺玉，现有版本未记录分发授权，参考资料的分享范围待确认。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15446,7 +15446,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "找到逐字节一致的公开副本，副本未附许可，原作者授权未确认。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15456,7 +15456,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "找到逐字节一致的公开副本，副本未附许可，原作者授权未确认。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15486,7 +15486,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15496,7 +15496,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15526,7 +15526,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15536,7 +15536,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15566,7 +15566,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15576,7 +15576,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15606,7 +15606,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15616,7 +15616,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15646,7 +15646,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15656,7 +15656,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15686,7 +15686,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15696,7 +15696,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15726,7 +15726,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15736,7 +15736,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15766,7 +15766,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "仅定位到同步记录和功能说明，未找到该版本的官方原稿及许可。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15776,7 +15776,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "仅定位到同步记录和功能说明，未找到该版本的官方原稿及许可。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15806,7 +15806,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 文档确认同名功能，未找到该技能文件的官方原稿及许可。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15816,7 +15816,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 文档确认同名功能，未找到该技能文件的官方原稿及许可。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15846,7 +15846,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15856,7 +15856,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15886,7 +15886,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15896,7 +15896,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15926,7 +15926,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15936,7 +15936,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -15966,7 +15966,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -15976,7 +15976,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16006,7 +16006,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16016,7 +16016,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16046,7 +16046,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16056,7 +16056,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16086,7 +16086,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16096,7 +16096,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16126,7 +16126,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16136,7 +16136,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
@@ -16166,7 +16166,7 @@
       "supersededBy": null,
       "packageable": false,
       "packageBlockers": [
-        "现有目录缺少可核实的再分发许可，保留索引。"
+        "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。"
       ],
       "formatPortable": true,
       "platforms": {
@@ -16176,7 +16176,7 @@
       },
       "publicDownloadable": false,
       "businessScope": "external",
-      "publicBlockReason": "现有目录缺少可核实的再分发许可，保留索引。",
+      "publicBlockReason": "Cursor 官方文档有同名内置技能，此版本未查到适用的再分发授权。",
       "internalDownloadable": false,
       "externalDownload": null,
       "internalDownload": null
